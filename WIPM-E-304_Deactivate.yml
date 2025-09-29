@@ -1,5 +1,5 @@
 ---
-VRF_BASE: 1
+VLAN: 1
 VRF_START: 1
 VRF_END: 10000
 interface: ae100

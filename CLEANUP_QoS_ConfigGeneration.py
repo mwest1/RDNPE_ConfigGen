@@ -37,7 +37,7 @@ def CLEANUP_CosUnits(conf_file,Variables):
         
         while VRF_INDEX <= VRF_END:
             
-            unit = VRF_INDEX
+            unit = VLAN
 
         # apply TCP to interface, along with inbound classifier and 802.1P rewrite rule. 
             common_config = """

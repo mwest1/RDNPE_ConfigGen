@@ -111,6 +111,7 @@ def CreateCosUnits(conf_file,port,UnitPIR,Variables):
 # only CIR is required.
     VRF_INDEX = Variables['VRF_START']
     VRF_END = Variables['VRF_END']
+    VLAN = Variables['VLAN']
     UnitCount = VRF_END - VRF_INDEX + 1
     UnitCIR = Interfaces[port]['cir']
 
@@ -119,7 +120,7 @@ def CreateCosUnits(conf_file,port,UnitPIR,Variables):
 
     while VRF_INDEX <= VRF_END:
         
-        unit = VRF_INDEX
+        unit = VLAN
     
 # calculate shaper burst rate based on seconds of traffic. 
         burstseconds = 0.01 
@@ -151,7 +152,8 @@ set class-of-service interfaces {0} unit {1} rewrite-rules ieee-802.1 PE_CE_DOT1
     """.format(port,unit,tcp_name)
 
         conf_file.write(common_config)         
-        VRF_INDEX = VRF_INDEX + 1 
+        VRF_INDEX = VRF_INDEX + 1
+        VLAN = VLAN + 1 
         
 def CreateInterfaceSets(conf_file,port,InterfaceSet,Variables):
     
@@ -190,6 +192,7 @@ set class-of-service traffic-control-profiles {2} guaranteed-rate burst-size {1}
     
     VRF_INDEX = Variables['VRF_START']
     VRF_END = Variables['VRF_END']
+    VLAN = Variables['VLAN']
 
     # Create the interface sets. 
     interface_set_index = 1
@@ -209,7 +212,7 @@ set class-of-service interfaces interface-set {0} output-traffic-control-profile
         while member_count <= interface_set_members:
             
 
-            unit = VRF_INDEX
+            unit = VLAN
 
 # create the interface set 
             common_config = """
@@ -217,7 +220,8 @@ set interfaces interface-set {0} interface {1} unit {2}
 """.format(interface_set_id,port,unit)    
             conf_file.write(common_config)
             member_count = member_count + 1
-            VRF_INDEX = VRF_INDEX + 1      
+            VRF_INDEX = VRF_INDEX + 1
+            VLAN = VLAN + 1      
         interface_set_index = interface_set_index + 1
     
     return interfaces_set_pir
@@ -229,11 +233,12 @@ def CreateIngressPolicers(conf_file,port,PolicerPIR,Variables):
 
     VRF_INDEX = Variables['VRF_START']
     VRF_END = Variables['VRF_END']
+    VLAN = Variables['VLAN']
 
 
     while VRF_INDEX <= VRF_END:
         
-        unit = VRF_INDEX
+        unit = VLAN
 # calculate shaper burst rate based on seconds of traffic. 
         burstseconds = 0.01
         burstsize = CalculateBurst(burstseconds,PolicerPIR)
@@ -253,6 +258,7 @@ set interfaces {3} unit {4} layer2-policer input-policer {0}
         conf_file.write(common_config)
 
         VRF_INDEX = VRF_INDEX + 1
+        VLAN = VLAN + 1
 
             
 

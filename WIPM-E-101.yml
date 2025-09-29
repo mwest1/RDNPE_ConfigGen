@@ -1,86 +1,89 @@
 ---
 SCALE:
-  RPM_PROBE_COUNT: 10000
+  RPM_PROBE_COUNT: 1000
+  RPM_SOURCE_ADDR: 2.2.2.2
+  RPM_DEST_ADDR: 1.1.1.1
+  RPM_START_VRF: 1001
   L3VPN_BGP_V4:
-    VRF_BASE: 2000
-    VRF_START: 2001
-    VRF_END: 4000
-    description: "BGP IPv4 single stack scale testing"
-    BGP:
-      BGP-CE-V4:
-        peer_as: 101
-        peer_list:
-          - 30.1.0.2
-    interfaces:
-      # et-0/1/15:
-      #   description: "To IXIA 14 Card 4 Port 8"
-      #   mtu: 9192
-      #   bundle: ae100
-      et-0/1/0:
-        description: "To DY IXIA Card 1 Port 5"
-        mtu: 9192
-        ipv4_addr_start: "30.1.0.1"
-        ipv4_mask: 30
-        # ipv6_addr_start: "2002:30:1:1::1"
-        # ipv6_mask: 64
-    class_of_service:
-      interfaces:
-        et-0/1/0:
-          pir: 10g
-          cir: 100M
-          interface_set:
-          #   GRP_AE100_STKVLAN:
-          #     member_count: 1
-          #     cir: 50m
-          #     pir: 50g
-
-  L3VPN_BGP_DS:
-    # VRF_BASE: 4000
+    # VLAN: 2000
     # VRF_START: 2001
-    # VRF_END: 3000
-    # description: "BGP Dual Stack scale testing"
+    # VRF_END: 4000
+    # description: "BGP IPv4 single stack scale testing"
     # BGP:
-    #   # E000-CPE:
-    #   #   peer_as: 65129
-    #   #   peer_list:
-    #   #     - 30.102.0.2
-    #   # BGP-CE-V4:
-    #   #   peer_as: 102
-    #   #   peer_list:
-    #   #     - 30.1.0.2
-    #   # BGP-CE-V6:
-    #   #   peer_as: 102
-    #   #   peer_list:
-    #   #     - 2002:30:1:0::2
+    #   BGP-CE-V4:
+    #     peer_as: 101
+    #     peer_list:
+    #       - 30.1.0.2
     # interfaces:
     #   # et-0/1/15:
-    #   #   description: "To DY IXIA Card 2 port 7 "
+    #   #   description: "To IXIA 14 Card 4 Port 8"
     #   #   mtu: 9192
-    #   #   bundle: et-0/1/0
-    #   # et-7/1/0:
-    #   #   description: "To DY IXIA Card 2 port 7 "
-    #   #   mtu: 9192
-    #   xe-0/0/2:3:
-    #     description: "Link to E000_CPE xe-7/0/2"
-    #     mtu: 9192 
-    #     ipv4_addr_start: "30.102.0.1"
+    #   #   bundle: ae100
+    #   et-0/1/0:
+    #     description: "To DY IXIA Card 1 Port 5"
+    #     mtu: 9192
+    #     ipv4_addr_start: "30.1.0.1"
     #     ipv4_mask: 30
-    #     # ipv6_addr_start: "2002:30:1:0::1"
+    #     # ipv6_addr_start: "2002:30:1:1::1"
     #     # ipv6_mask: 64
-    #     interface_set:
-    #     pir: 10g
-    #     cir: 100M
     # class_of_service:
     #   interfaces:
-    #     xe-0/0/2:3:
-    #     # et-7/1/0:
+    #     et-0/1/0:
     #       pir: 10g
     #       cir: 100M
     #       interface_set:
-    #         # GRP_AE100_STKVLAN:
-    #         #   member_count: 1
-    #         #   cir: 50m
-    #         #   pir: 50g
+    #       #   GRP_AE100_STKVLAN:
+    #       #     member_count: 1
+    #       #     cir: 50m
+    #       #     pir: 50g
+
+  L3VPN_BGP_DS:
+    VLAN: 2501
+    VRF_START: 6501
+    VRF_END: 8000
+    description: "BGP Dual Stack scale testing"
+    BGP:
+      # E000-CPE:
+      #   peer_as: 65129
+      #   peer_list:
+      #     - 30.101.0.2
+      BGP-CE-V4:
+        peer_as: 101
+        peer_list:
+          - 30.101.0.2
+      BGP-CE-V6:
+        peer_as: 101
+        peer_list:
+          - 2002:30:101:0::2
+    interfaces:
+      # et-0/1/15:
+      #   description: "To DY IXIA Card 2 port 7 "
+      #   mtu: 9192
+      #   bundle: et-0/1/0
+      # et-7/1/0:
+      #   description: "To DY IXIA Card 2 port 7 "
+      #   mtu: 9192
+      et-0/1/0:
+        description: "Link to E000_CPE xe-7/0/2"
+        mtu: 9192 
+        ipv4_addr_start: "30.101.0.1"
+        ipv4_mask: 30
+        ipv6_addr_start: "2002:30:101:0::1"
+        ipv6_mask: 64
+        interface_set:
+        pir: 10g
+        cir: 100M
+    class_of_service:
+      interfaces:
+        et-0/1/0:
+        # et-7/1/0:
+          pir: 10g
+          cir: 100M
+          interface_set:
+            # GRP_AE100_STKVLAN:
+            #   member_count: 1
+            #   cir: 50m
+            #   pir: 50g
 
         # GRP_XE001_STKVLAN_2:
         #   cir: 1500m
@@ -93,7 +96,7 @@ SCALE:
         #   pir: 3g
 
   # L3VPN_BGP_V6:
-  #   VRF_BASE: 3
+  #   VLAN: 3
   #   VRF_START: 0
   #   VRF_END: 0
   #   BGP:
@@ -145,16 +148,19 @@ SCALE:
   #         pir: 50g
 
   L3VPN_VRRP:
-    VRF_BASE: 0
+    VLAN: 1001
     VRF_START: 1001
-    VRF_END: 1001
+    VRF_END: 2000
     description: "VRRP scale testing"
     interfaces:
       # xe-0/0/9:1:
       #   description: "To IXIA 14 Card 4 Port 8"
       #   mtu: 9192
       #   bundle: ae9
-
+      lo0:
+        description: "Loopback for RPM probe"
+        ipv4_addr_start: "2.2.2.2"
+        ipv4_mask: 32
       et-0/1/0:
         description: "LACP link to DY IXIA, Card 1 port 2"
         mtu: 9192
@@ -169,12 +175,12 @@ SCALE:
         interface_set:
         pir: 10g
         cir: 100M
-      # xe-0/0/2:3:
+      # et-0/1/0:
       #   description: "Link to E000-CPE xe-7/0/2"
       #   mtu: 9192
-      #   ipv4_addr_start: "30.102.0.1"
+      #   ipv4_addr_start: "30.101.0.1"
       #   ipv4_mask: 24
-      #   ipv4_vip: 30.102.0.3
+      #   ipv4_vip: 30.101.0.3
       #   ipv4_vrrp_group: SET_LAG_VRRP_primary
       #   ipv6_addr_start: "2002:30:102:0::1"
       #   ipv6_mask: 64
@@ -187,7 +193,7 @@ SCALE:
       interfaces:
         #ae9:
         et-0/1/0:
-        #xe-0/0/2:3:
+        #et-0/1/0:
           pir: 10g
           cir: 100M
           interface_set:
@@ -206,7 +212,7 @@ SCALE:
         #   cir: 1g
         #   pir: 3g
   NG_MVPN:
-    VRF_BASE: 3000
+    VLAN: 3000
     VRF_START: 1
     VRF_END: 10
     description: " NG-MVPN Scale testing"
@@ -235,7 +241,7 @@ SCALE:
             #   pir: 50g
 
   ROSEN_MVPN_STATIC:
-    VRF_BASE: 3000
+    VLAN: 3000
     VRF_START: 11
     VRF_END: 20
     description: "MVPN Rosen Draft Static RP"
@@ -274,7 +280,7 @@ SCALE:
           #     pir: 50g
 
   ROSEN_MVPN_BSR:
-    VRF_BASE: 3000
+    VLAN: 3000
     VRF_START: 21
     VRF_END: 30
     description: "MVPN Rosen Draft BSR"
@@ -312,7 +318,7 @@ SCALE:
           #     pir: 50g
 
   ROSEN_MVPN_AUTO:
-    VRF_BASE: 3000
+    VLAN: 3000
     VRF_START: 31
     VRF_END: 40
     description: "MVPN Rosen Draft Auto-RP"
@@ -350,7 +356,7 @@ SCALE:
             #   pir: 50g
 
   VPLS:
-    VRF_BASE: 2000
+    VLAN: 2000
     VRF_START: 101
     VRF_END: 110
     Lo0_addr: 144.133.128.167
@@ -377,7 +383,7 @@ SCALE:
           #     pir: 50g
 
   OAM_CFM:
-    # VRF_BASE: 6000
+    # VLAN: 6000
     # VRF_START: 1
     # VRF_END: 1000
     # interfaces:

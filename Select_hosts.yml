@@ -58,17 +58,17 @@
 #   username: remote1
 #   password: ep18centre
 
-# WIPM-E-101:
-#   port: 3101
-#   ip: 127.0.0.1
-#   username: remote1
-#   password: ep18centre
-
-WIPM-E-102:
-  port: 3102
+WIPM-E-101:
+  port: 3101
   ip: 127.0.0.1
   username: remote1
   password: ep18centre
+
+# WIPM-E-102:
+#   port: 3102
+#   ip: 127.0.0.1
+#   username: remote1
+#   password: ep18centre
 
 # WIPM-E-202:
 #   port: 3202

@@ -33,11 +33,11 @@ L3VPN:
   # - WIPM-E-102
   # # - WIPM-E-961
   # #- WIPM-E-202
-  # - WIPM-E000
-  # - WIPM-E-101
-  # - WIPM-E-305
   # - WIPM-E-102
+  - WIPM-E-102
   - WIPM-e-MX301
+  - WIPM-E-305
+  - WIPM-E-101
   # - WIPM-E-202
   #- WIPM-E-101
 
@@ -53,6 +53,7 @@ VPLS:
   # - WIPM-E-304
   - WIPM-E-102
   - WIPM-e-MX301
+  - WIPM-E-305
   # - WIPM-E-961
   #- WIPM-E-101
   #- WIPM-E-305
@@ -67,11 +68,11 @@ NG_MVPN:
   # - WIPM-E-962
   # # - WIPM-E-971
   # - WIPM-E-304
-   - WIPM-E-102
-   - WIPM-e-MX301
+  - WIPM-E-102
+  - WIPM-e-MX301
+  - WIPM-E-305
   # - WIPM-E-961
   #- WIPM-E-101
-  # - WIPM-E-305
   # - WIPM-E-202
 
 ROSEN_MVPN:
@@ -83,24 +84,34 @@ ROSEN_MVPN:
   # - WIPM-E-962
   - WIPM-E-102
   - WIPM-e-MX301
+  - WIPM-E-305
+  #- WIPM-E-101
   # # - WIPM-E-304
   # - WIPM-E-961
   # - WIPM-E-305
   # - WIPM-E-202
-  #- WIPM-E-101
+
 
 
 
 INTERFACES:
   # - WIPM-E-304
-  - WIPM-E-102
-  - WIPM-e-MX301
+  # - WIPM-E-102
+  # - WIPM-e-MX301
   # - WIPM-E-101
+  # - WIPM-E-305
 
 RPM:
   #- WIPM-E-304
   # - WIPM-E-101
   - WIPM-e-MX301
+
+CFM:
+  # - WIPM-E-304
+  # - WIPM-E-102
+  - WIPM-e-MX301
+  # - WIPM-E-101
+  # - WIPM-E-305
 
 MX304:
   # - WIPM-E-304

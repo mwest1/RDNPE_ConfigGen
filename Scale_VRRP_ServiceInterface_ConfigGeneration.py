@@ -28,18 +28,18 @@ def CreateInterfaces(conf_file,Variables):
             description= parameters['description']
      # If this is a loopback just configure ipv4 address for each unit
             if "lo0" in port:
-                VRF_BASE = Variables['VRF_BASE']
+                VLAN = Variables['VLAN']
                 VRF_INDEX = Variables['VRF_START']
                 VRF_END = Variables['VRF_END']
                 lo0_Addr = parameters['ipv4_addr_start']
 
                 while VRF_INDEX <= VRF_END:
-                    VRF_ID = VRF_BASE + VRF_INDEX
+                    VRF_ID = VRF_INDEX
                 # calculate prepend 
                     num_zeros = 7 - len(str(VRF_ID))
                     PrePend = '0'*num_zeros    
                     
-                    unit = VRF_INDEX
+                    unit = VLAN
                     routing_instance = "N"+str(PrePend)+str(VRF_ID)+"R"
                     description = "Loopback for MVPN {}".format(routing_instance)
                 
@@ -50,6 +50,7 @@ def CreateInterfaces(conf_file,Variables):
                 """.format(port,unit,description,lo0_Addr,routing_instance)
                     conf_file.write(common_config)
                     VRF_INDEX = VRF_INDEX + 1 
+                    VLAN = VLAN + 1
 
         # check if this is an external interface. 
         # check if its not a bundle and configure interface 
@@ -73,18 +74,18 @@ set interfaces {0} aggregated-ether-options lacp active periodic fast
 
             # create unit interfaces
 
-                VRF_BASE = Variables['VRF_BASE']
+                VLAN = Variables['VLAN']
                 VRF_INDEX = Variables['VRF_START']
                 VRF_END = Variables['VRF_END']
 
                 while VRF_INDEX <= VRF_END:
-                    VRF_ID = VRF_BASE + VRF_INDEX
+                    VRF_ID = VRF_INDEX
                 # calculate prepend 
                     num_zeros = 7 - len(str(VRF_ID))
                     PrePend = '0'*num_zeros    
                     
-                    unit = VRF_INDEX
-                    vlan_id = VRF_INDEX
+                    unit = VLAN
+                    vlan_id = VLAN
                     routing_instance = "N"+str(PrePend)+str(VRF_ID)+"R"
                     description = "Service interface for {}".format(routing_instance)
 
@@ -123,7 +124,8 @@ set interfaces {0} unit {1} family inet6 address {2} vrrp-inet6-group 1 virtual-
 set interfaces {0} unit {1} apply-groups {4}
                             """.format(port,unit,ipv6_addr,ipv6_vip,ipv6_vrrp_group)
                             conf_file.write(common_config)
-                    VRF_INDEX = VRF_INDEX + 1 
+                    VRF_INDEX = VRF_INDEX + 1
+                    VLAN = VLAN + 1 
 
 
             else:                

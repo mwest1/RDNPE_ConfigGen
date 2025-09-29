@@ -23,7 +23,7 @@ def ReadYamlVars(yaml_file):
 
 def CreateVRF(conf_file,Variables):
 
-    VRF_BASE = Variables['VRF_BASE']
+    VLAN = Variables['VLAN']
     VRF_INDEX = Variables['VRF_START']
     VRF_END = Variables['VRF_END']
     Interfaces = Variables['interfaces']
@@ -31,7 +31,7 @@ def CreateVRF(conf_file,Variables):
 
 
     while VRF_INDEX <= VRF_END:
-        VRF_ID = VRF_BASE + VRF_INDEX
+        VRF_ID = VRF_INDEX
         
     # calculate prepend 
         num_zeros = 7 - len(str(VRF_ID))
@@ -62,17 +62,17 @@ set routing-instances N{1}{0}R protocols pim vpn-group-address 239.252.0.{2}
     for port,parameters in Interfaces.items():
         
         if "bundle" not in parameters:
-            VRF_BASE = Variables['VRF_BASE']
+            VLAN = Variables['VLAN']
             VRF_INDEX = Variables['VRF_START']
             VRF_END = Variables['VRF_END']
 
             while VRF_INDEX <= VRF_END:
-                VRF_ID = VRF_BASE + VRF_INDEX
+                VRF_ID = VRF_INDEX
             # calculate prepend 
                 num_zeros = 7 - len(str(VRF_ID))
                 PrePend = '0'*num_zeros    
                 
-                unit = VRF_INDEX
+                unit = VLAN
                 routing_instance = "N"+str(PrePend)+str(VRF_ID)+"R"
                 common_config = """
 set routing-instances {2} protocols pim interface {0}.{1}
@@ -85,14 +85,14 @@ set routing-instances {2} protocols pim interface {0}.{1}
 
 def Scale_RP(conf_file,Variables,service):
     
-    VRF_BASE = Variables['VRF_BASE']
+    VLAN = Variables['VLAN']
     VRF_INDEX = Variables['VRF_START']
     VRF_END = Variables['VRF_END']
     Interfaces = Variables['interfaces']
 
 
     while VRF_INDEX <= VRF_END:
-        VRF_ID = VRF_BASE + VRF_INDEX
+        VRF_ID = VRF_INDEX
     # calculate prepend 
         num_zeros = 7 - len(str(VRF_ID))
         PrePend = '0'*num_zeros
@@ -128,7 +128,7 @@ set routing-instances N{1}{0}R protocols pim dense-groups 224.0.1.40/32
                     # calculate prepend 
                         num_zeros = 7 - len(str(VRF_ID))
                         PrePend = '0'*num_zeros    
-                        unit = VRF_INDEX
+                        unit = VLAN
                         routing_instance = "N"+str(PrePend)+str(VRF_ID)+"R"
                         common_config = """
 set routing-instances {2} protocols pim interface {0}.{1} mode sparse-dense
