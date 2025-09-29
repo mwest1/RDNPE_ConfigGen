@@ -51,7 +51,8 @@ set interfaces {0} unit {1} family inet address {3}
 set routing-instances {4} interface {0}.{1}
             """.format(port,unit,description,lo0_Addr,routing_instance)
                 conf_file.write(common_config)
-                VRF_INDEX = VRF_INDEX + 1 
+                VRF_INDEX = VRF_INDEX + 1
+                VLAN = VLAN + 1  
 
     # check if its not a bundle and configure interface 
         elif "bundle" not in parameters:
@@ -119,7 +120,8 @@ set interfaces {0} unit {1} family inet address {2}
 set interfaces {0} unit {1} family inet6 address {2}
                         """.format(port,unit,ipv6_addr)
                         conf_file.write(common_config)
-                VRF_INDEX = VRF_INDEX + 1 
+                VRF_INDEX = VRF_INDEX + 1
+                VLAN = VLAN + 1 
 
 
         else:                

@@ -24,6 +24,8 @@ def CreateCFMInterfaces(conf_file,Variables):
     
     Interfaces = Variables['interfaces']
 
+    print(f" These are the variables{Variables}")
+
     for port,parameters in Interfaces.items():
         description= parameters['description']
     # check if its not a bundle and configure interface 
@@ -61,6 +63,7 @@ set protocols oam ethernet connectivity-fault-management maintenance-domain NBN_
     
 
 def ConfigGeneration(Inventory):
+    print(f"This is the CFM inventory {Inventory}")
     for hostname in Inventory:
         RouterVars = "{}.yml".format(hostname)
         ConfFile = "Configs/{}.set".format(hostname)    

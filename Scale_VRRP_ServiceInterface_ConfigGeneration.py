@@ -23,7 +23,7 @@ def ReadYamlVars(yaml_file):
 def CreateInterfaces(conf_file,Variables):
     try: 
         Interfaces = Variables['interfaces']
-
+        print(Interfaces)
         for port,parameters in Interfaces.items():
             description= parameters['description']
      # If this is a loopback just configure ipv4 address for each unit
@@ -50,6 +50,7 @@ def CreateInterfaces(conf_file,Variables):
                 """.format(port,unit,description,lo0_Addr,routing_instance)
                     conf_file.write(common_config)
                     VRF_INDEX = VRF_INDEX + 1 
+                    VLAN = VLAN + 1
 
         # check if this is an external interface. 
         # check if its not a bundle and configure interface 
@@ -123,7 +124,8 @@ set interfaces {0} unit {1} family inet6 address {2} vrrp-inet6-group 1 virtual-
 set interfaces {0} unit {1} apply-groups {4}
                             """.format(port,unit,ipv6_addr,ipv6_vip,ipv6_vrrp_group)
                             conf_file.write(common_config)
-                    VRF_INDEX = VRF_INDEX + 1 
+                    VRF_INDEX = VRF_INDEX + 1
+                    VLAN = VLAN + 1 
 
 
             else:                

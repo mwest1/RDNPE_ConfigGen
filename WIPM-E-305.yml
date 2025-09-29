@@ -2,11 +2,14 @@
 
 
 SCALE:
-  RPM_PROBE_COUNT: 10000
+  RPM_PROBE_COUNT: 1000
+  RPM_SOURCE_ADDR: 1.1.1.1
+  RPM_DEST_ADDR: 2.2.2.2
+  RPM_START_VRF: 1001
   L3VPN_BGP_V4 :
-    VLAN: 2000
+    VLAN: 1
     VRF_START: 2001
-    VRF_END: 4000
+    VRF_END: 5000
     description: "BGP IPv4 single stack scale testing"
     BGP:
       BGP-CE-V4:
@@ -144,19 +147,20 @@ SCALE:
     VRF_END: 2000
     description: "VRRP scale testing"
     interfaces:
-      et-0/1/11:
-        description: "To IXIA 14 Card 1 Port 2, via et-0/1/11 on wipm-e-304"
+      #et-0/1/11:
+      et-0/1/2:
+        description: "To IXIA 14 Card 1 Port 2, via et-0/1/2 on wipm-e-304"
         mtu: 9192 
         #bundle: ae9
 
       # ae9:
       #   description: "LACP link to DY IXIA, Card 1 port 2"
       #   mtu: 9192
-        ipv4_addr_start: "30.0.0.1"
+        ipv4_addr_start: "30.0.0.2"
         ipv4_mask: 24
         ipv4_vip: 30.0.0.254
         ipv4_vrrp_group: SET_LAG_VRRP_BACKUP
-        ipv6_addr_start: "2002:30:0:0::1"
+        ipv6_addr_start: "2002:30:0:0::2"
         ipv6_mask: 64
         ipv6_vip: "2002:30:0:0::254"
         ipv6_vrrp_group: SET_LAG_VRRPV3_BACKUP
@@ -184,7 +188,7 @@ SCALE:
         #   cir: 1g
         #   pir: 3g
   NG_MVPN :
-    VLAN: 3000
+    VLAN: 1
     VRF_START: 1
     VRF_END: 10
     description: " NG-MVPN Scale testing"
@@ -194,7 +198,7 @@ SCALE:
       #   mtu: 9192 
       #   bundle: ae100
 
-      et-0/0/15:
+      et-0/1/2:
         description: "Link to DY IXIA, Card 1 port 3"
         mtu: 9192
         ipv4_addr_start: "30.5.0.1"
@@ -203,7 +207,7 @@ SCALE:
         ipv6_mask: 64
     class_of_service:
       interfaces:
-        et-0/0/15:
+        et-0/1/2:
           pir: 10g
           cir: 100M
           interface_set:
@@ -214,7 +218,7 @@ SCALE:
 
 
   ROSEN_MVPN_STATIC :
-    VLAN: 3000
+    VLAN: 11
     VRF_START: 11
     VRF_END: 20
     description: "MVPN Rosen Draft Static RP"
@@ -232,7 +236,7 @@ SCALE:
     #     bundle: ae100
       lo0:
         ipv4_addr: 144.133.144.9
-      et-0/0/15:
+      et-0/1/2:
         description: " link to DY IXIA, Card 1 port 2"
         mtu: 9192
         ipv4_addr_start: "30.5.0.1"
@@ -244,7 +248,7 @@ SCALE:
         cir: 100M
     class_of_service:
       interfaces:
-        et-0/0/15:
+        et-0/1/2:
           pir: 10g
           cir: 100M
           interface_set:
@@ -255,7 +259,7 @@ SCALE:
 
 
   ROSEN_MVPN_BSR :
-    VLAN: 3000
+    VLAN: 21
     VRF_START: 21
     VRF_END: 30
     description: "MVPN Rosen Draft BSR"
@@ -271,7 +275,7 @@ SCALE:
       #   bundle: ae100
       lo0:
         ipv4_addr: 144.133.144.9
-      et-0/0/15:
+      et-0/1/2:
         description: "LACP link to IXIA 14, Card 4 Port 8 "
         mtu: 9192
         ipv4_addr_start: "30.5.0.1"
@@ -283,7 +287,7 @@ SCALE:
         cir: 100M
     class_of_service:
       interfaces:
-        et-0/0/15:
+        et-0/1/2:
           pir: 10g
           cir: 100M
           interface_set:
@@ -293,7 +297,7 @@ SCALE:
           #     pir: 50g
   
   ROSEN_MVPN_AUTO :
-    VLAN: 3000
+    VLAN: 31
     VRF_START: 31
     VRF_END: 40
     description: "MVPN Rosen Draft Auto-RP"
@@ -309,7 +313,7 @@ SCALE:
       #   bundle: ae100
       lo0:
         ipv4_addr: 144.133.144.9
-      et-0/0/15:
+      et-0/1/2:
         description: "LACP link to IXIA 14, Card 4 Port 8 "
         mtu: 9192
         ipv4_addr_start: "30.5.0.1"
@@ -331,8 +335,8 @@ SCALE:
             #   pir: 50g
 
   VPLS:
-    VLAN: 2000
-    VRF_START: 100
+    VLAN: 101
+    VRF_START: 101
     VRF_END: 110
     Lo0_addr: 144.133.144.9
     description: "VPLS Scale testing"
@@ -343,12 +347,12 @@ SCALE:
     site:
       N12345678R:
         id: 1
-        preference: primary
-        interface: et-0/0/15
+        preference: backup
+        interface: et-0/1/2
        
     class_of_service:
       interfaces:
-        et-0/0/15:
+        et-0/1/2:
           pir: 10g
           cir: 100M
           interface_set:
@@ -363,7 +367,7 @@ SCALE:
       VRF_END: 1000
       interfaces:
         et-0/1/2:
-          description: "Link to DY IXIA Card 2, Port7 "
+          description: "This is for wipm-e-305"
 
 
   HQoS:
@@ -1093,84 +1097,84 @@ routing_instances:
       ps1.0:
         local_service: 301000
         remote_service: 401000
-  B4000001R:
-    description: "Test L3VPN for PS instance"
-    instance_type: vrf
-    rd: "144.133.144.9:25678"
-    rt: "target:65530:25678"
-    vrf_import:
-    vrf_export:
-    protocols:
-      bgp:
-        group:
-          eBGP:
-            peer_as : 1234
-            import_policy : 
-            export_policy :
-            bfd: TRUE
-            neighbor:
-              30.0.0.1:
-                description : "rndmej436ltb0g24 Test VR instance"
-  B4000002R:
-    description: " 2nd Test L3VPN for PS instance"
-    instance_type: vrf
-    rd: "144.133.144.9:25679"
-    rt: "target:65530:25679"
-    vrf_import:
-    vrf_export:
-    protocols:
-      static:
-        30.1.0.0/30: 
-          - 30.0.0.1
-    # protocols:
-    #   bgp:
-    #     group:
-    #       eBGP:
-    #         peer_as : 1234
-    #         import_policy : 
-    #         export_policy :
-    #         bfd: TRUE
-    #         neighbor:
-    #           30.0.0.1:
-    #             description : "IXIA Traffic generator"
+  # B4000001R:
+  #   description: "Test L3VPN for PS instance"
+  #   instance_type: vrf
+  #   rd: "144.133.144.9:25678"
+  #   rt: "target:65530:25678"
+  #   vrf_import:
+  #   vrf_export:
+  #   protocols:
+  #     bgp:
+  #       group:
+  #         eBGP:
+  #           peer_as : 1234
+  #           import_policy : 
+  #           export_policy :
+  #           bfd: TRUE
+  #           neighbor:
+  #             30.0.0.1:
+  #               description : "rndmej436ltb0g24 Test VR instance"
+  # B4000002R:
+  #   description: " 2nd Test L3VPN for PS instance"
+  #   instance_type: vrf
+  #   rd: "144.133.144.9:25679"
+  #   rt: "target:65530:25679"
+  #   vrf_import:
+  #   vrf_export:
+  #   protocols:
+  #     static:
+  #       30.1.0.0/30: 
+  #         - 30.0.0.1
+  #   # protocols:
+  #   #   bgp:
+  #   #     group:
+  #   #       eBGP:
+  #   #         peer_as : 1234
+  #   #         import_policy : 
+  #   #         export_policy :
+  #   #         bfd: TRUE
+  #   #         neighbor:
+  #   #           30.0.0.1:
+  #   #             description : "IXIA Traffic generator"
 
-  B4000003R:
-    description: "Test L3VPN for PS1 instance"
-    instance_type: vrf
-    rd: "144.133.144.9:25680"
-    rt: "target:65530:25680"
-    vrf_import:
-    vrf_export:
-    protocols:
-      bgp:
-        group:
-          eBGP:
-            peer_as : 1234
-            import_policy : 
-            export_policy :
-            bfd: TRUE
-            neighbor:
-              30.0.0.1:
-                description : "IXIA Traffic generator"
+  # B4000003R:
+  #   description: "Test L3VPN for PS1 instance"
+  #   instance_type: vrf
+  #   rd: "144.133.144.9:25680"
+  #   rt: "target:65530:25680"
+  #   vrf_import:
+  #   vrf_export:
+  #   protocols:
+  #     bgp:
+  #       group:
+  #         eBGP:
+  #           peer_as : 1234
+  #           import_policy : 
+  #           export_policy :
+  #           bfd: TRUE
+  #           neighbor:
+  #             30.0.0.1:
+  #               description : "IXIA Traffic generator"
   
-  B4000004R:
-    description: " 2nd Test L3VPN for PS1 instance"
-    instance_type: vrf
-    rd: "144.133.144.9:25681"
-    rt: "target:65530:25681"
-    vrf_import:
-    vrf_export:
-    protocols:
-      bgp:
-        group:
-          eBGP:
-            peer_as : 1234
-            import_policy : 
-            export_policy :
-            bfd: TRUE
-            neighbor:
-              30.0.0.1:
-                description : "IXIA Traffic generator"
+  # B4000004R:
+  #   description: " 2nd Test L3VPN for PS1 instance"
+  #   instance_type: vrf
+  #   rd: "144.133.144.9:25681"
+  #   rt: "target:65530:25681"
+  #   vrf_import:
+  #   vrf_export:
+  #   protocols:
+  #     bgp:
+  #       group:
+  #         eBGP:
+  #           peer_as : 1234
+  #           import_policy : 
+  #           export_policy :
+  #           bfd: TRUE
+  #           neighbor:
+  #             30.0.0.1:
+  #               description : "IXIA Traffic generator"
 
 
 
