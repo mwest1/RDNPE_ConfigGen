@@ -23,7 +23,7 @@ def ReadYamlVars(yaml_file):
 def CreateInterfaces(conf_file,Variables):
     try: 
         Interfaces = Variables['interfaces']
-        print(Interfaces)
+
         for port,parameters in Interfaces.items():
             description= parameters['description']
      # If this is a loopback just configure ipv4 address for each unit

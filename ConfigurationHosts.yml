@@ -103,7 +103,7 @@ INTERFACES:
 
 RPM:
   #- WIPM-E-304
-  - WIPM-E-101
+  # - WIPM-E-101
   - WIPM-e-MX301
 
 CFM:

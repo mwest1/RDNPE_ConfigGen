@@ -105,7 +105,7 @@ def main():
         
 
     try: 
-        Scale_CFM_ConfigGeneration.ConfigGeneration(Inventory['L3VPN'])
+        Scale_CFM_ConfigGeneration.ConfigGeneration(Inventory['CFM'])
     except:
         print("unable to create Ethernet OAM - CFM  configuration for host {} ".format(host))
            
