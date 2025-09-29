@@ -1,0 +1,113 @@
+---
+
+VRF_BASE: 4000000
+VRF_START: 1
+VRF_END: 1
+
+interfaces:
+#   xe-2/0/0:
+#     description: "To SVDCD20-NSD001,xe-0/0/0"
+#     mtu: 9192
+#     bundle:
+#     unit:
+#       1011: 
+#         description: "to SVDCD20-NFW001  Port15.1011,  VR V11200-NSWA-CORE-CAD"
+#         vlan_id: 1011
+#         ipv4_addr: "10.253.243.11/31"
+#         inet_mtu: 
+#         routing_instance: V11200-NSWA-CORE-CAD
+#         shaping_rate: 10G
+#       1012:
+#         description: "to SVDCD19-NFW001  Port16.1012, VR V11200-NSWA-CORE-CAD"
+#         vlan_id: 1012
+#         ipv4_addr: "10.253.243.3/31"
+#         inet_mtu:
+#         routing_instance: V11200-NSWA-CORE-CAD
+#         shaping_rate: 10G
+#       1021: 
+#         description: "to SVDCD20-NFW001  Port15.1021,  VR V11300-NSWA-ADMIN-CAD"
+#         vlan_id: 1021
+#         ipv4_addr: "10.253.243.27/31"
+#         inet_mtu: 
+#         routing_instance: V11300-NSWA-ADMIN-CAD
+#         shaping_rate: 5G
+#       1022:
+#         description: "to SVDCD19-NFW001  Port16.1022, VR V11300-NSWA-ADMIN-CAD"
+#         vlan_id: 1022
+#         ipv4_addr: "10.253.243.19/31"
+#         inet_mtu:
+#         routing_instance: V11300-NSWA-ADMIN-CAD
+#         shaping_rate: 5G
+# #   used for interface to mgmnt network. 
+#       67: 
+#           description: "To SVDC-MGMT, Port1.67 "
+#           vlan_id: 67
+#           ipv4_addr: "10.253.247.131/29"
+#           inet_mtu:
+
+       
+# Layer 2 VPN services used for LAB testing only
+
+
+  ge-0/0/2:
+      description: "To CE2, ge-0/0/1, L2Trunk"
+      mtu: 
+      bundle: ae10
+
+  ae10:
+    system_id: 2c:6b:f5:d5:a9:c0
+    esi_mac: 2c:6b:f5:d5:a9:c0
+    multi_homed: TRUE
+    single_active: FALSE
+    description: "Link to Multihomed L2 CE CE1 "
+    mtu: 9192
+    unit: 
+      2000:
+        description: "VLAN 2000 Department" 
+        interface_mode: trunk
+        vlan_list:
+          - 2000
+          - 100
+        vlan_translate:
+        routing_instance: V2047R 
+        #shaping_rate: 10G
+
+  irb:
+    description:
+    mtu: 
+    bundle:
+    unit:
+      2000: 
+        description: "irb for VLAN 2000, B400001R"
+        ipv4_addr: "11.0.0.252/24"
+        vgav4_addr: "11.0.0.254"
+        inet_mtu: 
+        routing_instance: B4000001R
+        #shaping_rate: 10G
+  
+routing_instances:
+  #%%% L2 EVPN instances 
+  V2047R:
+    description: "JP2047 Test EVPN instance"
+    instance_type: virtual-switch
+    rd: "144.133.128.4:2047"
+    rt: "target:65530:2047"
+    bridge_domains:
+      DoD_2000:
+        description: "VLAN 2000"
+        IRB: TRUE
+        VLAN: 2000
+      DoD_100:
+        description: "VLAN 100"
+        IRB: FALSE
+        VLAN: 100
+    l2_stretch_vlan_list:
+      - 2000
+
+ 
+
+          
+           
+
+
+

@@ -1,0 +1,1580 @@
+
+del routing-instances N0003011R
+set routing-instances N0003011R instance-type vrf
+set routing-instances N0003011R routing-options maximum-prefixes 10000
+set routing-instances N0003011R routing-options maximum-prefixes threshold 80
+set routing-instances N0003011R routing-options auto-export
+set routing-instances N0003011R description "MVPN Rosen Draft Static RP, VRF N0003011R"
+set routing-instances N0003011R route-distinguisher 65530:3011
+set routing-instances N0003011R vrf-target target:65530:3011
+set routing-instances N0003011R vrf-table-label
+set routing-instances N0003011R no-vrf-propagate-ttl
+set routing-instances N0003011R protocols pim vpn-group-address 239.252.0.11
+ 
+del routing-instances N0003012R
+set routing-instances N0003012R instance-type vrf
+set routing-instances N0003012R routing-options maximum-prefixes 10000
+set routing-instances N0003012R routing-options maximum-prefixes threshold 80
+set routing-instances N0003012R routing-options auto-export
+set routing-instances N0003012R description "MVPN Rosen Draft Static RP, VRF N0003012R"
+set routing-instances N0003012R route-distinguisher 65530:3012
+set routing-instances N0003012R vrf-target target:65530:3012
+set routing-instances N0003012R vrf-table-label
+set routing-instances N0003012R no-vrf-propagate-ttl
+set routing-instances N0003012R protocols pim vpn-group-address 239.252.0.12
+ 
+del routing-instances N0003013R
+set routing-instances N0003013R instance-type vrf
+set routing-instances N0003013R routing-options maximum-prefixes 10000
+set routing-instances N0003013R routing-options maximum-prefixes threshold 80
+set routing-instances N0003013R routing-options auto-export
+set routing-instances N0003013R description "MVPN Rosen Draft Static RP, VRF N0003013R"
+set routing-instances N0003013R route-distinguisher 65530:3013
+set routing-instances N0003013R vrf-target target:65530:3013
+set routing-instances N0003013R vrf-table-label
+set routing-instances N0003013R no-vrf-propagate-ttl
+set routing-instances N0003013R protocols pim vpn-group-address 239.252.0.13
+ 
+del routing-instances N0003014R
+set routing-instances N0003014R instance-type vrf
+set routing-instances N0003014R routing-options maximum-prefixes 10000
+set routing-instances N0003014R routing-options maximum-prefixes threshold 80
+set routing-instances N0003014R routing-options auto-export
+set routing-instances N0003014R description "MVPN Rosen Draft Static RP, VRF N0003014R"
+set routing-instances N0003014R route-distinguisher 65530:3014
+set routing-instances N0003014R vrf-target target:65530:3014
+set routing-instances N0003014R vrf-table-label
+set routing-instances N0003014R no-vrf-propagate-ttl
+set routing-instances N0003014R protocols pim vpn-group-address 239.252.0.14
+ 
+del routing-instances N0003015R
+set routing-instances N0003015R instance-type vrf
+set routing-instances N0003015R routing-options maximum-prefixes 10000
+set routing-instances N0003015R routing-options maximum-prefixes threshold 80
+set routing-instances N0003015R routing-options auto-export
+set routing-instances N0003015R description "MVPN Rosen Draft Static RP, VRF N0003015R"
+set routing-instances N0003015R route-distinguisher 65530:3015
+set routing-instances N0003015R vrf-target target:65530:3015
+set routing-instances N0003015R vrf-table-label
+set routing-instances N0003015R no-vrf-propagate-ttl
+set routing-instances N0003015R protocols pim vpn-group-address 239.252.0.15
+ 
+del routing-instances N0003016R
+set routing-instances N0003016R instance-type vrf
+set routing-instances N0003016R routing-options maximum-prefixes 10000
+set routing-instances N0003016R routing-options maximum-prefixes threshold 80
+set routing-instances N0003016R routing-options auto-export
+set routing-instances N0003016R description "MVPN Rosen Draft Static RP, VRF N0003016R"
+set routing-instances N0003016R route-distinguisher 65530:3016
+set routing-instances N0003016R vrf-target target:65530:3016
+set routing-instances N0003016R vrf-table-label
+set routing-instances N0003016R no-vrf-propagate-ttl
+set routing-instances N0003016R protocols pim vpn-group-address 239.252.0.16
+ 
+del routing-instances N0003017R
+set routing-instances N0003017R instance-type vrf
+set routing-instances N0003017R routing-options maximum-prefixes 10000
+set routing-instances N0003017R routing-options maximum-prefixes threshold 80
+set routing-instances N0003017R routing-options auto-export
+set routing-instances N0003017R description "MVPN Rosen Draft Static RP, VRF N0003017R"
+set routing-instances N0003017R route-distinguisher 65530:3017
+set routing-instances N0003017R vrf-target target:65530:3017
+set routing-instances N0003017R vrf-table-label
+set routing-instances N0003017R no-vrf-propagate-ttl
+set routing-instances N0003017R protocols pim vpn-group-address 239.252.0.17
+ 
+del routing-instances N0003018R
+set routing-instances N0003018R instance-type vrf
+set routing-instances N0003018R routing-options maximum-prefixes 10000
+set routing-instances N0003018R routing-options maximum-prefixes threshold 80
+set routing-instances N0003018R routing-options auto-export
+set routing-instances N0003018R description "MVPN Rosen Draft Static RP, VRF N0003018R"
+set routing-instances N0003018R route-distinguisher 65530:3018
+set routing-instances N0003018R vrf-target target:65530:3018
+set routing-instances N0003018R vrf-table-label
+set routing-instances N0003018R no-vrf-propagate-ttl
+set routing-instances N0003018R protocols pim vpn-group-address 239.252.0.18
+ 
+del routing-instances N0003019R
+set routing-instances N0003019R instance-type vrf
+set routing-instances N0003019R routing-options maximum-prefixes 10000
+set routing-instances N0003019R routing-options maximum-prefixes threshold 80
+set routing-instances N0003019R routing-options auto-export
+set routing-instances N0003019R description "MVPN Rosen Draft Static RP, VRF N0003019R"
+set routing-instances N0003019R route-distinguisher 65530:3019
+set routing-instances N0003019R vrf-target target:65530:3019
+set routing-instances N0003019R vrf-table-label
+set routing-instances N0003019R no-vrf-propagate-ttl
+set routing-instances N0003019R protocols pim vpn-group-address 239.252.0.19
+ 
+del routing-instances N0003020R
+set routing-instances N0003020R instance-type vrf
+set routing-instances N0003020R routing-options maximum-prefixes 10000
+set routing-instances N0003020R routing-options maximum-prefixes threshold 80
+set routing-instances N0003020R routing-options auto-export
+set routing-instances N0003020R description "MVPN Rosen Draft Static RP, VRF N0003020R"
+set routing-instances N0003020R route-distinguisher 65530:3020
+set routing-instances N0003020R vrf-target target:65530:3020
+set routing-instances N0003020R vrf-table-label
+set routing-instances N0003020R no-vrf-propagate-ttl
+set routing-instances N0003020R protocols pim vpn-group-address 239.252.0.20
+ 
+set routing-instances N0003011R protocols pim interface lo0.11
+            
+set routing-instances N0003012R protocols pim interface lo0.12
+            
+set routing-instances N0003013R protocols pim interface lo0.13
+            
+set routing-instances N0003014R protocols pim interface lo0.14
+            
+set routing-instances N0003015R protocols pim interface lo0.15
+            
+set routing-instances N0003016R protocols pim interface lo0.16
+            
+set routing-instances N0003017R protocols pim interface lo0.17
+            
+set routing-instances N0003018R protocols pim interface lo0.18
+            
+set routing-instances N0003019R protocols pim interface lo0.19
+            
+set routing-instances N0003020R protocols pim interface lo0.20
+            
+set routing-instances N0003011R protocols pim interface xe-1/0/0.11
+            
+set routing-instances N0003012R protocols pim interface xe-1/0/0.12
+            
+set routing-instances N0003013R protocols pim interface xe-1/0/0.13
+            
+set routing-instances N0003014R protocols pim interface xe-1/0/0.14
+            
+set routing-instances N0003015R protocols pim interface xe-1/0/0.15
+            
+set routing-instances N0003016R protocols pim interface xe-1/0/0.16
+            
+set routing-instances N0003017R protocols pim interface xe-1/0/0.17
+            
+set routing-instances N0003018R protocols pim interface xe-1/0/0.18
+            
+set routing-instances N0003019R protocols pim interface xe-1/0/0.19
+            
+set routing-instances N0003020R protocols pim interface xe-1/0/0.20
+            
+set routing-instances N0003011R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003012R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003013R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003014R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003015R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003016R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003017R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003018R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003019R protocols pim rp static address 30.0.0.2
+             
+set routing-instances N0003020R protocols pim rp static address 30.0.0.2
+             
+set interfaces lo0 unit 11 description "Loopback for MVPN N0003011R"
+set interfaces lo0 unit 11 family inet address 144.133.128.146
+set routing-instances N0003011R interface lo0.11
+            
+set interfaces lo0 unit 12 description "Loopback for MVPN N0003012R"
+set interfaces lo0 unit 12 family inet address 144.133.128.146
+set routing-instances N0003012R interface lo0.12
+            
+set interfaces lo0 unit 13 description "Loopback for MVPN N0003013R"
+set interfaces lo0 unit 13 family inet address 144.133.128.146
+set routing-instances N0003013R interface lo0.13
+            
+set interfaces lo0 unit 14 description "Loopback for MVPN N0003014R"
+set interfaces lo0 unit 14 family inet address 144.133.128.146
+set routing-instances N0003014R interface lo0.14
+            
+set interfaces lo0 unit 15 description "Loopback for MVPN N0003015R"
+set interfaces lo0 unit 15 family inet address 144.133.128.146
+set routing-instances N0003015R interface lo0.15
+            
+set interfaces lo0 unit 16 description "Loopback for MVPN N0003016R"
+set interfaces lo0 unit 16 family inet address 144.133.128.146
+set routing-instances N0003016R interface lo0.16
+            
+set interfaces lo0 unit 17 description "Loopback for MVPN N0003017R"
+set interfaces lo0 unit 17 family inet address 144.133.128.146
+set routing-instances N0003017R interface lo0.17
+            
+set interfaces lo0 unit 18 description "Loopback for MVPN N0003018R"
+set interfaces lo0 unit 18 family inet address 144.133.128.146
+set routing-instances N0003018R interface lo0.18
+            
+set interfaces lo0 unit 19 description "Loopback for MVPN N0003019R"
+set interfaces lo0 unit 19 family inet address 144.133.128.146
+set routing-instances N0003019R interface lo0.19
+            
+set interfaces lo0 unit 20 description "Loopback for MVPN N0003020R"
+set interfaces lo0 unit 20 family inet address 144.133.128.146
+set routing-instances N0003020R interface lo0.20
+            
+set interfaces xe-1/0/0 description "LACP link to DY IXIA, Card 2 port 4"
+set interfaces xe-1/0/0 mtu 9192
+set interfaces xe-1/0/0 per-unit-scheduler
+set interfaces xe-1/0/0 encapsulation flexible-ethernet-services flexible-vlan-tagging
+                
+delete interfaces xe-1/0/0 unit 11
+set interfaces xe-1/0/0 unit 11 description "Service interface for N0003011R"
+set interfaces xe-1/0/0 unit 11 vlan-id 11
+set routing-instances N0003011R interface xe-1/0/0.11
+            
+set interfaces xe-1/0/0 unit 11 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 12
+set interfaces xe-1/0/0 unit 12 description "Service interface for N0003012R"
+set interfaces xe-1/0/0 unit 12 vlan-id 12
+set routing-instances N0003012R interface xe-1/0/0.12
+            
+set interfaces xe-1/0/0 unit 12 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 13
+set interfaces xe-1/0/0 unit 13 description "Service interface for N0003013R"
+set interfaces xe-1/0/0 unit 13 vlan-id 13
+set routing-instances N0003013R interface xe-1/0/0.13
+            
+set interfaces xe-1/0/0 unit 13 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 14
+set interfaces xe-1/0/0 unit 14 description "Service interface for N0003014R"
+set interfaces xe-1/0/0 unit 14 vlan-id 14
+set routing-instances N0003014R interface xe-1/0/0.14
+            
+set interfaces xe-1/0/0 unit 14 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 15
+set interfaces xe-1/0/0 unit 15 description "Service interface for N0003015R"
+set interfaces xe-1/0/0 unit 15 vlan-id 15
+set routing-instances N0003015R interface xe-1/0/0.15
+            
+set interfaces xe-1/0/0 unit 15 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 16
+set interfaces xe-1/0/0 unit 16 description "Service interface for N0003016R"
+set interfaces xe-1/0/0 unit 16 vlan-id 16
+set routing-instances N0003016R interface xe-1/0/0.16
+            
+set interfaces xe-1/0/0 unit 16 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 17
+set interfaces xe-1/0/0 unit 17 description "Service interface for N0003017R"
+set interfaces xe-1/0/0 unit 17 vlan-id 17
+set routing-instances N0003017R interface xe-1/0/0.17
+            
+set interfaces xe-1/0/0 unit 17 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 18
+set interfaces xe-1/0/0 unit 18 description "Service interface for N0003018R"
+set interfaces xe-1/0/0 unit 18 vlan-id 18
+set routing-instances N0003018R interface xe-1/0/0.18
+            
+set interfaces xe-1/0/0 unit 18 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 19
+set interfaces xe-1/0/0 unit 19 description "Service interface for N0003019R"
+set interfaces xe-1/0/0 unit 19 vlan-id 19
+set routing-instances N0003019R interface xe-1/0/0.19
+            
+set interfaces xe-1/0/0 unit 19 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 20
+set interfaces xe-1/0/0 unit 20 description "Service interface for N0003020R"
+set interfaces xe-1/0/0 unit 20 vlan-id 20
+set routing-instances N0003020R interface xe-1/0/0.20
+            
+set interfaces xe-1/0/0 unit 20 family inet address 30.96.1.1/30
+                        
+delete class-of-service schedulers HCOS_FC0_6Q_SCHED
+delete class-of-service schedulers HCOS_FC1_6Q_SCHED
+delete class-of-service schedulers HCOS_FC2_6Q_SCHED
+delete class-of-service schedulers HCOS_FC3_6Q_SCHED
+delete class-of-service schedulers HCOS_FC4_6Q_SCHED
+delete class-of-service schedulers HCOS_FC5_6Q_SCHED
+
+set class-of-service schedulers HCOS_FC0_6Q_SCHED transmit-rate percent 5
+set class-of-service schedulers HCOS_FC0_6Q_SCHED buffer-size percent 25
+set class-of-service schedulers HCOS_FC0_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC1_6Q_SCHED transmit-rate percent 10
+set class-of-service schedulers HCOS_FC1_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC1_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC2_6Q_SCHED transmit-rate percent 15
+set class-of-service schedulers HCOS_FC2_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC2_6Q_SCHED priority low
+
+set class-of-service schedulers HCOS_FC3_6Q_SCHED transmit-rate percent 25
+set class-of-service schedulers HCOS_FC3_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC3_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC4_6Q_SCHED transmit-rate percent 35
+set class-of-service schedulers HCOS_FC4_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC4_6Q_SCHED priority medium-low
+ 
+
+set class-of-service schedulers HCOS_FC5_6Q_SCHED transmit-rate percent 10
+set class-of-service schedulers HCOS_FC5_6Q_SCHED buffer-size temporal 10k
+set class-of-service schedulers HCOS_FC5_6Q_SCHED priority high
+ 
+del class-of-service scheduler-maps HCOS_6Q_SCHEDULER
+
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC0 scheduler HCOS_FC0_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC1 scheduler HCOS_FC1_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC2 scheduler HCOS_FC2_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC3 scheduler HCOS_FC3_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC4 scheduler HCOS_FC4_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC5 scheduler HCOS_FC5_6Q_SCHED
+        del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 11
+set class-of-service interfaces xe-1/0/0 unit 11 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 11 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 11 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 12
+set class-of-service interfaces xe-1/0/0 unit 12 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 12 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 12 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 13
+set class-of-service interfaces xe-1/0/0 unit 13 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 13 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 13 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 14
+set class-of-service interfaces xe-1/0/0 unit 14 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 14 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 14 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 15
+set class-of-service interfaces xe-1/0/0 unit 15 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 15 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 15 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 16
+set class-of-service interfaces xe-1/0/0 unit 16 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 16 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 16 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 17
+set class-of-service interfaces xe-1/0/0 unit 17 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 17 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 17 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 18
+set class-of-service interfaces xe-1/0/0 unit 18 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 18 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 18 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 19
+set class-of-service interfaces xe-1/0/0 unit 19 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 19 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 19 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 20
+set class-of-service interfaces xe-1/0/0 unit 20 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 20 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 20 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 11 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 12 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 13 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 14 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 15 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 16 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 17 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 18 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 19 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 20 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+del routing-instances N0003021R
+set routing-instances N0003021R instance-type vrf
+set routing-instances N0003021R routing-options maximum-prefixes 10000
+set routing-instances N0003021R routing-options maximum-prefixes threshold 80
+set routing-instances N0003021R routing-options auto-export
+set routing-instances N0003021R description "MVPN Rosen Draft BSR, VRF N0003021R"
+set routing-instances N0003021R route-distinguisher 65530:3021
+set routing-instances N0003021R vrf-target target:65530:3021
+set routing-instances N0003021R vrf-table-label
+set routing-instances N0003021R no-vrf-propagate-ttl
+set routing-instances N0003021R protocols pim vpn-group-address 239.252.0.21
+ 
+del routing-instances N0003022R
+set routing-instances N0003022R instance-type vrf
+set routing-instances N0003022R routing-options maximum-prefixes 10000
+set routing-instances N0003022R routing-options maximum-prefixes threshold 80
+set routing-instances N0003022R routing-options auto-export
+set routing-instances N0003022R description "MVPN Rosen Draft BSR, VRF N0003022R"
+set routing-instances N0003022R route-distinguisher 65530:3022
+set routing-instances N0003022R vrf-target target:65530:3022
+set routing-instances N0003022R vrf-table-label
+set routing-instances N0003022R no-vrf-propagate-ttl
+set routing-instances N0003022R protocols pim vpn-group-address 239.252.0.22
+ 
+del routing-instances N0003023R
+set routing-instances N0003023R instance-type vrf
+set routing-instances N0003023R routing-options maximum-prefixes 10000
+set routing-instances N0003023R routing-options maximum-prefixes threshold 80
+set routing-instances N0003023R routing-options auto-export
+set routing-instances N0003023R description "MVPN Rosen Draft BSR, VRF N0003023R"
+set routing-instances N0003023R route-distinguisher 65530:3023
+set routing-instances N0003023R vrf-target target:65530:3023
+set routing-instances N0003023R vrf-table-label
+set routing-instances N0003023R no-vrf-propagate-ttl
+set routing-instances N0003023R protocols pim vpn-group-address 239.252.0.23
+ 
+del routing-instances N0003024R
+set routing-instances N0003024R instance-type vrf
+set routing-instances N0003024R routing-options maximum-prefixes 10000
+set routing-instances N0003024R routing-options maximum-prefixes threshold 80
+set routing-instances N0003024R routing-options auto-export
+set routing-instances N0003024R description "MVPN Rosen Draft BSR, VRF N0003024R"
+set routing-instances N0003024R route-distinguisher 65530:3024
+set routing-instances N0003024R vrf-target target:65530:3024
+set routing-instances N0003024R vrf-table-label
+set routing-instances N0003024R no-vrf-propagate-ttl
+set routing-instances N0003024R protocols pim vpn-group-address 239.252.0.24
+ 
+del routing-instances N0003025R
+set routing-instances N0003025R instance-type vrf
+set routing-instances N0003025R routing-options maximum-prefixes 10000
+set routing-instances N0003025R routing-options maximum-prefixes threshold 80
+set routing-instances N0003025R routing-options auto-export
+set routing-instances N0003025R description "MVPN Rosen Draft BSR, VRF N0003025R"
+set routing-instances N0003025R route-distinguisher 65530:3025
+set routing-instances N0003025R vrf-target target:65530:3025
+set routing-instances N0003025R vrf-table-label
+set routing-instances N0003025R no-vrf-propagate-ttl
+set routing-instances N0003025R protocols pim vpn-group-address 239.252.0.25
+ 
+del routing-instances N0003026R
+set routing-instances N0003026R instance-type vrf
+set routing-instances N0003026R routing-options maximum-prefixes 10000
+set routing-instances N0003026R routing-options maximum-prefixes threshold 80
+set routing-instances N0003026R routing-options auto-export
+set routing-instances N0003026R description "MVPN Rosen Draft BSR, VRF N0003026R"
+set routing-instances N0003026R route-distinguisher 65530:3026
+set routing-instances N0003026R vrf-target target:65530:3026
+set routing-instances N0003026R vrf-table-label
+set routing-instances N0003026R no-vrf-propagate-ttl
+set routing-instances N0003026R protocols pim vpn-group-address 239.252.0.26
+ 
+del routing-instances N0003027R
+set routing-instances N0003027R instance-type vrf
+set routing-instances N0003027R routing-options maximum-prefixes 10000
+set routing-instances N0003027R routing-options maximum-prefixes threshold 80
+set routing-instances N0003027R routing-options auto-export
+set routing-instances N0003027R description "MVPN Rosen Draft BSR, VRF N0003027R"
+set routing-instances N0003027R route-distinguisher 65530:3027
+set routing-instances N0003027R vrf-target target:65530:3027
+set routing-instances N0003027R vrf-table-label
+set routing-instances N0003027R no-vrf-propagate-ttl
+set routing-instances N0003027R protocols pim vpn-group-address 239.252.0.27
+ 
+del routing-instances N0003028R
+set routing-instances N0003028R instance-type vrf
+set routing-instances N0003028R routing-options maximum-prefixes 10000
+set routing-instances N0003028R routing-options maximum-prefixes threshold 80
+set routing-instances N0003028R routing-options auto-export
+set routing-instances N0003028R description "MVPN Rosen Draft BSR, VRF N0003028R"
+set routing-instances N0003028R route-distinguisher 65530:3028
+set routing-instances N0003028R vrf-target target:65530:3028
+set routing-instances N0003028R vrf-table-label
+set routing-instances N0003028R no-vrf-propagate-ttl
+set routing-instances N0003028R protocols pim vpn-group-address 239.252.0.28
+ 
+del routing-instances N0003029R
+set routing-instances N0003029R instance-type vrf
+set routing-instances N0003029R routing-options maximum-prefixes 10000
+set routing-instances N0003029R routing-options maximum-prefixes threshold 80
+set routing-instances N0003029R routing-options auto-export
+set routing-instances N0003029R description "MVPN Rosen Draft BSR, VRF N0003029R"
+set routing-instances N0003029R route-distinguisher 65530:3029
+set routing-instances N0003029R vrf-target target:65530:3029
+set routing-instances N0003029R vrf-table-label
+set routing-instances N0003029R no-vrf-propagate-ttl
+set routing-instances N0003029R protocols pim vpn-group-address 239.252.0.29
+ 
+del routing-instances N0003030R
+set routing-instances N0003030R instance-type vrf
+set routing-instances N0003030R routing-options maximum-prefixes 10000
+set routing-instances N0003030R routing-options maximum-prefixes threshold 80
+set routing-instances N0003030R routing-options auto-export
+set routing-instances N0003030R description "MVPN Rosen Draft BSR, VRF N0003030R"
+set routing-instances N0003030R route-distinguisher 65530:3030
+set routing-instances N0003030R vrf-target target:65530:3030
+set routing-instances N0003030R vrf-table-label
+set routing-instances N0003030R no-vrf-propagate-ttl
+set routing-instances N0003030R protocols pim vpn-group-address 239.252.0.30
+ 
+set routing-instances N0003021R protocols pim interface lo0.21
+            
+set routing-instances N0003022R protocols pim interface lo0.22
+            
+set routing-instances N0003023R protocols pim interface lo0.23
+            
+set routing-instances N0003024R protocols pim interface lo0.24
+            
+set routing-instances N0003025R protocols pim interface lo0.25
+            
+set routing-instances N0003026R protocols pim interface lo0.26
+            
+set routing-instances N0003027R protocols pim interface lo0.27
+            
+set routing-instances N0003028R protocols pim interface lo0.28
+            
+set routing-instances N0003029R protocols pim interface lo0.29
+            
+set routing-instances N0003030R protocols pim interface lo0.30
+            
+set routing-instances N0003021R protocols pim interface xe-1/0/0.21
+            
+set routing-instances N0003022R protocols pim interface xe-1/0/0.22
+            
+set routing-instances N0003023R protocols pim interface xe-1/0/0.23
+            
+set routing-instances N0003024R protocols pim interface xe-1/0/0.24
+            
+set routing-instances N0003025R protocols pim interface xe-1/0/0.25
+            
+set routing-instances N0003026R protocols pim interface xe-1/0/0.26
+            
+set routing-instances N0003027R protocols pim interface xe-1/0/0.27
+            
+set routing-instances N0003028R protocols pim interface xe-1/0/0.28
+            
+set routing-instances N0003029R protocols pim interface xe-1/0/0.29
+            
+set routing-instances N0003030R protocols pim interface xe-1/0/0.30
+            
+set interfaces lo0 unit 21 description "Loopback for MVPN N0003021R"
+set interfaces lo0 unit 21 family inet address 144.133.128.146
+set routing-instances N0003021R interface lo0.21
+            
+set interfaces lo0 unit 22 description "Loopback for MVPN N0003022R"
+set interfaces lo0 unit 22 family inet address 144.133.128.146
+set routing-instances N0003022R interface lo0.22
+            
+set interfaces lo0 unit 23 description "Loopback for MVPN N0003023R"
+set interfaces lo0 unit 23 family inet address 144.133.128.146
+set routing-instances N0003023R interface lo0.23
+            
+set interfaces lo0 unit 24 description "Loopback for MVPN N0003024R"
+set interfaces lo0 unit 24 family inet address 144.133.128.146
+set routing-instances N0003024R interface lo0.24
+            
+set interfaces lo0 unit 25 description "Loopback for MVPN N0003025R"
+set interfaces lo0 unit 25 family inet address 144.133.128.146
+set routing-instances N0003025R interface lo0.25
+            
+set interfaces lo0 unit 26 description "Loopback for MVPN N0003026R"
+set interfaces lo0 unit 26 family inet address 144.133.128.146
+set routing-instances N0003026R interface lo0.26
+            
+set interfaces lo0 unit 27 description "Loopback for MVPN N0003027R"
+set interfaces lo0 unit 27 family inet address 144.133.128.146
+set routing-instances N0003027R interface lo0.27
+            
+set interfaces lo0 unit 28 description "Loopback for MVPN N0003028R"
+set interfaces lo0 unit 28 family inet address 144.133.128.146
+set routing-instances N0003028R interface lo0.28
+            
+set interfaces lo0 unit 29 description "Loopback for MVPN N0003029R"
+set interfaces lo0 unit 29 family inet address 144.133.128.146
+set routing-instances N0003029R interface lo0.29
+            
+set interfaces lo0 unit 30 description "Loopback for MVPN N0003030R"
+set interfaces lo0 unit 30 family inet address 144.133.128.146
+set routing-instances N0003030R interface lo0.30
+            
+set interfaces xe-1/0/0 description "link to IXIA DY IXIA C2/P2"
+set interfaces xe-1/0/0 mtu 9192
+set interfaces xe-1/0/0 per-unit-scheduler
+set interfaces xe-1/0/0 encapsulation flexible-ethernet-services flexible-vlan-tagging
+                
+delete interfaces xe-1/0/0 unit 21
+set interfaces xe-1/0/0 unit 21 description "Service interface for N0003021R"
+set interfaces xe-1/0/0 unit 21 vlan-id 21
+set routing-instances N0003021R interface xe-1/0/0.21
+            
+set interfaces xe-1/0/0 unit 21 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 22
+set interfaces xe-1/0/0 unit 22 description "Service interface for N0003022R"
+set interfaces xe-1/0/0 unit 22 vlan-id 22
+set routing-instances N0003022R interface xe-1/0/0.22
+            
+set interfaces xe-1/0/0 unit 22 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 23
+set interfaces xe-1/0/0 unit 23 description "Service interface for N0003023R"
+set interfaces xe-1/0/0 unit 23 vlan-id 23
+set routing-instances N0003023R interface xe-1/0/0.23
+            
+set interfaces xe-1/0/0 unit 23 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 24
+set interfaces xe-1/0/0 unit 24 description "Service interface for N0003024R"
+set interfaces xe-1/0/0 unit 24 vlan-id 24
+set routing-instances N0003024R interface xe-1/0/0.24
+            
+set interfaces xe-1/0/0 unit 24 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 25
+set interfaces xe-1/0/0 unit 25 description "Service interface for N0003025R"
+set interfaces xe-1/0/0 unit 25 vlan-id 25
+set routing-instances N0003025R interface xe-1/0/0.25
+            
+set interfaces xe-1/0/0 unit 25 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 26
+set interfaces xe-1/0/0 unit 26 description "Service interface for N0003026R"
+set interfaces xe-1/0/0 unit 26 vlan-id 26
+set routing-instances N0003026R interface xe-1/0/0.26
+            
+set interfaces xe-1/0/0 unit 26 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 27
+set interfaces xe-1/0/0 unit 27 description "Service interface for N0003027R"
+set interfaces xe-1/0/0 unit 27 vlan-id 27
+set routing-instances N0003027R interface xe-1/0/0.27
+            
+set interfaces xe-1/0/0 unit 27 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 28
+set interfaces xe-1/0/0 unit 28 description "Service interface for N0003028R"
+set interfaces xe-1/0/0 unit 28 vlan-id 28
+set routing-instances N0003028R interface xe-1/0/0.28
+            
+set interfaces xe-1/0/0 unit 28 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 29
+set interfaces xe-1/0/0 unit 29 description "Service interface for N0003029R"
+set interfaces xe-1/0/0 unit 29 vlan-id 29
+set routing-instances N0003029R interface xe-1/0/0.29
+            
+set interfaces xe-1/0/0 unit 29 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 30
+set interfaces xe-1/0/0 unit 30 description "Service interface for N0003030R"
+set interfaces xe-1/0/0 unit 30 vlan-id 30
+set routing-instances N0003030R interface xe-1/0/0.30
+            
+set interfaces xe-1/0/0 unit 30 family inet address 30.96.1.1/30
+                        
+delete class-of-service schedulers HCOS_FC0_6Q_SCHED
+delete class-of-service schedulers HCOS_FC1_6Q_SCHED
+delete class-of-service schedulers HCOS_FC2_6Q_SCHED
+delete class-of-service schedulers HCOS_FC3_6Q_SCHED
+delete class-of-service schedulers HCOS_FC4_6Q_SCHED
+delete class-of-service schedulers HCOS_FC5_6Q_SCHED
+
+set class-of-service schedulers HCOS_FC0_6Q_SCHED transmit-rate percent 5
+set class-of-service schedulers HCOS_FC0_6Q_SCHED buffer-size percent 25
+set class-of-service schedulers HCOS_FC0_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC1_6Q_SCHED transmit-rate percent 10
+set class-of-service schedulers HCOS_FC1_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC1_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC2_6Q_SCHED transmit-rate percent 15
+set class-of-service schedulers HCOS_FC2_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC2_6Q_SCHED priority low
+
+set class-of-service schedulers HCOS_FC3_6Q_SCHED transmit-rate percent 25
+set class-of-service schedulers HCOS_FC3_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC3_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC4_6Q_SCHED transmit-rate percent 35
+set class-of-service schedulers HCOS_FC4_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC4_6Q_SCHED priority medium-low
+ 
+
+set class-of-service schedulers HCOS_FC5_6Q_SCHED transmit-rate percent 10
+set class-of-service schedulers HCOS_FC5_6Q_SCHED buffer-size temporal 10k
+set class-of-service schedulers HCOS_FC5_6Q_SCHED priority high
+ 
+del class-of-service scheduler-maps HCOS_6Q_SCHEDULER
+
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC0 scheduler HCOS_FC0_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC1 scheduler HCOS_FC1_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC2 scheduler HCOS_FC2_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC3 scheduler HCOS_FC3_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC4 scheduler HCOS_FC4_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC5 scheduler HCOS_FC5_6Q_SCHED
+        del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 21
+set class-of-service interfaces xe-1/0/0 unit 21 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 21 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 21 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 22
+set class-of-service interfaces xe-1/0/0 unit 22 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 22 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 22 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 23
+set class-of-service interfaces xe-1/0/0 unit 23 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 23 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 23 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 24
+set class-of-service interfaces xe-1/0/0 unit 24 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 24 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 24 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 25
+set class-of-service interfaces xe-1/0/0 unit 25 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 25 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 25 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 26
+set class-of-service interfaces xe-1/0/0 unit 26 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 26 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 26 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 27
+set class-of-service interfaces xe-1/0/0 unit 27 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 27 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 27 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 28
+set class-of-service interfaces xe-1/0/0 unit 28 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 28 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 28 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 29
+set class-of-service interfaces xe-1/0/0 unit 29 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 29 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 29 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 30
+set class-of-service interfaces xe-1/0/0 unit 30 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 30 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 30 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 21 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 22 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 23 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 24 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 25 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 26 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 27 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 28 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 29 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 30 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+del routing-instances N0003031R
+set routing-instances N0003031R instance-type vrf
+set routing-instances N0003031R routing-options maximum-prefixes 10000
+set routing-instances N0003031R routing-options maximum-prefixes threshold 80
+set routing-instances N0003031R routing-options auto-export
+set routing-instances N0003031R description "MVPN Rosen Draft Auto-RP, VRF N0003031R"
+set routing-instances N0003031R route-distinguisher 65530:3031
+set routing-instances N0003031R vrf-target target:65530:3031
+set routing-instances N0003031R vrf-table-label
+set routing-instances N0003031R no-vrf-propagate-ttl
+set routing-instances N0003031R protocols pim vpn-group-address 239.252.0.31
+ 
+del routing-instances N0003032R
+set routing-instances N0003032R instance-type vrf
+set routing-instances N0003032R routing-options maximum-prefixes 10000
+set routing-instances N0003032R routing-options maximum-prefixes threshold 80
+set routing-instances N0003032R routing-options auto-export
+set routing-instances N0003032R description "MVPN Rosen Draft Auto-RP, VRF N0003032R"
+set routing-instances N0003032R route-distinguisher 65530:3032
+set routing-instances N0003032R vrf-target target:65530:3032
+set routing-instances N0003032R vrf-table-label
+set routing-instances N0003032R no-vrf-propagate-ttl
+set routing-instances N0003032R protocols pim vpn-group-address 239.252.0.32
+ 
+del routing-instances N0003033R
+set routing-instances N0003033R instance-type vrf
+set routing-instances N0003033R routing-options maximum-prefixes 10000
+set routing-instances N0003033R routing-options maximum-prefixes threshold 80
+set routing-instances N0003033R routing-options auto-export
+set routing-instances N0003033R description "MVPN Rosen Draft Auto-RP, VRF N0003033R"
+set routing-instances N0003033R route-distinguisher 65530:3033
+set routing-instances N0003033R vrf-target target:65530:3033
+set routing-instances N0003033R vrf-table-label
+set routing-instances N0003033R no-vrf-propagate-ttl
+set routing-instances N0003033R protocols pim vpn-group-address 239.252.0.33
+ 
+del routing-instances N0003034R
+set routing-instances N0003034R instance-type vrf
+set routing-instances N0003034R routing-options maximum-prefixes 10000
+set routing-instances N0003034R routing-options maximum-prefixes threshold 80
+set routing-instances N0003034R routing-options auto-export
+set routing-instances N0003034R description "MVPN Rosen Draft Auto-RP, VRF N0003034R"
+set routing-instances N0003034R route-distinguisher 65530:3034
+set routing-instances N0003034R vrf-target target:65530:3034
+set routing-instances N0003034R vrf-table-label
+set routing-instances N0003034R no-vrf-propagate-ttl
+set routing-instances N0003034R protocols pim vpn-group-address 239.252.0.34
+ 
+del routing-instances N0003035R
+set routing-instances N0003035R instance-type vrf
+set routing-instances N0003035R routing-options maximum-prefixes 10000
+set routing-instances N0003035R routing-options maximum-prefixes threshold 80
+set routing-instances N0003035R routing-options auto-export
+set routing-instances N0003035R description "MVPN Rosen Draft Auto-RP, VRF N0003035R"
+set routing-instances N0003035R route-distinguisher 65530:3035
+set routing-instances N0003035R vrf-target target:65530:3035
+set routing-instances N0003035R vrf-table-label
+set routing-instances N0003035R no-vrf-propagate-ttl
+set routing-instances N0003035R protocols pim vpn-group-address 239.252.0.35
+ 
+del routing-instances N0003036R
+set routing-instances N0003036R instance-type vrf
+set routing-instances N0003036R routing-options maximum-prefixes 10000
+set routing-instances N0003036R routing-options maximum-prefixes threshold 80
+set routing-instances N0003036R routing-options auto-export
+set routing-instances N0003036R description "MVPN Rosen Draft Auto-RP, VRF N0003036R"
+set routing-instances N0003036R route-distinguisher 65530:3036
+set routing-instances N0003036R vrf-target target:65530:3036
+set routing-instances N0003036R vrf-table-label
+set routing-instances N0003036R no-vrf-propagate-ttl
+set routing-instances N0003036R protocols pim vpn-group-address 239.252.0.36
+ 
+del routing-instances N0003037R
+set routing-instances N0003037R instance-type vrf
+set routing-instances N0003037R routing-options maximum-prefixes 10000
+set routing-instances N0003037R routing-options maximum-prefixes threshold 80
+set routing-instances N0003037R routing-options auto-export
+set routing-instances N0003037R description "MVPN Rosen Draft Auto-RP, VRF N0003037R"
+set routing-instances N0003037R route-distinguisher 65530:3037
+set routing-instances N0003037R vrf-target target:65530:3037
+set routing-instances N0003037R vrf-table-label
+set routing-instances N0003037R no-vrf-propagate-ttl
+set routing-instances N0003037R protocols pim vpn-group-address 239.252.0.37
+ 
+del routing-instances N0003038R
+set routing-instances N0003038R instance-type vrf
+set routing-instances N0003038R routing-options maximum-prefixes 10000
+set routing-instances N0003038R routing-options maximum-prefixes threshold 80
+set routing-instances N0003038R routing-options auto-export
+set routing-instances N0003038R description "MVPN Rosen Draft Auto-RP, VRF N0003038R"
+set routing-instances N0003038R route-distinguisher 65530:3038
+set routing-instances N0003038R vrf-target target:65530:3038
+set routing-instances N0003038R vrf-table-label
+set routing-instances N0003038R no-vrf-propagate-ttl
+set routing-instances N0003038R protocols pim vpn-group-address 239.252.0.38
+ 
+del routing-instances N0003039R
+set routing-instances N0003039R instance-type vrf
+set routing-instances N0003039R routing-options maximum-prefixes 10000
+set routing-instances N0003039R routing-options maximum-prefixes threshold 80
+set routing-instances N0003039R routing-options auto-export
+set routing-instances N0003039R description "MVPN Rosen Draft Auto-RP, VRF N0003039R"
+set routing-instances N0003039R route-distinguisher 65530:3039
+set routing-instances N0003039R vrf-target target:65530:3039
+set routing-instances N0003039R vrf-table-label
+set routing-instances N0003039R no-vrf-propagate-ttl
+set routing-instances N0003039R protocols pim vpn-group-address 239.252.0.39
+ 
+del routing-instances N0003040R
+set routing-instances N0003040R instance-type vrf
+set routing-instances N0003040R routing-options maximum-prefixes 10000
+set routing-instances N0003040R routing-options maximum-prefixes threshold 80
+set routing-instances N0003040R routing-options auto-export
+set routing-instances N0003040R description "MVPN Rosen Draft Auto-RP, VRF N0003040R"
+set routing-instances N0003040R route-distinguisher 65530:3040
+set routing-instances N0003040R vrf-target target:65530:3040
+set routing-instances N0003040R vrf-table-label
+set routing-instances N0003040R no-vrf-propagate-ttl
+set routing-instances N0003040R protocols pim vpn-group-address 239.252.0.40
+ 
+set routing-instances N0003031R protocols pim interface lo0.31
+            
+set routing-instances N0003032R protocols pim interface lo0.32
+            
+set routing-instances N0003033R protocols pim interface lo0.33
+            
+set routing-instances N0003034R protocols pim interface lo0.34
+            
+set routing-instances N0003035R protocols pim interface lo0.35
+            
+set routing-instances N0003036R protocols pim interface lo0.36
+            
+set routing-instances N0003037R protocols pim interface lo0.37
+            
+set routing-instances N0003038R protocols pim interface lo0.38
+            
+set routing-instances N0003039R protocols pim interface lo0.39
+            
+set routing-instances N0003040R protocols pim interface lo0.40
+            
+set routing-instances N0003031R protocols pim interface xe-1/0/0.31
+            
+set routing-instances N0003032R protocols pim interface xe-1/0/0.32
+            
+set routing-instances N0003033R protocols pim interface xe-1/0/0.33
+            
+set routing-instances N0003034R protocols pim interface xe-1/0/0.34
+            
+set routing-instances N0003035R protocols pim interface xe-1/0/0.35
+            
+set routing-instances N0003036R protocols pim interface xe-1/0/0.36
+            
+set routing-instances N0003037R protocols pim interface xe-1/0/0.37
+            
+set routing-instances N0003038R protocols pim interface xe-1/0/0.38
+            
+set routing-instances N0003039R protocols pim interface xe-1/0/0.39
+            
+set routing-instances N0003040R protocols pim interface xe-1/0/0.40
+            
+set routing-instances N0003031R protocols pim rp auto-rp discovery
+set routing-instances N0003031R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003031R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003031R protocols pim interface lo0.31 mode sparse-dense
+                    
+set routing-instances N0003031R protocols pim interface xe-1/0/0.31 mode sparse-dense
+                    
+set routing-instances N0003032R protocols pim rp auto-rp discovery
+set routing-instances N0003032R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003032R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003032R protocols pim interface lo0.32 mode sparse-dense
+                    
+set routing-instances N0003032R protocols pim interface xe-1/0/0.32 mode sparse-dense
+                    
+set routing-instances N0003033R protocols pim rp auto-rp discovery
+set routing-instances N0003033R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003033R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003033R protocols pim interface lo0.33 mode sparse-dense
+                    
+set routing-instances N0003033R protocols pim interface xe-1/0/0.33 mode sparse-dense
+                    
+set routing-instances N0003034R protocols pim rp auto-rp discovery
+set routing-instances N0003034R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003034R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003034R protocols pim interface lo0.34 mode sparse-dense
+                    
+set routing-instances N0003034R protocols pim interface xe-1/0/0.34 mode sparse-dense
+                    
+set routing-instances N0003035R protocols pim rp auto-rp discovery
+set routing-instances N0003035R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003035R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003035R protocols pim interface lo0.35 mode sparse-dense
+                    
+set routing-instances N0003035R protocols pim interface xe-1/0/0.35 mode sparse-dense
+                    
+set routing-instances N0003036R protocols pim rp auto-rp discovery
+set routing-instances N0003036R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003036R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003036R protocols pim interface lo0.36 mode sparse-dense
+                    
+set routing-instances N0003036R protocols pim interface xe-1/0/0.36 mode sparse-dense
+                    
+set routing-instances N0003037R protocols pim rp auto-rp discovery
+set routing-instances N0003037R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003037R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003037R protocols pim interface lo0.37 mode sparse-dense
+                    
+set routing-instances N0003037R protocols pim interface xe-1/0/0.37 mode sparse-dense
+                    
+set routing-instances N0003038R protocols pim rp auto-rp discovery
+set routing-instances N0003038R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003038R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003038R protocols pim interface lo0.38 mode sparse-dense
+                    
+set routing-instances N0003038R protocols pim interface xe-1/0/0.38 mode sparse-dense
+                    
+set routing-instances N0003039R protocols pim rp auto-rp discovery
+set routing-instances N0003039R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003039R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003039R protocols pim interface lo0.39 mode sparse-dense
+                    
+set routing-instances N0003039R protocols pim interface xe-1/0/0.39 mode sparse-dense
+                    
+set routing-instances N0003040R protocols pim rp auto-rp discovery
+set routing-instances N0003040R protocols pim dense-groups 224.0.1.39/32
+set routing-instances N0003040R protocols pim dense-groups 224.0.1.40/32
+            
+set routing-instances N0003040R protocols pim interface lo0.40 mode sparse-dense
+                    
+set routing-instances N0003040R protocols pim interface xe-1/0/0.40 mode sparse-dense
+                    
+set interfaces lo0 unit 31 description "Loopback for MVPN N0003031R"
+set interfaces lo0 unit 31 family inet address 144.133.128.146
+set routing-instances N0003031R interface lo0.31
+            
+set interfaces lo0 unit 32 description "Loopback for MVPN N0003032R"
+set interfaces lo0 unit 32 family inet address 144.133.128.146
+set routing-instances N0003032R interface lo0.32
+            
+set interfaces lo0 unit 33 description "Loopback for MVPN N0003033R"
+set interfaces lo0 unit 33 family inet address 144.133.128.146
+set routing-instances N0003033R interface lo0.33
+            
+set interfaces lo0 unit 34 description "Loopback for MVPN N0003034R"
+set interfaces lo0 unit 34 family inet address 144.133.128.146
+set routing-instances N0003034R interface lo0.34
+            
+set interfaces lo0 unit 35 description "Loopback for MVPN N0003035R"
+set interfaces lo0 unit 35 family inet address 144.133.128.146
+set routing-instances N0003035R interface lo0.35
+            
+set interfaces lo0 unit 36 description "Loopback for MVPN N0003036R"
+set interfaces lo0 unit 36 family inet address 144.133.128.146
+set routing-instances N0003036R interface lo0.36
+            
+set interfaces lo0 unit 37 description "Loopback for MVPN N0003037R"
+set interfaces lo0 unit 37 family inet address 144.133.128.146
+set routing-instances N0003037R interface lo0.37
+            
+set interfaces lo0 unit 38 description "Loopback for MVPN N0003038R"
+set interfaces lo0 unit 38 family inet address 144.133.128.146
+set routing-instances N0003038R interface lo0.38
+            
+set interfaces lo0 unit 39 description "Loopback for MVPN N0003039R"
+set interfaces lo0 unit 39 family inet address 144.133.128.146
+set routing-instances N0003039R interface lo0.39
+            
+set interfaces lo0 unit 40 description "Loopback for MVPN N0003040R"
+set interfaces lo0 unit 40 family inet address 144.133.128.146
+set routing-instances N0003040R interface lo0.40
+            
+set interfaces xe-1/0/0 description "LACP link to IXIA 14, Card 4 Port 8 "
+set interfaces xe-1/0/0 mtu 9192
+set interfaces xe-1/0/0 per-unit-scheduler
+set interfaces xe-1/0/0 encapsulation flexible-ethernet-services flexible-vlan-tagging
+                
+delete interfaces xe-1/0/0 unit 31
+set interfaces xe-1/0/0 unit 31 description "Service interface for N0003031R"
+set interfaces xe-1/0/0 unit 31 vlan-id 31
+set routing-instances N0003031R interface xe-1/0/0.31
+            
+set interfaces xe-1/0/0 unit 31 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 32
+set interfaces xe-1/0/0 unit 32 description "Service interface for N0003032R"
+set interfaces xe-1/0/0 unit 32 vlan-id 32
+set routing-instances N0003032R interface xe-1/0/0.32
+            
+set interfaces xe-1/0/0 unit 32 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 33
+set interfaces xe-1/0/0 unit 33 description "Service interface for N0003033R"
+set interfaces xe-1/0/0 unit 33 vlan-id 33
+set routing-instances N0003033R interface xe-1/0/0.33
+            
+set interfaces xe-1/0/0 unit 33 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 34
+set interfaces xe-1/0/0 unit 34 description "Service interface for N0003034R"
+set interfaces xe-1/0/0 unit 34 vlan-id 34
+set routing-instances N0003034R interface xe-1/0/0.34
+            
+set interfaces xe-1/0/0 unit 34 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 35
+set interfaces xe-1/0/0 unit 35 description "Service interface for N0003035R"
+set interfaces xe-1/0/0 unit 35 vlan-id 35
+set routing-instances N0003035R interface xe-1/0/0.35
+            
+set interfaces xe-1/0/0 unit 35 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 36
+set interfaces xe-1/0/0 unit 36 description "Service interface for N0003036R"
+set interfaces xe-1/0/0 unit 36 vlan-id 36
+set routing-instances N0003036R interface xe-1/0/0.36
+            
+set interfaces xe-1/0/0 unit 36 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 37
+set interfaces xe-1/0/0 unit 37 description "Service interface for N0003037R"
+set interfaces xe-1/0/0 unit 37 vlan-id 37
+set routing-instances N0003037R interface xe-1/0/0.37
+            
+set interfaces xe-1/0/0 unit 37 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 38
+set interfaces xe-1/0/0 unit 38 description "Service interface for N0003038R"
+set interfaces xe-1/0/0 unit 38 vlan-id 38
+set routing-instances N0003038R interface xe-1/0/0.38
+            
+set interfaces xe-1/0/0 unit 38 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 39
+set interfaces xe-1/0/0 unit 39 description "Service interface for N0003039R"
+set interfaces xe-1/0/0 unit 39 vlan-id 39
+set routing-instances N0003039R interface xe-1/0/0.39
+            
+set interfaces xe-1/0/0 unit 39 family inet address 30.96.1.1/30
+                        
+delete interfaces xe-1/0/0 unit 40
+set interfaces xe-1/0/0 unit 40 description "Service interface for N0003040R"
+set interfaces xe-1/0/0 unit 40 vlan-id 40
+set routing-instances N0003040R interface xe-1/0/0.40
+            
+set interfaces xe-1/0/0 unit 40 family inet address 30.96.1.1/30
+                        
+delete class-of-service schedulers HCOS_FC0_6Q_SCHED
+delete class-of-service schedulers HCOS_FC1_6Q_SCHED
+delete class-of-service schedulers HCOS_FC2_6Q_SCHED
+delete class-of-service schedulers HCOS_FC3_6Q_SCHED
+delete class-of-service schedulers HCOS_FC4_6Q_SCHED
+delete class-of-service schedulers HCOS_FC5_6Q_SCHED
+
+set class-of-service schedulers HCOS_FC0_6Q_SCHED transmit-rate percent 5
+set class-of-service schedulers HCOS_FC0_6Q_SCHED buffer-size percent 25
+set class-of-service schedulers HCOS_FC0_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC1_6Q_SCHED transmit-rate percent 10
+set class-of-service schedulers HCOS_FC1_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC1_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC2_6Q_SCHED transmit-rate percent 15
+set class-of-service schedulers HCOS_FC2_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC2_6Q_SCHED priority low
+
+set class-of-service schedulers HCOS_FC3_6Q_SCHED transmit-rate percent 25
+set class-of-service schedulers HCOS_FC3_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC3_6Q_SCHED priority low
+set class-of-service schedulers HCOS_FC4_6Q_SCHED transmit-rate percent 35
+set class-of-service schedulers HCOS_FC4_6Q_SCHED buffer-size percent 15
+set class-of-service schedulers HCOS_FC4_6Q_SCHED priority medium-low
+ 
+
+set class-of-service schedulers HCOS_FC5_6Q_SCHED transmit-rate percent 10
+set class-of-service schedulers HCOS_FC5_6Q_SCHED buffer-size temporal 10k
+set class-of-service schedulers HCOS_FC5_6Q_SCHED priority high
+ 
+del class-of-service scheduler-maps HCOS_6Q_SCHEDULER
+
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC0 scheduler HCOS_FC0_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC1 scheduler HCOS_FC1_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC2 scheduler HCOS_FC2_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC3 scheduler HCOS_FC3_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC4 scheduler HCOS_FC4_6Q_SCHED
+set class-of-service scheduler-maps HCOS_6Q_SCHEDULER forwarding-class FC5 scheduler HCOS_FC5_6Q_SCHED
+        del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 31
+set class-of-service interfaces xe-1/0/0 unit 31 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 31 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 31 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 32
+set class-of-service interfaces xe-1/0/0 unit 32 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 32 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 32 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 33
+set class-of-service interfaces xe-1/0/0 unit 33 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 33 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 33 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 34
+set class-of-service interfaces xe-1/0/0 unit 34 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 34 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 34 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 35
+set class-of-service interfaces xe-1/0/0 unit 35 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 35 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 35 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 36
+set class-of-service interfaces xe-1/0/0 unit 36 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 36 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 36 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 37
+set class-of-service interfaces xe-1/0/0 unit 37 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 37 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 37 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 38
+set class-of-service interfaces xe-1/0/0 unit 38 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 38 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 38 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 39
+set class-of-service interfaces xe-1/0/0 unit 39 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 39 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 39 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    del class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q scheduler-map HCOS_6Q_SCHEDULER
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate 100M
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q guaranteed-rate burst-size 125000
+
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate 10G
+set class-of-service traffic-control-profiles HCOS_SHAPER_BURST10_100M_6Q shaping-rate burst-size 12500000
+        
+del class-of-service interfaces xe-1/0/0 unit 40
+set class-of-service interfaces xe-1/0/0 unit 40 output-traffic-control-profile HCOS_SHAPER_BURST10_100M_6Q
+set class-of-service interfaces xe-1/0/0 unit 40 classifiers dscp CLASSIFY_CE_PE_DSCP
+set class-of-service interfaces xe-1/0/0 unit 40 rewrite-rules ieee-802.1 PE_CE_DOT1P_REWRITE
+    
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 31 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 32 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 33 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 34 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 35 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 36 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 37 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 38 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 39 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            
+set firewall policer HCOS_IFL_POLICER_10G logical-interface-policer 
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding bandwidth-limit 10G
+set firewall policer HCOS_IFL_POLICER_10G if-exceeding burst-size-limit 12500000
+set firewall policer HCOS_IFL_POLICER_10G then discard
+set interfaces xe-1/0/0 unit 40 layer2-policer input-policer HCOS_IFL_POLICER_10G                  
+            

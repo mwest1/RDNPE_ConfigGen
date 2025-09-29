@@ -1,0 +1,6101 @@
+
+del routing-instances N0001001R
+        
+del routing-instances N0001002R
+        
+del routing-instances N0001003R
+        
+del routing-instances N0001004R
+        
+del routing-instances N0001005R
+        
+del routing-instances N0001006R
+        
+del routing-instances N0001007R
+        
+del routing-instances N0001008R
+        
+del routing-instances N0001009R
+        
+del routing-instances N0001010R
+        
+del routing-instances N0001011R
+        
+del routing-instances N0001012R
+        
+del routing-instances N0001013R
+        
+del routing-instances N0001014R
+        
+del routing-instances N0001015R
+        
+del routing-instances N0001016R
+        
+del routing-instances N0001017R
+        
+del routing-instances N0001018R
+        
+del routing-instances N0001019R
+        
+del routing-instances N0001020R
+        
+del routing-instances N0001021R
+        
+del routing-instances N0001022R
+        
+del routing-instances N0001023R
+        
+del routing-instances N0001024R
+        
+del routing-instances N0001025R
+        
+del routing-instances N0001026R
+        
+del routing-instances N0001027R
+        
+del routing-instances N0001028R
+        
+del routing-instances N0001029R
+        
+del routing-instances N0001030R
+        
+del routing-instances N0001031R
+        
+del routing-instances N0001032R
+        
+del routing-instances N0001033R
+        
+del routing-instances N0001034R
+        
+del routing-instances N0001035R
+        
+del routing-instances N0001036R
+        
+del routing-instances N0001037R
+        
+del routing-instances N0001038R
+        
+del routing-instances N0001039R
+        
+del routing-instances N0001040R
+        
+del routing-instances N0001041R
+        
+del routing-instances N0001042R
+        
+del routing-instances N0001043R
+        
+del routing-instances N0001044R
+        
+del routing-instances N0001045R
+        
+del routing-instances N0001046R
+        
+del routing-instances N0001047R
+        
+del routing-instances N0001048R
+        
+del routing-instances N0001049R
+        
+del routing-instances N0001050R
+        
+del routing-instances N0001051R
+        
+del routing-instances N0001052R
+        
+del routing-instances N0001053R
+        
+del routing-instances N0001054R
+        
+del routing-instances N0001055R
+        
+del routing-instances N0001056R
+        
+del routing-instances N0001057R
+        
+del routing-instances N0001058R
+        
+del routing-instances N0001059R
+        
+del routing-instances N0001060R
+        
+del routing-instances N0001061R
+        
+del routing-instances N0001062R
+        
+del routing-instances N0001063R
+        
+del routing-instances N0001064R
+        
+del routing-instances N0001065R
+        
+del routing-instances N0001066R
+        
+del routing-instances N0001067R
+        
+del routing-instances N0001068R
+        
+del routing-instances N0001069R
+        
+del routing-instances N0001070R
+        
+del routing-instances N0001071R
+        
+del routing-instances N0001072R
+        
+del routing-instances N0001073R
+        
+del routing-instances N0001074R
+        
+del routing-instances N0001075R
+        
+del routing-instances N0001076R
+        
+del routing-instances N0001077R
+        
+del routing-instances N0001078R
+        
+del routing-instances N0001079R
+        
+del routing-instances N0001080R
+        
+del routing-instances N0001081R
+        
+del routing-instances N0001082R
+        
+del routing-instances N0001083R
+        
+del routing-instances N0001084R
+        
+del routing-instances N0001085R
+        
+del routing-instances N0001086R
+        
+del routing-instances N0001087R
+        
+del routing-instances N0001088R
+        
+del routing-instances N0001089R
+        
+del routing-instances N0001090R
+        
+del routing-instances N0001091R
+        
+del routing-instances N0001092R
+        
+del routing-instances N0001093R
+        
+del routing-instances N0001094R
+        
+del routing-instances N0001095R
+        
+del routing-instances N0001096R
+        
+del routing-instances N0001097R
+        
+del routing-instances N0001098R
+        
+del routing-instances N0001099R
+        
+del routing-instances N0001100R
+        
+del routing-instances N0001101R
+        
+del routing-instances N0001102R
+        
+del routing-instances N0001103R
+        
+del routing-instances N0001104R
+        
+del routing-instances N0001105R
+        
+del routing-instances N0001106R
+        
+del routing-instances N0001107R
+        
+del routing-instances N0001108R
+        
+del routing-instances N0001109R
+        
+del routing-instances N0001110R
+        
+del routing-instances N0001111R
+        
+del routing-instances N0001112R
+        
+del routing-instances N0001113R
+        
+del routing-instances N0001114R
+        
+del routing-instances N0001115R
+        
+del routing-instances N0001116R
+        
+del routing-instances N0001117R
+        
+del routing-instances N0001118R
+        
+del routing-instances N0001119R
+        
+del routing-instances N0001120R
+        
+del routing-instances N0001121R
+        
+del routing-instances N0001122R
+        
+del routing-instances N0001123R
+        
+del routing-instances N0001124R
+        
+del routing-instances N0001125R
+        
+del routing-instances N0001126R
+        
+del routing-instances N0001127R
+        
+del routing-instances N0001128R
+        
+del routing-instances N0001129R
+        
+del routing-instances N0001130R
+        
+del routing-instances N0001131R
+        
+del routing-instances N0001132R
+        
+del routing-instances N0001133R
+        
+del routing-instances N0001134R
+        
+del routing-instances N0001135R
+        
+del routing-instances N0001136R
+        
+del routing-instances N0001137R
+        
+del routing-instances N0001138R
+        
+del routing-instances N0001139R
+        
+del routing-instances N0001140R
+        
+del routing-instances N0001141R
+        
+del routing-instances N0001142R
+        
+del routing-instances N0001143R
+        
+del routing-instances N0001144R
+        
+del routing-instances N0001145R
+        
+del routing-instances N0001146R
+        
+del routing-instances N0001147R
+        
+del routing-instances N0001148R
+        
+del routing-instances N0001149R
+        
+del routing-instances N0001150R
+        
+del routing-instances N0001151R
+        
+del routing-instances N0001152R
+        
+del routing-instances N0001153R
+        
+del routing-instances N0001154R
+        
+del routing-instances N0001155R
+        
+del routing-instances N0001156R
+        
+del routing-instances N0001157R
+        
+del routing-instances N0001158R
+        
+del routing-instances N0001159R
+        
+del routing-instances N0001160R
+        
+del routing-instances N0001161R
+        
+del routing-instances N0001162R
+        
+del routing-instances N0001163R
+        
+del routing-instances N0001164R
+        
+del routing-instances N0001165R
+        
+del routing-instances N0001166R
+        
+del routing-instances N0001167R
+        
+del routing-instances N0001168R
+        
+del routing-instances N0001169R
+        
+del routing-instances N0001170R
+        
+del routing-instances N0001171R
+        
+del routing-instances N0001172R
+        
+del routing-instances N0001173R
+        
+del routing-instances N0001174R
+        
+del routing-instances N0001175R
+        
+del routing-instances N0001176R
+        
+del routing-instances N0001177R
+        
+del routing-instances N0001178R
+        
+del routing-instances N0001179R
+        
+del routing-instances N0001180R
+        
+del routing-instances N0001181R
+        
+del routing-instances N0001182R
+        
+del routing-instances N0001183R
+        
+del routing-instances N0001184R
+        
+del routing-instances N0001185R
+        
+del routing-instances N0001186R
+        
+del routing-instances N0001187R
+        
+del routing-instances N0001188R
+        
+del routing-instances N0001189R
+        
+del routing-instances N0001190R
+        
+del routing-instances N0001191R
+        
+del routing-instances N0001192R
+        
+del routing-instances N0001193R
+        
+del routing-instances N0001194R
+        
+del routing-instances N0001195R
+        
+del routing-instances N0001196R
+        
+del routing-instances N0001197R
+        
+del routing-instances N0001198R
+        
+del routing-instances N0001199R
+        
+del routing-instances N0001200R
+        
+del routing-instances N0001201R
+        
+del routing-instances N0001202R
+        
+del routing-instances N0001203R
+        
+del routing-instances N0001204R
+        
+del routing-instances N0001205R
+        
+del routing-instances N0001206R
+        
+del routing-instances N0001207R
+        
+del routing-instances N0001208R
+        
+del routing-instances N0001209R
+        
+del routing-instances N0001210R
+        
+del routing-instances N0001211R
+        
+del routing-instances N0001212R
+        
+del routing-instances N0001213R
+        
+del routing-instances N0001214R
+        
+del routing-instances N0001215R
+        
+del routing-instances N0001216R
+        
+del routing-instances N0001217R
+        
+del routing-instances N0001218R
+        
+del routing-instances N0001219R
+        
+del routing-instances N0001220R
+        
+del routing-instances N0001221R
+        
+del routing-instances N0001222R
+        
+del routing-instances N0001223R
+        
+del routing-instances N0001224R
+        
+del routing-instances N0001225R
+        
+del routing-instances N0001226R
+        
+del routing-instances N0001227R
+        
+del routing-instances N0001228R
+        
+del routing-instances N0001229R
+        
+del routing-instances N0001230R
+        
+del routing-instances N0001231R
+        
+del routing-instances N0001232R
+        
+del routing-instances N0001233R
+        
+del routing-instances N0001234R
+        
+del routing-instances N0001235R
+        
+del routing-instances N0001236R
+        
+del routing-instances N0001237R
+        
+del routing-instances N0001238R
+        
+del routing-instances N0001239R
+        
+del routing-instances N0001240R
+        
+del routing-instances N0001241R
+        
+del routing-instances N0001242R
+        
+del routing-instances N0001243R
+        
+del routing-instances N0001244R
+        
+del routing-instances N0001245R
+        
+del routing-instances N0001246R
+        
+del routing-instances N0001247R
+        
+del routing-instances N0001248R
+        
+del routing-instances N0001249R
+        
+del routing-instances N0001250R
+        
+del routing-instances N0001251R
+        
+del routing-instances N0001252R
+        
+del routing-instances N0001253R
+        
+del routing-instances N0001254R
+        
+del routing-instances N0001255R
+        
+del routing-instances N0001256R
+        
+del routing-instances N0001257R
+        
+del routing-instances N0001258R
+        
+del routing-instances N0001259R
+        
+del routing-instances N0001260R
+        
+del routing-instances N0001261R
+        
+del routing-instances N0001262R
+        
+del routing-instances N0001263R
+        
+del routing-instances N0001264R
+        
+del routing-instances N0001265R
+        
+del routing-instances N0001266R
+        
+del routing-instances N0001267R
+        
+del routing-instances N0001268R
+        
+del routing-instances N0001269R
+        
+del routing-instances N0001270R
+        
+del routing-instances N0001271R
+        
+del routing-instances N0001272R
+        
+del routing-instances N0001273R
+        
+del routing-instances N0001274R
+        
+del routing-instances N0001275R
+        
+del routing-instances N0001276R
+        
+del routing-instances N0001277R
+        
+del routing-instances N0001278R
+        
+del routing-instances N0001279R
+        
+del routing-instances N0001280R
+        
+del routing-instances N0001281R
+        
+del routing-instances N0001282R
+        
+del routing-instances N0001283R
+        
+del routing-instances N0001284R
+        
+del routing-instances N0001285R
+        
+del routing-instances N0001286R
+        
+del routing-instances N0001287R
+        
+del routing-instances N0001288R
+        
+del routing-instances N0001289R
+        
+del routing-instances N0001290R
+        
+del routing-instances N0001291R
+        
+del routing-instances N0001292R
+        
+del routing-instances N0001293R
+        
+del routing-instances N0001294R
+        
+del routing-instances N0001295R
+        
+del routing-instances N0001296R
+        
+del routing-instances N0001297R
+        
+del routing-instances N0001298R
+        
+del routing-instances N0001299R
+        
+del routing-instances N0001300R
+        
+del routing-instances N0001301R
+        
+del routing-instances N0001302R
+        
+del routing-instances N0001303R
+        
+del routing-instances N0001304R
+        
+del routing-instances N0001305R
+        
+del routing-instances N0001306R
+        
+del routing-instances N0001307R
+        
+del routing-instances N0001308R
+        
+del routing-instances N0001309R
+        
+del routing-instances N0001310R
+        
+del routing-instances N0001311R
+        
+del routing-instances N0001312R
+        
+del routing-instances N0001313R
+        
+del routing-instances N0001314R
+        
+del routing-instances N0001315R
+        
+del routing-instances N0001316R
+        
+del routing-instances N0001317R
+        
+del routing-instances N0001318R
+        
+del routing-instances N0001319R
+        
+del routing-instances N0001320R
+        
+del routing-instances N0001321R
+        
+del routing-instances N0001322R
+        
+del routing-instances N0001323R
+        
+del routing-instances N0001324R
+        
+del routing-instances N0001325R
+        
+del routing-instances N0001326R
+        
+del routing-instances N0001327R
+        
+del routing-instances N0001328R
+        
+del routing-instances N0001329R
+        
+del routing-instances N0001330R
+        
+del routing-instances N0001331R
+        
+del routing-instances N0001332R
+        
+del routing-instances N0001333R
+        
+del routing-instances N0001334R
+        
+del routing-instances N0001335R
+        
+del routing-instances N0001336R
+        
+del routing-instances N0001337R
+        
+del routing-instances N0001338R
+        
+del routing-instances N0001339R
+        
+del routing-instances N0001340R
+        
+del routing-instances N0001341R
+        
+del routing-instances N0001342R
+        
+del routing-instances N0001343R
+        
+del routing-instances N0001344R
+        
+del routing-instances N0001345R
+        
+del routing-instances N0001346R
+        
+del routing-instances N0001347R
+        
+del routing-instances N0001348R
+        
+del routing-instances N0001349R
+        
+del routing-instances N0001350R
+        
+del routing-instances N0001351R
+        
+del routing-instances N0001352R
+        
+del routing-instances N0001353R
+        
+del routing-instances N0001354R
+        
+del routing-instances N0001355R
+        
+del routing-instances N0001356R
+        
+del routing-instances N0001357R
+        
+del routing-instances N0001358R
+        
+del routing-instances N0001359R
+        
+del routing-instances N0001360R
+        
+del routing-instances N0001361R
+        
+del routing-instances N0001362R
+        
+del routing-instances N0001363R
+        
+del routing-instances N0001364R
+        
+del routing-instances N0001365R
+        
+del routing-instances N0001366R
+        
+del routing-instances N0001367R
+        
+del routing-instances N0001368R
+        
+del routing-instances N0001369R
+        
+del routing-instances N0001370R
+        
+del routing-instances N0001371R
+        
+del routing-instances N0001372R
+        
+del routing-instances N0001373R
+        
+del routing-instances N0001374R
+        
+del routing-instances N0001375R
+        
+del routing-instances N0001376R
+        
+del routing-instances N0001377R
+        
+del routing-instances N0001378R
+        
+del routing-instances N0001379R
+        
+del routing-instances N0001380R
+        
+del routing-instances N0001381R
+        
+del routing-instances N0001382R
+        
+del routing-instances N0001383R
+        
+del routing-instances N0001384R
+        
+del routing-instances N0001385R
+        
+del routing-instances N0001386R
+        
+del routing-instances N0001387R
+        
+del routing-instances N0001388R
+        
+del routing-instances N0001389R
+        
+del routing-instances N0001390R
+        
+del routing-instances N0001391R
+        
+del routing-instances N0001392R
+        
+del routing-instances N0001393R
+        
+del routing-instances N0001394R
+        
+del routing-instances N0001395R
+        
+del routing-instances N0001396R
+        
+del routing-instances N0001397R
+        
+del routing-instances N0001398R
+        
+del routing-instances N0001399R
+        
+del routing-instances N0001400R
+        
+del routing-instances N0001401R
+        
+del routing-instances N0001402R
+        
+del routing-instances N0001403R
+        
+del routing-instances N0001404R
+        
+del routing-instances N0001405R
+        
+del routing-instances N0001406R
+        
+del routing-instances N0001407R
+        
+del routing-instances N0001408R
+        
+del routing-instances N0001409R
+        
+del routing-instances N0001410R
+        
+del routing-instances N0001411R
+        
+del routing-instances N0001412R
+        
+del routing-instances N0001413R
+        
+del routing-instances N0001414R
+        
+del routing-instances N0001415R
+        
+del routing-instances N0001416R
+        
+del routing-instances N0001417R
+        
+del routing-instances N0001418R
+        
+del routing-instances N0001419R
+        
+del routing-instances N0001420R
+        
+del routing-instances N0001421R
+        
+del routing-instances N0001422R
+        
+del routing-instances N0001423R
+        
+del routing-instances N0001424R
+        
+del routing-instances N0001425R
+        
+del routing-instances N0001426R
+        
+del routing-instances N0001427R
+        
+del routing-instances N0001428R
+        
+del routing-instances N0001429R
+        
+del routing-instances N0001430R
+        
+del routing-instances N0001431R
+        
+del routing-instances N0001432R
+        
+del routing-instances N0001433R
+        
+del routing-instances N0001434R
+        
+del routing-instances N0001435R
+        
+del routing-instances N0001436R
+        
+del routing-instances N0001437R
+        
+del routing-instances N0001438R
+        
+del routing-instances N0001439R
+        
+del routing-instances N0001440R
+        
+del routing-instances N0001441R
+        
+del routing-instances N0001442R
+        
+del routing-instances N0001443R
+        
+del routing-instances N0001444R
+        
+del routing-instances N0001445R
+        
+del routing-instances N0001446R
+        
+del routing-instances N0001447R
+        
+del routing-instances N0001448R
+        
+del routing-instances N0001449R
+        
+del routing-instances N0001450R
+        
+del routing-instances N0001451R
+        
+del routing-instances N0001452R
+        
+del routing-instances N0001453R
+        
+del routing-instances N0001454R
+        
+del routing-instances N0001455R
+        
+del routing-instances N0001456R
+        
+del routing-instances N0001457R
+        
+del routing-instances N0001458R
+        
+del routing-instances N0001459R
+        
+del routing-instances N0001460R
+        
+del routing-instances N0001461R
+        
+del routing-instances N0001462R
+        
+del routing-instances N0001463R
+        
+del routing-instances N0001464R
+        
+del routing-instances N0001465R
+        
+del routing-instances N0001466R
+        
+del routing-instances N0001467R
+        
+del routing-instances N0001468R
+        
+del routing-instances N0001469R
+        
+del routing-instances N0001470R
+        
+del routing-instances N0001471R
+        
+del routing-instances N0001472R
+        
+del routing-instances N0001473R
+        
+del routing-instances N0001474R
+        
+del routing-instances N0001475R
+        
+del routing-instances N0001476R
+        
+del routing-instances N0001477R
+        
+del routing-instances N0001478R
+        
+del routing-instances N0001479R
+        
+del routing-instances N0001480R
+        
+del routing-instances N0001481R
+        
+del routing-instances N0001482R
+        
+del routing-instances N0001483R
+        
+del routing-instances N0001484R
+        
+del routing-instances N0001485R
+        
+del routing-instances N0001486R
+        
+del routing-instances N0001487R
+        
+del routing-instances N0001488R
+        
+del routing-instances N0001489R
+        
+del routing-instances N0001490R
+        
+del routing-instances N0001491R
+        
+del routing-instances N0001492R
+        
+del routing-instances N0001493R
+        
+del routing-instances N0001494R
+        
+del routing-instances N0001495R
+        
+del routing-instances N0001496R
+        
+del routing-instances N0001497R
+        
+del routing-instances N0001498R
+        
+del routing-instances N0001499R
+        
+del routing-instances N0001500R
+        
+del routing-instances N0001501R
+        
+del routing-instances N0001502R
+        
+del routing-instances N0001503R
+        
+del routing-instances N0001504R
+        
+del routing-instances N0001505R
+        
+del routing-instances N0001506R
+        
+del routing-instances N0001507R
+        
+del routing-instances N0001508R
+        
+del routing-instances N0001509R
+        
+del routing-instances N0001510R
+        
+del routing-instances N0001511R
+        
+del routing-instances N0001512R
+        
+del routing-instances N0001513R
+        
+del routing-instances N0001514R
+        
+del routing-instances N0001515R
+        
+del routing-instances N0001516R
+        
+del routing-instances N0001517R
+        
+del routing-instances N0001518R
+        
+del routing-instances N0001519R
+        
+del routing-instances N0001520R
+        
+del routing-instances N0001521R
+        
+del routing-instances N0001522R
+        
+del routing-instances N0001523R
+        
+del routing-instances N0001524R
+        
+del routing-instances N0001525R
+        
+del routing-instances N0001526R
+        
+del routing-instances N0001527R
+        
+del routing-instances N0001528R
+        
+del routing-instances N0001529R
+        
+del routing-instances N0001530R
+        
+del routing-instances N0001531R
+        
+del routing-instances N0001532R
+        
+del routing-instances N0001533R
+        
+del routing-instances N0001534R
+        
+del routing-instances N0001535R
+        
+del routing-instances N0001536R
+        
+del routing-instances N0001537R
+        
+del routing-instances N0001538R
+        
+del routing-instances N0001539R
+        
+del routing-instances N0001540R
+        
+del routing-instances N0001541R
+        
+del routing-instances N0001542R
+        
+del routing-instances N0001543R
+        
+del routing-instances N0001544R
+        
+del routing-instances N0001545R
+        
+del routing-instances N0001546R
+        
+del routing-instances N0001547R
+        
+del routing-instances N0001548R
+        
+del routing-instances N0001549R
+        
+del routing-instances N0001550R
+        
+del routing-instances N0001551R
+        
+del routing-instances N0001552R
+        
+del routing-instances N0001553R
+        
+del routing-instances N0001554R
+        
+del routing-instances N0001555R
+        
+del routing-instances N0001556R
+        
+del routing-instances N0001557R
+        
+del routing-instances N0001558R
+        
+del routing-instances N0001559R
+        
+del routing-instances N0001560R
+        
+del routing-instances N0001561R
+        
+del routing-instances N0001562R
+        
+del routing-instances N0001563R
+        
+del routing-instances N0001564R
+        
+del routing-instances N0001565R
+        
+del routing-instances N0001566R
+        
+del routing-instances N0001567R
+        
+del routing-instances N0001568R
+        
+del routing-instances N0001569R
+        
+del routing-instances N0001570R
+        
+del routing-instances N0001571R
+        
+del routing-instances N0001572R
+        
+del routing-instances N0001573R
+        
+del routing-instances N0001574R
+        
+del routing-instances N0001575R
+        
+del routing-instances N0001576R
+        
+del routing-instances N0001577R
+        
+del routing-instances N0001578R
+        
+del routing-instances N0001579R
+        
+del routing-instances N0001580R
+        
+del routing-instances N0001581R
+        
+del routing-instances N0001582R
+        
+del routing-instances N0001583R
+        
+del routing-instances N0001584R
+        
+del routing-instances N0001585R
+        
+del routing-instances N0001586R
+        
+del routing-instances N0001587R
+        
+del routing-instances N0001588R
+        
+del routing-instances N0001589R
+        
+del routing-instances N0001590R
+        
+del routing-instances N0001591R
+        
+del routing-instances N0001592R
+        
+del routing-instances N0001593R
+        
+del routing-instances N0001594R
+        
+del routing-instances N0001595R
+        
+del routing-instances N0001596R
+        
+del routing-instances N0001597R
+        
+del routing-instances N0001598R
+        
+del routing-instances N0001599R
+        
+del routing-instances N0001600R
+        
+del routing-instances N0001601R
+        
+del routing-instances N0001602R
+        
+del routing-instances N0001603R
+        
+del routing-instances N0001604R
+        
+del routing-instances N0001605R
+        
+del routing-instances N0001606R
+        
+del routing-instances N0001607R
+        
+del routing-instances N0001608R
+        
+del routing-instances N0001609R
+        
+del routing-instances N0001610R
+        
+del routing-instances N0001611R
+        
+del routing-instances N0001612R
+        
+del routing-instances N0001613R
+        
+del routing-instances N0001614R
+        
+del routing-instances N0001615R
+        
+del routing-instances N0001616R
+        
+del routing-instances N0001617R
+        
+del routing-instances N0001618R
+        
+del routing-instances N0001619R
+        
+del routing-instances N0001620R
+        
+del routing-instances N0001621R
+        
+del routing-instances N0001622R
+        
+del routing-instances N0001623R
+        
+del routing-instances N0001624R
+        
+del routing-instances N0001625R
+        
+del routing-instances N0001626R
+        
+del routing-instances N0001627R
+        
+del routing-instances N0001628R
+        
+del routing-instances N0001629R
+        
+del routing-instances N0001630R
+        
+del routing-instances N0001631R
+        
+del routing-instances N0001632R
+        
+del routing-instances N0001633R
+        
+del routing-instances N0001634R
+        
+del routing-instances N0001635R
+        
+del routing-instances N0001636R
+        
+del routing-instances N0001637R
+        
+del routing-instances N0001638R
+        
+del routing-instances N0001639R
+        
+del routing-instances N0001640R
+        
+del routing-instances N0001641R
+        
+del routing-instances N0001642R
+        
+del routing-instances N0001643R
+        
+del routing-instances N0001644R
+        
+del routing-instances N0001645R
+        
+del routing-instances N0001646R
+        
+del routing-instances N0001647R
+        
+del routing-instances N0001648R
+        
+del routing-instances N0001649R
+        
+del routing-instances N0001650R
+        
+del routing-instances N0001651R
+        
+del routing-instances N0001652R
+        
+del routing-instances N0001653R
+        
+del routing-instances N0001654R
+        
+del routing-instances N0001655R
+        
+del routing-instances N0001656R
+        
+del routing-instances N0001657R
+        
+del routing-instances N0001658R
+        
+del routing-instances N0001659R
+        
+del routing-instances N0001660R
+        
+del routing-instances N0001661R
+        
+del routing-instances N0001662R
+        
+del routing-instances N0001663R
+        
+del routing-instances N0001664R
+        
+del routing-instances N0001665R
+        
+del routing-instances N0001666R
+        
+del routing-instances N0001667R
+        
+del routing-instances N0001668R
+        
+del routing-instances N0001669R
+        
+del routing-instances N0001670R
+        
+del routing-instances N0001671R
+        
+del routing-instances N0001672R
+        
+del routing-instances N0001673R
+        
+del routing-instances N0001674R
+        
+del routing-instances N0001675R
+        
+del routing-instances N0001676R
+        
+del routing-instances N0001677R
+        
+del routing-instances N0001678R
+        
+del routing-instances N0001679R
+        
+del routing-instances N0001680R
+        
+del routing-instances N0001681R
+        
+del routing-instances N0001682R
+        
+del routing-instances N0001683R
+        
+del routing-instances N0001684R
+        
+del routing-instances N0001685R
+        
+del routing-instances N0001686R
+        
+del routing-instances N0001687R
+        
+del routing-instances N0001688R
+        
+del routing-instances N0001689R
+        
+del routing-instances N0001690R
+        
+del routing-instances N0001691R
+        
+del routing-instances N0001692R
+        
+del routing-instances N0001693R
+        
+del routing-instances N0001694R
+        
+del routing-instances N0001695R
+        
+del routing-instances N0001696R
+        
+del routing-instances N0001697R
+        
+del routing-instances N0001698R
+        
+del routing-instances N0001699R
+        
+del routing-instances N0001700R
+        
+del routing-instances N0001701R
+        
+del routing-instances N0001702R
+        
+del routing-instances N0001703R
+        
+del routing-instances N0001704R
+        
+del routing-instances N0001705R
+        
+del routing-instances N0001706R
+        
+del routing-instances N0001707R
+        
+del routing-instances N0001708R
+        
+del routing-instances N0001709R
+        
+del routing-instances N0001710R
+        
+del routing-instances N0001711R
+        
+del routing-instances N0001712R
+        
+del routing-instances N0001713R
+        
+del routing-instances N0001714R
+        
+del routing-instances N0001715R
+        
+del routing-instances N0001716R
+        
+del routing-instances N0001717R
+        
+del routing-instances N0001718R
+        
+del routing-instances N0001719R
+        
+del routing-instances N0001720R
+        
+del routing-instances N0001721R
+        
+del routing-instances N0001722R
+        
+del routing-instances N0001723R
+        
+del routing-instances N0001724R
+        
+del routing-instances N0001725R
+        
+del routing-instances N0001726R
+        
+del routing-instances N0001727R
+        
+del routing-instances N0001728R
+        
+del routing-instances N0001729R
+        
+del routing-instances N0001730R
+        
+del routing-instances N0001731R
+        
+del routing-instances N0001732R
+        
+del routing-instances N0001733R
+        
+del routing-instances N0001734R
+        
+del routing-instances N0001735R
+        
+del routing-instances N0001736R
+        
+del routing-instances N0001737R
+        
+del routing-instances N0001738R
+        
+del routing-instances N0001739R
+        
+del routing-instances N0001740R
+        
+del routing-instances N0001741R
+        
+del routing-instances N0001742R
+        
+del routing-instances N0001743R
+        
+del routing-instances N0001744R
+        
+del routing-instances N0001745R
+        
+del routing-instances N0001746R
+        
+del routing-instances N0001747R
+        
+del routing-instances N0001748R
+        
+del routing-instances N0001749R
+        
+del routing-instances N0001750R
+        
+del routing-instances N0001751R
+        
+del routing-instances N0001752R
+        
+del routing-instances N0001753R
+        
+del routing-instances N0001754R
+        
+del routing-instances N0001755R
+        
+del routing-instances N0001756R
+        
+del routing-instances N0001757R
+        
+del routing-instances N0001758R
+        
+del routing-instances N0001759R
+        
+del routing-instances N0001760R
+        
+del routing-instances N0001761R
+        
+del routing-instances N0001762R
+        
+del routing-instances N0001763R
+        
+del routing-instances N0001764R
+        
+del routing-instances N0001765R
+        
+del routing-instances N0001766R
+        
+del routing-instances N0001767R
+        
+del routing-instances N0001768R
+        
+del routing-instances N0001769R
+        
+del routing-instances N0001770R
+        
+del routing-instances N0001771R
+        
+del routing-instances N0001772R
+        
+del routing-instances N0001773R
+        
+del routing-instances N0001774R
+        
+del routing-instances N0001775R
+        
+del routing-instances N0001776R
+        
+del routing-instances N0001777R
+        
+del routing-instances N0001778R
+        
+del routing-instances N0001779R
+        
+del routing-instances N0001780R
+        
+del routing-instances N0001781R
+        
+del routing-instances N0001782R
+        
+del routing-instances N0001783R
+        
+del routing-instances N0001784R
+        
+del routing-instances N0001785R
+        
+del routing-instances N0001786R
+        
+del routing-instances N0001787R
+        
+del routing-instances N0001788R
+        
+del routing-instances N0001789R
+        
+del routing-instances N0001790R
+        
+del routing-instances N0001791R
+        
+del routing-instances N0001792R
+        
+del routing-instances N0001793R
+        
+del routing-instances N0001794R
+        
+del routing-instances N0001795R
+        
+del routing-instances N0001796R
+        
+del routing-instances N0001797R
+        
+del routing-instances N0001798R
+        
+del routing-instances N0001799R
+        
+del routing-instances N0001800R
+        
+del routing-instances N0001801R
+        
+del routing-instances N0001802R
+        
+del routing-instances N0001803R
+        
+del routing-instances N0001804R
+        
+del routing-instances N0001805R
+        
+del routing-instances N0001806R
+        
+del routing-instances N0001807R
+        
+del routing-instances N0001808R
+        
+del routing-instances N0001809R
+        
+del routing-instances N0001810R
+        
+del routing-instances N0001811R
+        
+del routing-instances N0001812R
+        
+del routing-instances N0001813R
+        
+del routing-instances N0001814R
+        
+del routing-instances N0001815R
+        
+del routing-instances N0001816R
+        
+del routing-instances N0001817R
+        
+del routing-instances N0001818R
+        
+del routing-instances N0001819R
+        
+del routing-instances N0001820R
+        
+del routing-instances N0001821R
+        
+del routing-instances N0001822R
+        
+del routing-instances N0001823R
+        
+del routing-instances N0001824R
+        
+del routing-instances N0001825R
+        
+del routing-instances N0001826R
+        
+del routing-instances N0001827R
+        
+del routing-instances N0001828R
+        
+del routing-instances N0001829R
+        
+del routing-instances N0001830R
+        
+del routing-instances N0001831R
+        
+del routing-instances N0001832R
+        
+del routing-instances N0001833R
+        
+del routing-instances N0001834R
+        
+del routing-instances N0001835R
+        
+del routing-instances N0001836R
+        
+del routing-instances N0001837R
+        
+del routing-instances N0001838R
+        
+del routing-instances N0001839R
+        
+del routing-instances N0001840R
+        
+del routing-instances N0001841R
+        
+del routing-instances N0001842R
+        
+del routing-instances N0001843R
+        
+del routing-instances N0001844R
+        
+del routing-instances N0001845R
+        
+del routing-instances N0001846R
+        
+del routing-instances N0001847R
+        
+del routing-instances N0001848R
+        
+del routing-instances N0001849R
+        
+del routing-instances N0001850R
+        
+del routing-instances N0001851R
+        
+del routing-instances N0001852R
+        
+del routing-instances N0001853R
+        
+del routing-instances N0001854R
+        
+del routing-instances N0001855R
+        
+del routing-instances N0001856R
+        
+del routing-instances N0001857R
+        
+del routing-instances N0001858R
+        
+del routing-instances N0001859R
+        
+del routing-instances N0001860R
+        
+del routing-instances N0001861R
+        
+del routing-instances N0001862R
+        
+del routing-instances N0001863R
+        
+del routing-instances N0001864R
+        
+del routing-instances N0001865R
+        
+del routing-instances N0001866R
+        
+del routing-instances N0001867R
+        
+del routing-instances N0001868R
+        
+del routing-instances N0001869R
+        
+del routing-instances N0001870R
+        
+del routing-instances N0001871R
+        
+del routing-instances N0001872R
+        
+del routing-instances N0001873R
+        
+del routing-instances N0001874R
+        
+del routing-instances N0001875R
+        
+del routing-instances N0001876R
+        
+del routing-instances N0001877R
+        
+del routing-instances N0001878R
+        
+del routing-instances N0001879R
+        
+del routing-instances N0001880R
+        
+del routing-instances N0001881R
+        
+del routing-instances N0001882R
+        
+del routing-instances N0001883R
+        
+del routing-instances N0001884R
+        
+del routing-instances N0001885R
+        
+del routing-instances N0001886R
+        
+del routing-instances N0001887R
+        
+del routing-instances N0001888R
+        
+del routing-instances N0001889R
+        
+del routing-instances N0001890R
+        
+del routing-instances N0001891R
+        
+del routing-instances N0001892R
+        
+del routing-instances N0001893R
+        
+del routing-instances N0001894R
+        
+del routing-instances N0001895R
+        
+del routing-instances N0001896R
+        
+del routing-instances N0001897R
+        
+del routing-instances N0001898R
+        
+del routing-instances N0001899R
+        
+del routing-instances N0001900R
+        
+del routing-instances N0001901R
+        
+del routing-instances N0001902R
+        
+del routing-instances N0001903R
+        
+del routing-instances N0001904R
+        
+del routing-instances N0001905R
+        
+del routing-instances N0001906R
+        
+del routing-instances N0001907R
+        
+del routing-instances N0001908R
+        
+del routing-instances N0001909R
+        
+del routing-instances N0001910R
+        
+del routing-instances N0001911R
+        
+del routing-instances N0001912R
+        
+del routing-instances N0001913R
+        
+del routing-instances N0001914R
+        
+del routing-instances N0001915R
+        
+del routing-instances N0001916R
+        
+del routing-instances N0001917R
+        
+del routing-instances N0001918R
+        
+del routing-instances N0001919R
+        
+del routing-instances N0001920R
+        
+del routing-instances N0001921R
+        
+del routing-instances N0001922R
+        
+del routing-instances N0001923R
+        
+del routing-instances N0001924R
+        
+del routing-instances N0001925R
+        
+del routing-instances N0001926R
+        
+del routing-instances N0001927R
+        
+del routing-instances N0001928R
+        
+del routing-instances N0001929R
+        
+del routing-instances N0001930R
+        
+del routing-instances N0001931R
+        
+del routing-instances N0001932R
+        
+del routing-instances N0001933R
+        
+del routing-instances N0001934R
+        
+del routing-instances N0001935R
+        
+del routing-instances N0001936R
+        
+del routing-instances N0001937R
+        
+del routing-instances N0001938R
+        
+del routing-instances N0001939R
+        
+del routing-instances N0001940R
+        
+del routing-instances N0001941R
+        
+del routing-instances N0001942R
+        
+del routing-instances N0001943R
+        
+del routing-instances N0001944R
+        
+del routing-instances N0001945R
+        
+del routing-instances N0001946R
+        
+del routing-instances N0001947R
+        
+del routing-instances N0001948R
+        
+del routing-instances N0001949R
+        
+del routing-instances N0001950R
+        
+del routing-instances N0001951R
+        
+del routing-instances N0001952R
+        
+del routing-instances N0001953R
+        
+del routing-instances N0001954R
+        
+del routing-instances N0001955R
+        
+del routing-instances N0001956R
+        
+del routing-instances N0001957R
+        
+del routing-instances N0001958R
+        
+del routing-instances N0001959R
+        
+del routing-instances N0001960R
+        
+del routing-instances N0001961R
+        
+del routing-instances N0001962R
+        
+del routing-instances N0001963R
+        
+del routing-instances N0001964R
+        
+del routing-instances N0001965R
+        
+del routing-instances N0001966R
+        
+del routing-instances N0001967R
+        
+del routing-instances N0001968R
+        
+del routing-instances N0001969R
+        
+del routing-instances N0001970R
+        
+del routing-instances N0001971R
+        
+del routing-instances N0001972R
+        
+del routing-instances N0001973R
+        
+del routing-instances N0001974R
+        
+del routing-instances N0001975R
+        
+del routing-instances N0001976R
+        
+del routing-instances N0001977R
+        
+del routing-instances N0001978R
+        
+del routing-instances N0001979R
+        
+del routing-instances N0001980R
+        
+del routing-instances N0001981R
+        
+del routing-instances N0001982R
+        
+del routing-instances N0001983R
+        
+del routing-instances N0001984R
+        
+del routing-instances N0001985R
+        
+del routing-instances N0001986R
+        
+del routing-instances N0001987R
+        
+del routing-instances N0001988R
+        
+del routing-instances N0001989R
+        
+del routing-instances N0001990R
+        
+del routing-instances N0001991R
+        
+del routing-instances N0001992R
+        
+del routing-instances N0001993R
+        
+del routing-instances N0001994R
+        
+del routing-instances N0001995R
+        
+del routing-instances N0001996R
+        
+del routing-instances N0001997R
+        
+del routing-instances N0001998R
+        
+del routing-instances N0001999R
+        
+del routing-instances N0002000R
+        
+del interfaces et-7/4/0 unit 1001 
+            
+del interfaces et-7/4/0 unit 1002 
+            
+del interfaces et-7/4/0 unit 1003 
+            
+del interfaces et-7/4/0 unit 1004 
+            
+del interfaces et-7/4/0 unit 1005 
+            
+del interfaces et-7/4/0 unit 1006 
+            
+del interfaces et-7/4/0 unit 1007 
+            
+del interfaces et-7/4/0 unit 1008 
+            
+del interfaces et-7/4/0 unit 1009 
+            
+del interfaces et-7/4/0 unit 1010 
+            
+del interfaces et-7/4/0 unit 1011 
+            
+del interfaces et-7/4/0 unit 1012 
+            
+del interfaces et-7/4/0 unit 1013 
+            
+del interfaces et-7/4/0 unit 1014 
+            
+del interfaces et-7/4/0 unit 1015 
+            
+del interfaces et-7/4/0 unit 1016 
+            
+del interfaces et-7/4/0 unit 1017 
+            
+del interfaces et-7/4/0 unit 1018 
+            
+del interfaces et-7/4/0 unit 1019 
+            
+del interfaces et-7/4/0 unit 1020 
+            
+del interfaces et-7/4/0 unit 1021 
+            
+del interfaces et-7/4/0 unit 1022 
+            
+del interfaces et-7/4/0 unit 1023 
+            
+del interfaces et-7/4/0 unit 1024 
+            
+del interfaces et-7/4/0 unit 1025 
+            
+del interfaces et-7/4/0 unit 1026 
+            
+del interfaces et-7/4/0 unit 1027 
+            
+del interfaces et-7/4/0 unit 1028 
+            
+del interfaces et-7/4/0 unit 1029 
+            
+del interfaces et-7/4/0 unit 1030 
+            
+del interfaces et-7/4/0 unit 1031 
+            
+del interfaces et-7/4/0 unit 1032 
+            
+del interfaces et-7/4/0 unit 1033 
+            
+del interfaces et-7/4/0 unit 1034 
+            
+del interfaces et-7/4/0 unit 1035 
+            
+del interfaces et-7/4/0 unit 1036 
+            
+del interfaces et-7/4/0 unit 1037 
+            
+del interfaces et-7/4/0 unit 1038 
+            
+del interfaces et-7/4/0 unit 1039 
+            
+del interfaces et-7/4/0 unit 1040 
+            
+del interfaces et-7/4/0 unit 1041 
+            
+del interfaces et-7/4/0 unit 1042 
+            
+del interfaces et-7/4/0 unit 1043 
+            
+del interfaces et-7/4/0 unit 1044 
+            
+del interfaces et-7/4/0 unit 1045 
+            
+del interfaces et-7/4/0 unit 1046 
+            
+del interfaces et-7/4/0 unit 1047 
+            
+del interfaces et-7/4/0 unit 1048 
+            
+del interfaces et-7/4/0 unit 1049 
+            
+del interfaces et-7/4/0 unit 1050 
+            
+del interfaces et-7/4/0 unit 1051 
+            
+del interfaces et-7/4/0 unit 1052 
+            
+del interfaces et-7/4/0 unit 1053 
+            
+del interfaces et-7/4/0 unit 1054 
+            
+del interfaces et-7/4/0 unit 1055 
+            
+del interfaces et-7/4/0 unit 1056 
+            
+del interfaces et-7/4/0 unit 1057 
+            
+del interfaces et-7/4/0 unit 1058 
+            
+del interfaces et-7/4/0 unit 1059 
+            
+del interfaces et-7/4/0 unit 1060 
+            
+del interfaces et-7/4/0 unit 1061 
+            
+del interfaces et-7/4/0 unit 1062 
+            
+del interfaces et-7/4/0 unit 1063 
+            
+del interfaces et-7/4/0 unit 1064 
+            
+del interfaces et-7/4/0 unit 1065 
+            
+del interfaces et-7/4/0 unit 1066 
+            
+del interfaces et-7/4/0 unit 1067 
+            
+del interfaces et-7/4/0 unit 1068 
+            
+del interfaces et-7/4/0 unit 1069 
+            
+del interfaces et-7/4/0 unit 1070 
+            
+del interfaces et-7/4/0 unit 1071 
+            
+del interfaces et-7/4/0 unit 1072 
+            
+del interfaces et-7/4/0 unit 1073 
+            
+del interfaces et-7/4/0 unit 1074 
+            
+del interfaces et-7/4/0 unit 1075 
+            
+del interfaces et-7/4/0 unit 1076 
+            
+del interfaces et-7/4/0 unit 1077 
+            
+del interfaces et-7/4/0 unit 1078 
+            
+del interfaces et-7/4/0 unit 1079 
+            
+del interfaces et-7/4/0 unit 1080 
+            
+del interfaces et-7/4/0 unit 1081 
+            
+del interfaces et-7/4/0 unit 1082 
+            
+del interfaces et-7/4/0 unit 1083 
+            
+del interfaces et-7/4/0 unit 1084 
+            
+del interfaces et-7/4/0 unit 1085 
+            
+del interfaces et-7/4/0 unit 1086 
+            
+del interfaces et-7/4/0 unit 1087 
+            
+del interfaces et-7/4/0 unit 1088 
+            
+del interfaces et-7/4/0 unit 1089 
+            
+del interfaces et-7/4/0 unit 1090 
+            
+del interfaces et-7/4/0 unit 1091 
+            
+del interfaces et-7/4/0 unit 1092 
+            
+del interfaces et-7/4/0 unit 1093 
+            
+del interfaces et-7/4/0 unit 1094 
+            
+del interfaces et-7/4/0 unit 1095 
+            
+del interfaces et-7/4/0 unit 1096 
+            
+del interfaces et-7/4/0 unit 1097 
+            
+del interfaces et-7/4/0 unit 1098 
+            
+del interfaces et-7/4/0 unit 1099 
+            
+del interfaces et-7/4/0 unit 1100 
+            
+del interfaces et-7/4/0 unit 1101 
+            
+del interfaces et-7/4/0 unit 1102 
+            
+del interfaces et-7/4/0 unit 1103 
+            
+del interfaces et-7/4/0 unit 1104 
+            
+del interfaces et-7/4/0 unit 1105 
+            
+del interfaces et-7/4/0 unit 1106 
+            
+del interfaces et-7/4/0 unit 1107 
+            
+del interfaces et-7/4/0 unit 1108 
+            
+del interfaces et-7/4/0 unit 1109 
+            
+del interfaces et-7/4/0 unit 1110 
+            
+del interfaces et-7/4/0 unit 1111 
+            
+del interfaces et-7/4/0 unit 1112 
+            
+del interfaces et-7/4/0 unit 1113 
+            
+del interfaces et-7/4/0 unit 1114 
+            
+del interfaces et-7/4/0 unit 1115 
+            
+del interfaces et-7/4/0 unit 1116 
+            
+del interfaces et-7/4/0 unit 1117 
+            
+del interfaces et-7/4/0 unit 1118 
+            
+del interfaces et-7/4/0 unit 1119 
+            
+del interfaces et-7/4/0 unit 1120 
+            
+del interfaces et-7/4/0 unit 1121 
+            
+del interfaces et-7/4/0 unit 1122 
+            
+del interfaces et-7/4/0 unit 1123 
+            
+del interfaces et-7/4/0 unit 1124 
+            
+del interfaces et-7/4/0 unit 1125 
+            
+del interfaces et-7/4/0 unit 1126 
+            
+del interfaces et-7/4/0 unit 1127 
+            
+del interfaces et-7/4/0 unit 1128 
+            
+del interfaces et-7/4/0 unit 1129 
+            
+del interfaces et-7/4/0 unit 1130 
+            
+del interfaces et-7/4/0 unit 1131 
+            
+del interfaces et-7/4/0 unit 1132 
+            
+del interfaces et-7/4/0 unit 1133 
+            
+del interfaces et-7/4/0 unit 1134 
+            
+del interfaces et-7/4/0 unit 1135 
+            
+del interfaces et-7/4/0 unit 1136 
+            
+del interfaces et-7/4/0 unit 1137 
+            
+del interfaces et-7/4/0 unit 1138 
+            
+del interfaces et-7/4/0 unit 1139 
+            
+del interfaces et-7/4/0 unit 1140 
+            
+del interfaces et-7/4/0 unit 1141 
+            
+del interfaces et-7/4/0 unit 1142 
+            
+del interfaces et-7/4/0 unit 1143 
+            
+del interfaces et-7/4/0 unit 1144 
+            
+del interfaces et-7/4/0 unit 1145 
+            
+del interfaces et-7/4/0 unit 1146 
+            
+del interfaces et-7/4/0 unit 1147 
+            
+del interfaces et-7/4/0 unit 1148 
+            
+del interfaces et-7/4/0 unit 1149 
+            
+del interfaces et-7/4/0 unit 1150 
+            
+del interfaces et-7/4/0 unit 1151 
+            
+del interfaces et-7/4/0 unit 1152 
+            
+del interfaces et-7/4/0 unit 1153 
+            
+del interfaces et-7/4/0 unit 1154 
+            
+del interfaces et-7/4/0 unit 1155 
+            
+del interfaces et-7/4/0 unit 1156 
+            
+del interfaces et-7/4/0 unit 1157 
+            
+del interfaces et-7/4/0 unit 1158 
+            
+del interfaces et-7/4/0 unit 1159 
+            
+del interfaces et-7/4/0 unit 1160 
+            
+del interfaces et-7/4/0 unit 1161 
+            
+del interfaces et-7/4/0 unit 1162 
+            
+del interfaces et-7/4/0 unit 1163 
+            
+del interfaces et-7/4/0 unit 1164 
+            
+del interfaces et-7/4/0 unit 1165 
+            
+del interfaces et-7/4/0 unit 1166 
+            
+del interfaces et-7/4/0 unit 1167 
+            
+del interfaces et-7/4/0 unit 1168 
+            
+del interfaces et-7/4/0 unit 1169 
+            
+del interfaces et-7/4/0 unit 1170 
+            
+del interfaces et-7/4/0 unit 1171 
+            
+del interfaces et-7/4/0 unit 1172 
+            
+del interfaces et-7/4/0 unit 1173 
+            
+del interfaces et-7/4/0 unit 1174 
+            
+del interfaces et-7/4/0 unit 1175 
+            
+del interfaces et-7/4/0 unit 1176 
+            
+del interfaces et-7/4/0 unit 1177 
+            
+del interfaces et-7/4/0 unit 1178 
+            
+del interfaces et-7/4/0 unit 1179 
+            
+del interfaces et-7/4/0 unit 1180 
+            
+del interfaces et-7/4/0 unit 1181 
+            
+del interfaces et-7/4/0 unit 1182 
+            
+del interfaces et-7/4/0 unit 1183 
+            
+del interfaces et-7/4/0 unit 1184 
+            
+del interfaces et-7/4/0 unit 1185 
+            
+del interfaces et-7/4/0 unit 1186 
+            
+del interfaces et-7/4/0 unit 1187 
+            
+del interfaces et-7/4/0 unit 1188 
+            
+del interfaces et-7/4/0 unit 1189 
+            
+del interfaces et-7/4/0 unit 1190 
+            
+del interfaces et-7/4/0 unit 1191 
+            
+del interfaces et-7/4/0 unit 1192 
+            
+del interfaces et-7/4/0 unit 1193 
+            
+del interfaces et-7/4/0 unit 1194 
+            
+del interfaces et-7/4/0 unit 1195 
+            
+del interfaces et-7/4/0 unit 1196 
+            
+del interfaces et-7/4/0 unit 1197 
+            
+del interfaces et-7/4/0 unit 1198 
+            
+del interfaces et-7/4/0 unit 1199 
+            
+del interfaces et-7/4/0 unit 1200 
+            
+del interfaces et-7/4/0 unit 1201 
+            
+del interfaces et-7/4/0 unit 1202 
+            
+del interfaces et-7/4/0 unit 1203 
+            
+del interfaces et-7/4/0 unit 1204 
+            
+del interfaces et-7/4/0 unit 1205 
+            
+del interfaces et-7/4/0 unit 1206 
+            
+del interfaces et-7/4/0 unit 1207 
+            
+del interfaces et-7/4/0 unit 1208 
+            
+del interfaces et-7/4/0 unit 1209 
+            
+del interfaces et-7/4/0 unit 1210 
+            
+del interfaces et-7/4/0 unit 1211 
+            
+del interfaces et-7/4/0 unit 1212 
+            
+del interfaces et-7/4/0 unit 1213 
+            
+del interfaces et-7/4/0 unit 1214 
+            
+del interfaces et-7/4/0 unit 1215 
+            
+del interfaces et-7/4/0 unit 1216 
+            
+del interfaces et-7/4/0 unit 1217 
+            
+del interfaces et-7/4/0 unit 1218 
+            
+del interfaces et-7/4/0 unit 1219 
+            
+del interfaces et-7/4/0 unit 1220 
+            
+del interfaces et-7/4/0 unit 1221 
+            
+del interfaces et-7/4/0 unit 1222 
+            
+del interfaces et-7/4/0 unit 1223 
+            
+del interfaces et-7/4/0 unit 1224 
+            
+del interfaces et-7/4/0 unit 1225 
+            
+del interfaces et-7/4/0 unit 1226 
+            
+del interfaces et-7/4/0 unit 1227 
+            
+del interfaces et-7/4/0 unit 1228 
+            
+del interfaces et-7/4/0 unit 1229 
+            
+del interfaces et-7/4/0 unit 1230 
+            
+del interfaces et-7/4/0 unit 1231 
+            
+del interfaces et-7/4/0 unit 1232 
+            
+del interfaces et-7/4/0 unit 1233 
+            
+del interfaces et-7/4/0 unit 1234 
+            
+del interfaces et-7/4/0 unit 1235 
+            
+del interfaces et-7/4/0 unit 1236 
+            
+del interfaces et-7/4/0 unit 1237 
+            
+del interfaces et-7/4/0 unit 1238 
+            
+del interfaces et-7/4/0 unit 1239 
+            
+del interfaces et-7/4/0 unit 1240 
+            
+del interfaces et-7/4/0 unit 1241 
+            
+del interfaces et-7/4/0 unit 1242 
+            
+del interfaces et-7/4/0 unit 1243 
+            
+del interfaces et-7/4/0 unit 1244 
+            
+del interfaces et-7/4/0 unit 1245 
+            
+del interfaces et-7/4/0 unit 1246 
+            
+del interfaces et-7/4/0 unit 1247 
+            
+del interfaces et-7/4/0 unit 1248 
+            
+del interfaces et-7/4/0 unit 1249 
+            
+del interfaces et-7/4/0 unit 1250 
+            
+del interfaces et-7/4/0 unit 1251 
+            
+del interfaces et-7/4/0 unit 1252 
+            
+del interfaces et-7/4/0 unit 1253 
+            
+del interfaces et-7/4/0 unit 1254 
+            
+del interfaces et-7/4/0 unit 1255 
+            
+del interfaces et-7/4/0 unit 1256 
+            
+del interfaces et-7/4/0 unit 1257 
+            
+del interfaces et-7/4/0 unit 1258 
+            
+del interfaces et-7/4/0 unit 1259 
+            
+del interfaces et-7/4/0 unit 1260 
+            
+del interfaces et-7/4/0 unit 1261 
+            
+del interfaces et-7/4/0 unit 1262 
+            
+del interfaces et-7/4/0 unit 1263 
+            
+del interfaces et-7/4/0 unit 1264 
+            
+del interfaces et-7/4/0 unit 1265 
+            
+del interfaces et-7/4/0 unit 1266 
+            
+del interfaces et-7/4/0 unit 1267 
+            
+del interfaces et-7/4/0 unit 1268 
+            
+del interfaces et-7/4/0 unit 1269 
+            
+del interfaces et-7/4/0 unit 1270 
+            
+del interfaces et-7/4/0 unit 1271 
+            
+del interfaces et-7/4/0 unit 1272 
+            
+del interfaces et-7/4/0 unit 1273 
+            
+del interfaces et-7/4/0 unit 1274 
+            
+del interfaces et-7/4/0 unit 1275 
+            
+del interfaces et-7/4/0 unit 1276 
+            
+del interfaces et-7/4/0 unit 1277 
+            
+del interfaces et-7/4/0 unit 1278 
+            
+del interfaces et-7/4/0 unit 1279 
+            
+del interfaces et-7/4/0 unit 1280 
+            
+del interfaces et-7/4/0 unit 1281 
+            
+del interfaces et-7/4/0 unit 1282 
+            
+del interfaces et-7/4/0 unit 1283 
+            
+del interfaces et-7/4/0 unit 1284 
+            
+del interfaces et-7/4/0 unit 1285 
+            
+del interfaces et-7/4/0 unit 1286 
+            
+del interfaces et-7/4/0 unit 1287 
+            
+del interfaces et-7/4/0 unit 1288 
+            
+del interfaces et-7/4/0 unit 1289 
+            
+del interfaces et-7/4/0 unit 1290 
+            
+del interfaces et-7/4/0 unit 1291 
+            
+del interfaces et-7/4/0 unit 1292 
+            
+del interfaces et-7/4/0 unit 1293 
+            
+del interfaces et-7/4/0 unit 1294 
+            
+del interfaces et-7/4/0 unit 1295 
+            
+del interfaces et-7/4/0 unit 1296 
+            
+del interfaces et-7/4/0 unit 1297 
+            
+del interfaces et-7/4/0 unit 1298 
+            
+del interfaces et-7/4/0 unit 1299 
+            
+del interfaces et-7/4/0 unit 1300 
+            
+del interfaces et-7/4/0 unit 1301 
+            
+del interfaces et-7/4/0 unit 1302 
+            
+del interfaces et-7/4/0 unit 1303 
+            
+del interfaces et-7/4/0 unit 1304 
+            
+del interfaces et-7/4/0 unit 1305 
+            
+del interfaces et-7/4/0 unit 1306 
+            
+del interfaces et-7/4/0 unit 1307 
+            
+del interfaces et-7/4/0 unit 1308 
+            
+del interfaces et-7/4/0 unit 1309 
+            
+del interfaces et-7/4/0 unit 1310 
+            
+del interfaces et-7/4/0 unit 1311 
+            
+del interfaces et-7/4/0 unit 1312 
+            
+del interfaces et-7/4/0 unit 1313 
+            
+del interfaces et-7/4/0 unit 1314 
+            
+del interfaces et-7/4/0 unit 1315 
+            
+del interfaces et-7/4/0 unit 1316 
+            
+del interfaces et-7/4/0 unit 1317 
+            
+del interfaces et-7/4/0 unit 1318 
+            
+del interfaces et-7/4/0 unit 1319 
+            
+del interfaces et-7/4/0 unit 1320 
+            
+del interfaces et-7/4/0 unit 1321 
+            
+del interfaces et-7/4/0 unit 1322 
+            
+del interfaces et-7/4/0 unit 1323 
+            
+del interfaces et-7/4/0 unit 1324 
+            
+del interfaces et-7/4/0 unit 1325 
+            
+del interfaces et-7/4/0 unit 1326 
+            
+del interfaces et-7/4/0 unit 1327 
+            
+del interfaces et-7/4/0 unit 1328 
+            
+del interfaces et-7/4/0 unit 1329 
+            
+del interfaces et-7/4/0 unit 1330 
+            
+del interfaces et-7/4/0 unit 1331 
+            
+del interfaces et-7/4/0 unit 1332 
+            
+del interfaces et-7/4/0 unit 1333 
+            
+del interfaces et-7/4/0 unit 1334 
+            
+del interfaces et-7/4/0 unit 1335 
+            
+del interfaces et-7/4/0 unit 1336 
+            
+del interfaces et-7/4/0 unit 1337 
+            
+del interfaces et-7/4/0 unit 1338 
+            
+del interfaces et-7/4/0 unit 1339 
+            
+del interfaces et-7/4/0 unit 1340 
+            
+del interfaces et-7/4/0 unit 1341 
+            
+del interfaces et-7/4/0 unit 1342 
+            
+del interfaces et-7/4/0 unit 1343 
+            
+del interfaces et-7/4/0 unit 1344 
+            
+del interfaces et-7/4/0 unit 1345 
+            
+del interfaces et-7/4/0 unit 1346 
+            
+del interfaces et-7/4/0 unit 1347 
+            
+del interfaces et-7/4/0 unit 1348 
+            
+del interfaces et-7/4/0 unit 1349 
+            
+del interfaces et-7/4/0 unit 1350 
+            
+del interfaces et-7/4/0 unit 1351 
+            
+del interfaces et-7/4/0 unit 1352 
+            
+del interfaces et-7/4/0 unit 1353 
+            
+del interfaces et-7/4/0 unit 1354 
+            
+del interfaces et-7/4/0 unit 1355 
+            
+del interfaces et-7/4/0 unit 1356 
+            
+del interfaces et-7/4/0 unit 1357 
+            
+del interfaces et-7/4/0 unit 1358 
+            
+del interfaces et-7/4/0 unit 1359 
+            
+del interfaces et-7/4/0 unit 1360 
+            
+del interfaces et-7/4/0 unit 1361 
+            
+del interfaces et-7/4/0 unit 1362 
+            
+del interfaces et-7/4/0 unit 1363 
+            
+del interfaces et-7/4/0 unit 1364 
+            
+del interfaces et-7/4/0 unit 1365 
+            
+del interfaces et-7/4/0 unit 1366 
+            
+del interfaces et-7/4/0 unit 1367 
+            
+del interfaces et-7/4/0 unit 1368 
+            
+del interfaces et-7/4/0 unit 1369 
+            
+del interfaces et-7/4/0 unit 1370 
+            
+del interfaces et-7/4/0 unit 1371 
+            
+del interfaces et-7/4/0 unit 1372 
+            
+del interfaces et-7/4/0 unit 1373 
+            
+del interfaces et-7/4/0 unit 1374 
+            
+del interfaces et-7/4/0 unit 1375 
+            
+del interfaces et-7/4/0 unit 1376 
+            
+del interfaces et-7/4/0 unit 1377 
+            
+del interfaces et-7/4/0 unit 1378 
+            
+del interfaces et-7/4/0 unit 1379 
+            
+del interfaces et-7/4/0 unit 1380 
+            
+del interfaces et-7/4/0 unit 1381 
+            
+del interfaces et-7/4/0 unit 1382 
+            
+del interfaces et-7/4/0 unit 1383 
+            
+del interfaces et-7/4/0 unit 1384 
+            
+del interfaces et-7/4/0 unit 1385 
+            
+del interfaces et-7/4/0 unit 1386 
+            
+del interfaces et-7/4/0 unit 1387 
+            
+del interfaces et-7/4/0 unit 1388 
+            
+del interfaces et-7/4/0 unit 1389 
+            
+del interfaces et-7/4/0 unit 1390 
+            
+del interfaces et-7/4/0 unit 1391 
+            
+del interfaces et-7/4/0 unit 1392 
+            
+del interfaces et-7/4/0 unit 1393 
+            
+del interfaces et-7/4/0 unit 1394 
+            
+del interfaces et-7/4/0 unit 1395 
+            
+del interfaces et-7/4/0 unit 1396 
+            
+del interfaces et-7/4/0 unit 1397 
+            
+del interfaces et-7/4/0 unit 1398 
+            
+del interfaces et-7/4/0 unit 1399 
+            
+del interfaces et-7/4/0 unit 1400 
+            
+del interfaces et-7/4/0 unit 1401 
+            
+del interfaces et-7/4/0 unit 1402 
+            
+del interfaces et-7/4/0 unit 1403 
+            
+del interfaces et-7/4/0 unit 1404 
+            
+del interfaces et-7/4/0 unit 1405 
+            
+del interfaces et-7/4/0 unit 1406 
+            
+del interfaces et-7/4/0 unit 1407 
+            
+del interfaces et-7/4/0 unit 1408 
+            
+del interfaces et-7/4/0 unit 1409 
+            
+del interfaces et-7/4/0 unit 1410 
+            
+del interfaces et-7/4/0 unit 1411 
+            
+del interfaces et-7/4/0 unit 1412 
+            
+del interfaces et-7/4/0 unit 1413 
+            
+del interfaces et-7/4/0 unit 1414 
+            
+del interfaces et-7/4/0 unit 1415 
+            
+del interfaces et-7/4/0 unit 1416 
+            
+del interfaces et-7/4/0 unit 1417 
+            
+del interfaces et-7/4/0 unit 1418 
+            
+del interfaces et-7/4/0 unit 1419 
+            
+del interfaces et-7/4/0 unit 1420 
+            
+del interfaces et-7/4/0 unit 1421 
+            
+del interfaces et-7/4/0 unit 1422 
+            
+del interfaces et-7/4/0 unit 1423 
+            
+del interfaces et-7/4/0 unit 1424 
+            
+del interfaces et-7/4/0 unit 1425 
+            
+del interfaces et-7/4/0 unit 1426 
+            
+del interfaces et-7/4/0 unit 1427 
+            
+del interfaces et-7/4/0 unit 1428 
+            
+del interfaces et-7/4/0 unit 1429 
+            
+del interfaces et-7/4/0 unit 1430 
+            
+del interfaces et-7/4/0 unit 1431 
+            
+del interfaces et-7/4/0 unit 1432 
+            
+del interfaces et-7/4/0 unit 1433 
+            
+del interfaces et-7/4/0 unit 1434 
+            
+del interfaces et-7/4/0 unit 1435 
+            
+del interfaces et-7/4/0 unit 1436 
+            
+del interfaces et-7/4/0 unit 1437 
+            
+del interfaces et-7/4/0 unit 1438 
+            
+del interfaces et-7/4/0 unit 1439 
+            
+del interfaces et-7/4/0 unit 1440 
+            
+del interfaces et-7/4/0 unit 1441 
+            
+del interfaces et-7/4/0 unit 1442 
+            
+del interfaces et-7/4/0 unit 1443 
+            
+del interfaces et-7/4/0 unit 1444 
+            
+del interfaces et-7/4/0 unit 1445 
+            
+del interfaces et-7/4/0 unit 1446 
+            
+del interfaces et-7/4/0 unit 1447 
+            
+del interfaces et-7/4/0 unit 1448 
+            
+del interfaces et-7/4/0 unit 1449 
+            
+del interfaces et-7/4/0 unit 1450 
+            
+del interfaces et-7/4/0 unit 1451 
+            
+del interfaces et-7/4/0 unit 1452 
+            
+del interfaces et-7/4/0 unit 1453 
+            
+del interfaces et-7/4/0 unit 1454 
+            
+del interfaces et-7/4/0 unit 1455 
+            
+del interfaces et-7/4/0 unit 1456 
+            
+del interfaces et-7/4/0 unit 1457 
+            
+del interfaces et-7/4/0 unit 1458 
+            
+del interfaces et-7/4/0 unit 1459 
+            
+del interfaces et-7/4/0 unit 1460 
+            
+del interfaces et-7/4/0 unit 1461 
+            
+del interfaces et-7/4/0 unit 1462 
+            
+del interfaces et-7/4/0 unit 1463 
+            
+del interfaces et-7/4/0 unit 1464 
+            
+del interfaces et-7/4/0 unit 1465 
+            
+del interfaces et-7/4/0 unit 1466 
+            
+del interfaces et-7/4/0 unit 1467 
+            
+del interfaces et-7/4/0 unit 1468 
+            
+del interfaces et-7/4/0 unit 1469 
+            
+del interfaces et-7/4/0 unit 1470 
+            
+del interfaces et-7/4/0 unit 1471 
+            
+del interfaces et-7/4/0 unit 1472 
+            
+del interfaces et-7/4/0 unit 1473 
+            
+del interfaces et-7/4/0 unit 1474 
+            
+del interfaces et-7/4/0 unit 1475 
+            
+del interfaces et-7/4/0 unit 1476 
+            
+del interfaces et-7/4/0 unit 1477 
+            
+del interfaces et-7/4/0 unit 1478 
+            
+del interfaces et-7/4/0 unit 1479 
+            
+del interfaces et-7/4/0 unit 1480 
+            
+del interfaces et-7/4/0 unit 1481 
+            
+del interfaces et-7/4/0 unit 1482 
+            
+del interfaces et-7/4/0 unit 1483 
+            
+del interfaces et-7/4/0 unit 1484 
+            
+del interfaces et-7/4/0 unit 1485 
+            
+del interfaces et-7/4/0 unit 1486 
+            
+del interfaces et-7/4/0 unit 1487 
+            
+del interfaces et-7/4/0 unit 1488 
+            
+del interfaces et-7/4/0 unit 1489 
+            
+del interfaces et-7/4/0 unit 1490 
+            
+del interfaces et-7/4/0 unit 1491 
+            
+del interfaces et-7/4/0 unit 1492 
+            
+del interfaces et-7/4/0 unit 1493 
+            
+del interfaces et-7/4/0 unit 1494 
+            
+del interfaces et-7/4/0 unit 1495 
+            
+del interfaces et-7/4/0 unit 1496 
+            
+del interfaces et-7/4/0 unit 1497 
+            
+del interfaces et-7/4/0 unit 1498 
+            
+del interfaces et-7/4/0 unit 1499 
+            
+del interfaces et-7/4/0 unit 1500 
+            
+del interfaces et-7/4/0 unit 1501 
+            
+del interfaces et-7/4/0 unit 1502 
+            
+del interfaces et-7/4/0 unit 1503 
+            
+del interfaces et-7/4/0 unit 1504 
+            
+del interfaces et-7/4/0 unit 1505 
+            
+del interfaces et-7/4/0 unit 1506 
+            
+del interfaces et-7/4/0 unit 1507 
+            
+del interfaces et-7/4/0 unit 1508 
+            
+del interfaces et-7/4/0 unit 1509 
+            
+del interfaces et-7/4/0 unit 1510 
+            
+del interfaces et-7/4/0 unit 1511 
+            
+del interfaces et-7/4/0 unit 1512 
+            
+del interfaces et-7/4/0 unit 1513 
+            
+del interfaces et-7/4/0 unit 1514 
+            
+del interfaces et-7/4/0 unit 1515 
+            
+del interfaces et-7/4/0 unit 1516 
+            
+del interfaces et-7/4/0 unit 1517 
+            
+del interfaces et-7/4/0 unit 1518 
+            
+del interfaces et-7/4/0 unit 1519 
+            
+del interfaces et-7/4/0 unit 1520 
+            
+del interfaces et-7/4/0 unit 1521 
+            
+del interfaces et-7/4/0 unit 1522 
+            
+del interfaces et-7/4/0 unit 1523 
+            
+del interfaces et-7/4/0 unit 1524 
+            
+del interfaces et-7/4/0 unit 1525 
+            
+del interfaces et-7/4/0 unit 1526 
+            
+del interfaces et-7/4/0 unit 1527 
+            
+del interfaces et-7/4/0 unit 1528 
+            
+del interfaces et-7/4/0 unit 1529 
+            
+del interfaces et-7/4/0 unit 1530 
+            
+del interfaces et-7/4/0 unit 1531 
+            
+del interfaces et-7/4/0 unit 1532 
+            
+del interfaces et-7/4/0 unit 1533 
+            
+del interfaces et-7/4/0 unit 1534 
+            
+del interfaces et-7/4/0 unit 1535 
+            
+del interfaces et-7/4/0 unit 1536 
+            
+del interfaces et-7/4/0 unit 1537 
+            
+del interfaces et-7/4/0 unit 1538 
+            
+del interfaces et-7/4/0 unit 1539 
+            
+del interfaces et-7/4/0 unit 1540 
+            
+del interfaces et-7/4/0 unit 1541 
+            
+del interfaces et-7/4/0 unit 1542 
+            
+del interfaces et-7/4/0 unit 1543 
+            
+del interfaces et-7/4/0 unit 1544 
+            
+del interfaces et-7/4/0 unit 1545 
+            
+del interfaces et-7/4/0 unit 1546 
+            
+del interfaces et-7/4/0 unit 1547 
+            
+del interfaces et-7/4/0 unit 1548 
+            
+del interfaces et-7/4/0 unit 1549 
+            
+del interfaces et-7/4/0 unit 1550 
+            
+del interfaces et-7/4/0 unit 1551 
+            
+del interfaces et-7/4/0 unit 1552 
+            
+del interfaces et-7/4/0 unit 1553 
+            
+del interfaces et-7/4/0 unit 1554 
+            
+del interfaces et-7/4/0 unit 1555 
+            
+del interfaces et-7/4/0 unit 1556 
+            
+del interfaces et-7/4/0 unit 1557 
+            
+del interfaces et-7/4/0 unit 1558 
+            
+del interfaces et-7/4/0 unit 1559 
+            
+del interfaces et-7/4/0 unit 1560 
+            
+del interfaces et-7/4/0 unit 1561 
+            
+del interfaces et-7/4/0 unit 1562 
+            
+del interfaces et-7/4/0 unit 1563 
+            
+del interfaces et-7/4/0 unit 1564 
+            
+del interfaces et-7/4/0 unit 1565 
+            
+del interfaces et-7/4/0 unit 1566 
+            
+del interfaces et-7/4/0 unit 1567 
+            
+del interfaces et-7/4/0 unit 1568 
+            
+del interfaces et-7/4/0 unit 1569 
+            
+del interfaces et-7/4/0 unit 1570 
+            
+del interfaces et-7/4/0 unit 1571 
+            
+del interfaces et-7/4/0 unit 1572 
+            
+del interfaces et-7/4/0 unit 1573 
+            
+del interfaces et-7/4/0 unit 1574 
+            
+del interfaces et-7/4/0 unit 1575 
+            
+del interfaces et-7/4/0 unit 1576 
+            
+del interfaces et-7/4/0 unit 1577 
+            
+del interfaces et-7/4/0 unit 1578 
+            
+del interfaces et-7/4/0 unit 1579 
+            
+del interfaces et-7/4/0 unit 1580 
+            
+del interfaces et-7/4/0 unit 1581 
+            
+del interfaces et-7/4/0 unit 1582 
+            
+del interfaces et-7/4/0 unit 1583 
+            
+del interfaces et-7/4/0 unit 1584 
+            
+del interfaces et-7/4/0 unit 1585 
+            
+del interfaces et-7/4/0 unit 1586 
+            
+del interfaces et-7/4/0 unit 1587 
+            
+del interfaces et-7/4/0 unit 1588 
+            
+del interfaces et-7/4/0 unit 1589 
+            
+del interfaces et-7/4/0 unit 1590 
+            
+del interfaces et-7/4/0 unit 1591 
+            
+del interfaces et-7/4/0 unit 1592 
+            
+del interfaces et-7/4/0 unit 1593 
+            
+del interfaces et-7/4/0 unit 1594 
+            
+del interfaces et-7/4/0 unit 1595 
+            
+del interfaces et-7/4/0 unit 1596 
+            
+del interfaces et-7/4/0 unit 1597 
+            
+del interfaces et-7/4/0 unit 1598 
+            
+del interfaces et-7/4/0 unit 1599 
+            
+del interfaces et-7/4/0 unit 1600 
+            
+del interfaces et-7/4/0 unit 1601 
+            
+del interfaces et-7/4/0 unit 1602 
+            
+del interfaces et-7/4/0 unit 1603 
+            
+del interfaces et-7/4/0 unit 1604 
+            
+del interfaces et-7/4/0 unit 1605 
+            
+del interfaces et-7/4/0 unit 1606 
+            
+del interfaces et-7/4/0 unit 1607 
+            
+del interfaces et-7/4/0 unit 1608 
+            
+del interfaces et-7/4/0 unit 1609 
+            
+del interfaces et-7/4/0 unit 1610 
+            
+del interfaces et-7/4/0 unit 1611 
+            
+del interfaces et-7/4/0 unit 1612 
+            
+del interfaces et-7/4/0 unit 1613 
+            
+del interfaces et-7/4/0 unit 1614 
+            
+del interfaces et-7/4/0 unit 1615 
+            
+del interfaces et-7/4/0 unit 1616 
+            
+del interfaces et-7/4/0 unit 1617 
+            
+del interfaces et-7/4/0 unit 1618 
+            
+del interfaces et-7/4/0 unit 1619 
+            
+del interfaces et-7/4/0 unit 1620 
+            
+del interfaces et-7/4/0 unit 1621 
+            
+del interfaces et-7/4/0 unit 1622 
+            
+del interfaces et-7/4/0 unit 1623 
+            
+del interfaces et-7/4/0 unit 1624 
+            
+del interfaces et-7/4/0 unit 1625 
+            
+del interfaces et-7/4/0 unit 1626 
+            
+del interfaces et-7/4/0 unit 1627 
+            
+del interfaces et-7/4/0 unit 1628 
+            
+del interfaces et-7/4/0 unit 1629 
+            
+del interfaces et-7/4/0 unit 1630 
+            
+del interfaces et-7/4/0 unit 1631 
+            
+del interfaces et-7/4/0 unit 1632 
+            
+del interfaces et-7/4/0 unit 1633 
+            
+del interfaces et-7/4/0 unit 1634 
+            
+del interfaces et-7/4/0 unit 1635 
+            
+del interfaces et-7/4/0 unit 1636 
+            
+del interfaces et-7/4/0 unit 1637 
+            
+del interfaces et-7/4/0 unit 1638 
+            
+del interfaces et-7/4/0 unit 1639 
+            
+del interfaces et-7/4/0 unit 1640 
+            
+del interfaces et-7/4/0 unit 1641 
+            
+del interfaces et-7/4/0 unit 1642 
+            
+del interfaces et-7/4/0 unit 1643 
+            
+del interfaces et-7/4/0 unit 1644 
+            
+del interfaces et-7/4/0 unit 1645 
+            
+del interfaces et-7/4/0 unit 1646 
+            
+del interfaces et-7/4/0 unit 1647 
+            
+del interfaces et-7/4/0 unit 1648 
+            
+del interfaces et-7/4/0 unit 1649 
+            
+del interfaces et-7/4/0 unit 1650 
+            
+del interfaces et-7/4/0 unit 1651 
+            
+del interfaces et-7/4/0 unit 1652 
+            
+del interfaces et-7/4/0 unit 1653 
+            
+del interfaces et-7/4/0 unit 1654 
+            
+del interfaces et-7/4/0 unit 1655 
+            
+del interfaces et-7/4/0 unit 1656 
+            
+del interfaces et-7/4/0 unit 1657 
+            
+del interfaces et-7/4/0 unit 1658 
+            
+del interfaces et-7/4/0 unit 1659 
+            
+del interfaces et-7/4/0 unit 1660 
+            
+del interfaces et-7/4/0 unit 1661 
+            
+del interfaces et-7/4/0 unit 1662 
+            
+del interfaces et-7/4/0 unit 1663 
+            
+del interfaces et-7/4/0 unit 1664 
+            
+del interfaces et-7/4/0 unit 1665 
+            
+del interfaces et-7/4/0 unit 1666 
+            
+del interfaces et-7/4/0 unit 1667 
+            
+del interfaces et-7/4/0 unit 1668 
+            
+del interfaces et-7/4/0 unit 1669 
+            
+del interfaces et-7/4/0 unit 1670 
+            
+del interfaces et-7/4/0 unit 1671 
+            
+del interfaces et-7/4/0 unit 1672 
+            
+del interfaces et-7/4/0 unit 1673 
+            
+del interfaces et-7/4/0 unit 1674 
+            
+del interfaces et-7/4/0 unit 1675 
+            
+del interfaces et-7/4/0 unit 1676 
+            
+del interfaces et-7/4/0 unit 1677 
+            
+del interfaces et-7/4/0 unit 1678 
+            
+del interfaces et-7/4/0 unit 1679 
+            
+del interfaces et-7/4/0 unit 1680 
+            
+del interfaces et-7/4/0 unit 1681 
+            
+del interfaces et-7/4/0 unit 1682 
+            
+del interfaces et-7/4/0 unit 1683 
+            
+del interfaces et-7/4/0 unit 1684 
+            
+del interfaces et-7/4/0 unit 1685 
+            
+del interfaces et-7/4/0 unit 1686 
+            
+del interfaces et-7/4/0 unit 1687 
+            
+del interfaces et-7/4/0 unit 1688 
+            
+del interfaces et-7/4/0 unit 1689 
+            
+del interfaces et-7/4/0 unit 1690 
+            
+del interfaces et-7/4/0 unit 1691 
+            
+del interfaces et-7/4/0 unit 1692 
+            
+del interfaces et-7/4/0 unit 1693 
+            
+del interfaces et-7/4/0 unit 1694 
+            
+del interfaces et-7/4/0 unit 1695 
+            
+del interfaces et-7/4/0 unit 1696 
+            
+del interfaces et-7/4/0 unit 1697 
+            
+del interfaces et-7/4/0 unit 1698 
+            
+del interfaces et-7/4/0 unit 1699 
+            
+del interfaces et-7/4/0 unit 1700 
+            
+del interfaces et-7/4/0 unit 1701 
+            
+del interfaces et-7/4/0 unit 1702 
+            
+del interfaces et-7/4/0 unit 1703 
+            
+del interfaces et-7/4/0 unit 1704 
+            
+del interfaces et-7/4/0 unit 1705 
+            
+del interfaces et-7/4/0 unit 1706 
+            
+del interfaces et-7/4/0 unit 1707 
+            
+del interfaces et-7/4/0 unit 1708 
+            
+del interfaces et-7/4/0 unit 1709 
+            
+del interfaces et-7/4/0 unit 1710 
+            
+del interfaces et-7/4/0 unit 1711 
+            
+del interfaces et-7/4/0 unit 1712 
+            
+del interfaces et-7/4/0 unit 1713 
+            
+del interfaces et-7/4/0 unit 1714 
+            
+del interfaces et-7/4/0 unit 1715 
+            
+del interfaces et-7/4/0 unit 1716 
+            
+del interfaces et-7/4/0 unit 1717 
+            
+del interfaces et-7/4/0 unit 1718 
+            
+del interfaces et-7/4/0 unit 1719 
+            
+del interfaces et-7/4/0 unit 1720 
+            
+del interfaces et-7/4/0 unit 1721 
+            
+del interfaces et-7/4/0 unit 1722 
+            
+del interfaces et-7/4/0 unit 1723 
+            
+del interfaces et-7/4/0 unit 1724 
+            
+del interfaces et-7/4/0 unit 1725 
+            
+del interfaces et-7/4/0 unit 1726 
+            
+del interfaces et-7/4/0 unit 1727 
+            
+del interfaces et-7/4/0 unit 1728 
+            
+del interfaces et-7/4/0 unit 1729 
+            
+del interfaces et-7/4/0 unit 1730 
+            
+del interfaces et-7/4/0 unit 1731 
+            
+del interfaces et-7/4/0 unit 1732 
+            
+del interfaces et-7/4/0 unit 1733 
+            
+del interfaces et-7/4/0 unit 1734 
+            
+del interfaces et-7/4/0 unit 1735 
+            
+del interfaces et-7/4/0 unit 1736 
+            
+del interfaces et-7/4/0 unit 1737 
+            
+del interfaces et-7/4/0 unit 1738 
+            
+del interfaces et-7/4/0 unit 1739 
+            
+del interfaces et-7/4/0 unit 1740 
+            
+del interfaces et-7/4/0 unit 1741 
+            
+del interfaces et-7/4/0 unit 1742 
+            
+del interfaces et-7/4/0 unit 1743 
+            
+del interfaces et-7/4/0 unit 1744 
+            
+del interfaces et-7/4/0 unit 1745 
+            
+del interfaces et-7/4/0 unit 1746 
+            
+del interfaces et-7/4/0 unit 1747 
+            
+del interfaces et-7/4/0 unit 1748 
+            
+del interfaces et-7/4/0 unit 1749 
+            
+del interfaces et-7/4/0 unit 1750 
+            
+del interfaces et-7/4/0 unit 1751 
+            
+del interfaces et-7/4/0 unit 1752 
+            
+del interfaces et-7/4/0 unit 1753 
+            
+del interfaces et-7/4/0 unit 1754 
+            
+del interfaces et-7/4/0 unit 1755 
+            
+del interfaces et-7/4/0 unit 1756 
+            
+del interfaces et-7/4/0 unit 1757 
+            
+del interfaces et-7/4/0 unit 1758 
+            
+del interfaces et-7/4/0 unit 1759 
+            
+del interfaces et-7/4/0 unit 1760 
+            
+del interfaces et-7/4/0 unit 1761 
+            
+del interfaces et-7/4/0 unit 1762 
+            
+del interfaces et-7/4/0 unit 1763 
+            
+del interfaces et-7/4/0 unit 1764 
+            
+del interfaces et-7/4/0 unit 1765 
+            
+del interfaces et-7/4/0 unit 1766 
+            
+del interfaces et-7/4/0 unit 1767 
+            
+del interfaces et-7/4/0 unit 1768 
+            
+del interfaces et-7/4/0 unit 1769 
+            
+del interfaces et-7/4/0 unit 1770 
+            
+del interfaces et-7/4/0 unit 1771 
+            
+del interfaces et-7/4/0 unit 1772 
+            
+del interfaces et-7/4/0 unit 1773 
+            
+del interfaces et-7/4/0 unit 1774 
+            
+del interfaces et-7/4/0 unit 1775 
+            
+del interfaces et-7/4/0 unit 1776 
+            
+del interfaces et-7/4/0 unit 1777 
+            
+del interfaces et-7/4/0 unit 1778 
+            
+del interfaces et-7/4/0 unit 1779 
+            
+del interfaces et-7/4/0 unit 1780 
+            
+del interfaces et-7/4/0 unit 1781 
+            
+del interfaces et-7/4/0 unit 1782 
+            
+del interfaces et-7/4/0 unit 1783 
+            
+del interfaces et-7/4/0 unit 1784 
+            
+del interfaces et-7/4/0 unit 1785 
+            
+del interfaces et-7/4/0 unit 1786 
+            
+del interfaces et-7/4/0 unit 1787 
+            
+del interfaces et-7/4/0 unit 1788 
+            
+del interfaces et-7/4/0 unit 1789 
+            
+del interfaces et-7/4/0 unit 1790 
+            
+del interfaces et-7/4/0 unit 1791 
+            
+del interfaces et-7/4/0 unit 1792 
+            
+del interfaces et-7/4/0 unit 1793 
+            
+del interfaces et-7/4/0 unit 1794 
+            
+del interfaces et-7/4/0 unit 1795 
+            
+del interfaces et-7/4/0 unit 1796 
+            
+del interfaces et-7/4/0 unit 1797 
+            
+del interfaces et-7/4/0 unit 1798 
+            
+del interfaces et-7/4/0 unit 1799 
+            
+del interfaces et-7/4/0 unit 1800 
+            
+del interfaces et-7/4/0 unit 1801 
+            
+del interfaces et-7/4/0 unit 1802 
+            
+del interfaces et-7/4/0 unit 1803 
+            
+del interfaces et-7/4/0 unit 1804 
+            
+del interfaces et-7/4/0 unit 1805 
+            
+del interfaces et-7/4/0 unit 1806 
+            
+del interfaces et-7/4/0 unit 1807 
+            
+del interfaces et-7/4/0 unit 1808 
+            
+del interfaces et-7/4/0 unit 1809 
+            
+del interfaces et-7/4/0 unit 1810 
+            
+del interfaces et-7/4/0 unit 1811 
+            
+del interfaces et-7/4/0 unit 1812 
+            
+del interfaces et-7/4/0 unit 1813 
+            
+del interfaces et-7/4/0 unit 1814 
+            
+del interfaces et-7/4/0 unit 1815 
+            
+del interfaces et-7/4/0 unit 1816 
+            
+del interfaces et-7/4/0 unit 1817 
+            
+del interfaces et-7/4/0 unit 1818 
+            
+del interfaces et-7/4/0 unit 1819 
+            
+del interfaces et-7/4/0 unit 1820 
+            
+del interfaces et-7/4/0 unit 1821 
+            
+del interfaces et-7/4/0 unit 1822 
+            
+del interfaces et-7/4/0 unit 1823 
+            
+del interfaces et-7/4/0 unit 1824 
+            
+del interfaces et-7/4/0 unit 1825 
+            
+del interfaces et-7/4/0 unit 1826 
+            
+del interfaces et-7/4/0 unit 1827 
+            
+del interfaces et-7/4/0 unit 1828 
+            
+del interfaces et-7/4/0 unit 1829 
+            
+del interfaces et-7/4/0 unit 1830 
+            
+del interfaces et-7/4/0 unit 1831 
+            
+del interfaces et-7/4/0 unit 1832 
+            
+del interfaces et-7/4/0 unit 1833 
+            
+del interfaces et-7/4/0 unit 1834 
+            
+del interfaces et-7/4/0 unit 1835 
+            
+del interfaces et-7/4/0 unit 1836 
+            
+del interfaces et-7/4/0 unit 1837 
+            
+del interfaces et-7/4/0 unit 1838 
+            
+del interfaces et-7/4/0 unit 1839 
+            
+del interfaces et-7/4/0 unit 1840 
+            
+del interfaces et-7/4/0 unit 1841 
+            
+del interfaces et-7/4/0 unit 1842 
+            
+del interfaces et-7/4/0 unit 1843 
+            
+del interfaces et-7/4/0 unit 1844 
+            
+del interfaces et-7/4/0 unit 1845 
+            
+del interfaces et-7/4/0 unit 1846 
+            
+del interfaces et-7/4/0 unit 1847 
+            
+del interfaces et-7/4/0 unit 1848 
+            
+del interfaces et-7/4/0 unit 1849 
+            
+del interfaces et-7/4/0 unit 1850 
+            
+del interfaces et-7/4/0 unit 1851 
+            
+del interfaces et-7/4/0 unit 1852 
+            
+del interfaces et-7/4/0 unit 1853 
+            
+del interfaces et-7/4/0 unit 1854 
+            
+del interfaces et-7/4/0 unit 1855 
+            
+del interfaces et-7/4/0 unit 1856 
+            
+del interfaces et-7/4/0 unit 1857 
+            
+del interfaces et-7/4/0 unit 1858 
+            
+del interfaces et-7/4/0 unit 1859 
+            
+del interfaces et-7/4/0 unit 1860 
+            
+del interfaces et-7/4/0 unit 1861 
+            
+del interfaces et-7/4/0 unit 1862 
+            
+del interfaces et-7/4/0 unit 1863 
+            
+del interfaces et-7/4/0 unit 1864 
+            
+del interfaces et-7/4/0 unit 1865 
+            
+del interfaces et-7/4/0 unit 1866 
+            
+del interfaces et-7/4/0 unit 1867 
+            
+del interfaces et-7/4/0 unit 1868 
+            
+del interfaces et-7/4/0 unit 1869 
+            
+del interfaces et-7/4/0 unit 1870 
+            
+del interfaces et-7/4/0 unit 1871 
+            
+del interfaces et-7/4/0 unit 1872 
+            
+del interfaces et-7/4/0 unit 1873 
+            
+del interfaces et-7/4/0 unit 1874 
+            
+del interfaces et-7/4/0 unit 1875 
+            
+del interfaces et-7/4/0 unit 1876 
+            
+del interfaces et-7/4/0 unit 1877 
+            
+del interfaces et-7/4/0 unit 1878 
+            
+del interfaces et-7/4/0 unit 1879 
+            
+del interfaces et-7/4/0 unit 1880 
+            
+del interfaces et-7/4/0 unit 1881 
+            
+del interfaces et-7/4/0 unit 1882 
+            
+del interfaces et-7/4/0 unit 1883 
+            
+del interfaces et-7/4/0 unit 1884 
+            
+del interfaces et-7/4/0 unit 1885 
+            
+del interfaces et-7/4/0 unit 1886 
+            
+del interfaces et-7/4/0 unit 1887 
+            
+del interfaces et-7/4/0 unit 1888 
+            
+del interfaces et-7/4/0 unit 1889 
+            
+del interfaces et-7/4/0 unit 1890 
+            
+del interfaces et-7/4/0 unit 1891 
+            
+del interfaces et-7/4/0 unit 1892 
+            
+del interfaces et-7/4/0 unit 1893 
+            
+del interfaces et-7/4/0 unit 1894 
+            
+del interfaces et-7/4/0 unit 1895 
+            
+del interfaces et-7/4/0 unit 1896 
+            
+del interfaces et-7/4/0 unit 1897 
+            
+del interfaces et-7/4/0 unit 1898 
+            
+del interfaces et-7/4/0 unit 1899 
+            
+del interfaces et-7/4/0 unit 1900 
+            
+del interfaces et-7/4/0 unit 1901 
+            
+del interfaces et-7/4/0 unit 1902 
+            
+del interfaces et-7/4/0 unit 1903 
+            
+del interfaces et-7/4/0 unit 1904 
+            
+del interfaces et-7/4/0 unit 1905 
+            
+del interfaces et-7/4/0 unit 1906 
+            
+del interfaces et-7/4/0 unit 1907 
+            
+del interfaces et-7/4/0 unit 1908 
+            
+del interfaces et-7/4/0 unit 1909 
+            
+del interfaces et-7/4/0 unit 1910 
+            
+del interfaces et-7/4/0 unit 1911 
+            
+del interfaces et-7/4/0 unit 1912 
+            
+del interfaces et-7/4/0 unit 1913 
+            
+del interfaces et-7/4/0 unit 1914 
+            
+del interfaces et-7/4/0 unit 1915 
+            
+del interfaces et-7/4/0 unit 1916 
+            
+del interfaces et-7/4/0 unit 1917 
+            
+del interfaces et-7/4/0 unit 1918 
+            
+del interfaces et-7/4/0 unit 1919 
+            
+del interfaces et-7/4/0 unit 1920 
+            
+del interfaces et-7/4/0 unit 1921 
+            
+del interfaces et-7/4/0 unit 1922 
+            
+del interfaces et-7/4/0 unit 1923 
+            
+del interfaces et-7/4/0 unit 1924 
+            
+del interfaces et-7/4/0 unit 1925 
+            
+del interfaces et-7/4/0 unit 1926 
+            
+del interfaces et-7/4/0 unit 1927 
+            
+del interfaces et-7/4/0 unit 1928 
+            
+del interfaces et-7/4/0 unit 1929 
+            
+del interfaces et-7/4/0 unit 1930 
+            
+del interfaces et-7/4/0 unit 1931 
+            
+del interfaces et-7/4/0 unit 1932 
+            
+del interfaces et-7/4/0 unit 1933 
+            
+del interfaces et-7/4/0 unit 1934 
+            
+del interfaces et-7/4/0 unit 1935 
+            
+del interfaces et-7/4/0 unit 1936 
+            
+del interfaces et-7/4/0 unit 1937 
+            
+del interfaces et-7/4/0 unit 1938 
+            
+del interfaces et-7/4/0 unit 1939 
+            
+del interfaces et-7/4/0 unit 1940 
+            
+del interfaces et-7/4/0 unit 1941 
+            
+del interfaces et-7/4/0 unit 1942 
+            
+del interfaces et-7/4/0 unit 1943 
+            
+del interfaces et-7/4/0 unit 1944 
+            
+del interfaces et-7/4/0 unit 1945 
+            
+del interfaces et-7/4/0 unit 1946 
+            
+del interfaces et-7/4/0 unit 1947 
+            
+del interfaces et-7/4/0 unit 1948 
+            
+del interfaces et-7/4/0 unit 1949 
+            
+del interfaces et-7/4/0 unit 1950 
+            
+del interfaces et-7/4/0 unit 1951 
+            
+del interfaces et-7/4/0 unit 1952 
+            
+del interfaces et-7/4/0 unit 1953 
+            
+del interfaces et-7/4/0 unit 1954 
+            
+del interfaces et-7/4/0 unit 1955 
+            
+del interfaces et-7/4/0 unit 1956 
+            
+del interfaces et-7/4/0 unit 1957 
+            
+del interfaces et-7/4/0 unit 1958 
+            
+del interfaces et-7/4/0 unit 1959 
+            
+del interfaces et-7/4/0 unit 1960 
+            
+del interfaces et-7/4/0 unit 1961 
+            
+del interfaces et-7/4/0 unit 1962 
+            
+del interfaces et-7/4/0 unit 1963 
+            
+del interfaces et-7/4/0 unit 1964 
+            
+del interfaces et-7/4/0 unit 1965 
+            
+del interfaces et-7/4/0 unit 1966 
+            
+del interfaces et-7/4/0 unit 1967 
+            
+del interfaces et-7/4/0 unit 1968 
+            
+del interfaces et-7/4/0 unit 1969 
+            
+del interfaces et-7/4/0 unit 1970 
+            
+del interfaces et-7/4/0 unit 1971 
+            
+del interfaces et-7/4/0 unit 1972 
+            
+del interfaces et-7/4/0 unit 1973 
+            
+del interfaces et-7/4/0 unit 1974 
+            
+del interfaces et-7/4/0 unit 1975 
+            
+del interfaces et-7/4/0 unit 1976 
+            
+del interfaces et-7/4/0 unit 1977 
+            
+del interfaces et-7/4/0 unit 1978 
+            
+del interfaces et-7/4/0 unit 1979 
+            
+del interfaces et-7/4/0 unit 1980 
+            
+del interfaces et-7/4/0 unit 1981 
+            
+del interfaces et-7/4/0 unit 1982 
+            
+del interfaces et-7/4/0 unit 1983 
+            
+del interfaces et-7/4/0 unit 1984 
+            
+del interfaces et-7/4/0 unit 1985 
+            
+del interfaces et-7/4/0 unit 1986 
+            
+del interfaces et-7/4/0 unit 1987 
+            
+del interfaces et-7/4/0 unit 1988 
+            
+del interfaces et-7/4/0 unit 1989 
+            
+del interfaces et-7/4/0 unit 1990 
+            
+del interfaces et-7/4/0 unit 1991 
+            
+del interfaces et-7/4/0 unit 1992 
+            
+del interfaces et-7/4/0 unit 1993 
+            
+del interfaces et-7/4/0 unit 1994 
+            
+del interfaces et-7/4/0 unit 1995 
+            
+del interfaces et-7/4/0 unit 1996 
+            
+del interfaces et-7/4/0 unit 1997 
+            
+del interfaces et-7/4/0 unit 1998 
+            
+del interfaces et-7/4/0 unit 1999 
+            
+del interfaces et-7/4/0 unit 2000 
+            
+    del class-of-service interfaces pir unit 1001
+        
+    del class-of-service interfaces pir unit 1002
+        
+    del class-of-service interfaces pir unit 1003
+        
+    del class-of-service interfaces pir unit 1004
+        
+    del class-of-service interfaces pir unit 1005
+        
+    del class-of-service interfaces pir unit 1006
+        
+    del class-of-service interfaces pir unit 1007
+        
+    del class-of-service interfaces pir unit 1008
+        
+    del class-of-service interfaces pir unit 1009
+        
+    del class-of-service interfaces pir unit 1010
+        
+    del class-of-service interfaces pir unit 1011
+        
+    del class-of-service interfaces pir unit 1012
+        
+    del class-of-service interfaces pir unit 1013
+        
+    del class-of-service interfaces pir unit 1014
+        
+    del class-of-service interfaces pir unit 1015
+        
+    del class-of-service interfaces pir unit 1016
+        
+    del class-of-service interfaces pir unit 1017
+        
+    del class-of-service interfaces pir unit 1018
+        
+    del class-of-service interfaces pir unit 1019
+        
+    del class-of-service interfaces pir unit 1020
+        
+    del class-of-service interfaces pir unit 1021
+        
+    del class-of-service interfaces pir unit 1022
+        
+    del class-of-service interfaces pir unit 1023
+        
+    del class-of-service interfaces pir unit 1024
+        
+    del class-of-service interfaces pir unit 1025
+        
+    del class-of-service interfaces pir unit 1026
+        
+    del class-of-service interfaces pir unit 1027
+        
+    del class-of-service interfaces pir unit 1028
+        
+    del class-of-service interfaces pir unit 1029
+        
+    del class-of-service interfaces pir unit 1030
+        
+    del class-of-service interfaces pir unit 1031
+        
+    del class-of-service interfaces pir unit 1032
+        
+    del class-of-service interfaces pir unit 1033
+        
+    del class-of-service interfaces pir unit 1034
+        
+    del class-of-service interfaces pir unit 1035
+        
+    del class-of-service interfaces pir unit 1036
+        
+    del class-of-service interfaces pir unit 1037
+        
+    del class-of-service interfaces pir unit 1038
+        
+    del class-of-service interfaces pir unit 1039
+        
+    del class-of-service interfaces pir unit 1040
+        
+    del class-of-service interfaces pir unit 1041
+        
+    del class-of-service interfaces pir unit 1042
+        
+    del class-of-service interfaces pir unit 1043
+        
+    del class-of-service interfaces pir unit 1044
+        
+    del class-of-service interfaces pir unit 1045
+        
+    del class-of-service interfaces pir unit 1046
+        
+    del class-of-service interfaces pir unit 1047
+        
+    del class-of-service interfaces pir unit 1048
+        
+    del class-of-service interfaces pir unit 1049
+        
+    del class-of-service interfaces pir unit 1050
+        
+    del class-of-service interfaces pir unit 1051
+        
+    del class-of-service interfaces pir unit 1052
+        
+    del class-of-service interfaces pir unit 1053
+        
+    del class-of-service interfaces pir unit 1054
+        
+    del class-of-service interfaces pir unit 1055
+        
+    del class-of-service interfaces pir unit 1056
+        
+    del class-of-service interfaces pir unit 1057
+        
+    del class-of-service interfaces pir unit 1058
+        
+    del class-of-service interfaces pir unit 1059
+        
+    del class-of-service interfaces pir unit 1060
+        
+    del class-of-service interfaces pir unit 1061
+        
+    del class-of-service interfaces pir unit 1062
+        
+    del class-of-service interfaces pir unit 1063
+        
+    del class-of-service interfaces pir unit 1064
+        
+    del class-of-service interfaces pir unit 1065
+        
+    del class-of-service interfaces pir unit 1066
+        
+    del class-of-service interfaces pir unit 1067
+        
+    del class-of-service interfaces pir unit 1068
+        
+    del class-of-service interfaces pir unit 1069
+        
+    del class-of-service interfaces pir unit 1070
+        
+    del class-of-service interfaces pir unit 1071
+        
+    del class-of-service interfaces pir unit 1072
+        
+    del class-of-service interfaces pir unit 1073
+        
+    del class-of-service interfaces pir unit 1074
+        
+    del class-of-service interfaces pir unit 1075
+        
+    del class-of-service interfaces pir unit 1076
+        
+    del class-of-service interfaces pir unit 1077
+        
+    del class-of-service interfaces pir unit 1078
+        
+    del class-of-service interfaces pir unit 1079
+        
+    del class-of-service interfaces pir unit 1080
+        
+    del class-of-service interfaces pir unit 1081
+        
+    del class-of-service interfaces pir unit 1082
+        
+    del class-of-service interfaces pir unit 1083
+        
+    del class-of-service interfaces pir unit 1084
+        
+    del class-of-service interfaces pir unit 1085
+        
+    del class-of-service interfaces pir unit 1086
+        
+    del class-of-service interfaces pir unit 1087
+        
+    del class-of-service interfaces pir unit 1088
+        
+    del class-of-service interfaces pir unit 1089
+        
+    del class-of-service interfaces pir unit 1090
+        
+    del class-of-service interfaces pir unit 1091
+        
+    del class-of-service interfaces pir unit 1092
+        
+    del class-of-service interfaces pir unit 1093
+        
+    del class-of-service interfaces pir unit 1094
+        
+    del class-of-service interfaces pir unit 1095
+        
+    del class-of-service interfaces pir unit 1096
+        
+    del class-of-service interfaces pir unit 1097
+        
+    del class-of-service interfaces pir unit 1098
+        
+    del class-of-service interfaces pir unit 1099
+        
+    del class-of-service interfaces pir unit 1100
+        
+    del class-of-service interfaces pir unit 1101
+        
+    del class-of-service interfaces pir unit 1102
+        
+    del class-of-service interfaces pir unit 1103
+        
+    del class-of-service interfaces pir unit 1104
+        
+    del class-of-service interfaces pir unit 1105
+        
+    del class-of-service interfaces pir unit 1106
+        
+    del class-of-service interfaces pir unit 1107
+        
+    del class-of-service interfaces pir unit 1108
+        
+    del class-of-service interfaces pir unit 1109
+        
+    del class-of-service interfaces pir unit 1110
+        
+    del class-of-service interfaces pir unit 1111
+        
+    del class-of-service interfaces pir unit 1112
+        
+    del class-of-service interfaces pir unit 1113
+        
+    del class-of-service interfaces pir unit 1114
+        
+    del class-of-service interfaces pir unit 1115
+        
+    del class-of-service interfaces pir unit 1116
+        
+    del class-of-service interfaces pir unit 1117
+        
+    del class-of-service interfaces pir unit 1118
+        
+    del class-of-service interfaces pir unit 1119
+        
+    del class-of-service interfaces pir unit 1120
+        
+    del class-of-service interfaces pir unit 1121
+        
+    del class-of-service interfaces pir unit 1122
+        
+    del class-of-service interfaces pir unit 1123
+        
+    del class-of-service interfaces pir unit 1124
+        
+    del class-of-service interfaces pir unit 1125
+        
+    del class-of-service interfaces pir unit 1126
+        
+    del class-of-service interfaces pir unit 1127
+        
+    del class-of-service interfaces pir unit 1128
+        
+    del class-of-service interfaces pir unit 1129
+        
+    del class-of-service interfaces pir unit 1130
+        
+    del class-of-service interfaces pir unit 1131
+        
+    del class-of-service interfaces pir unit 1132
+        
+    del class-of-service interfaces pir unit 1133
+        
+    del class-of-service interfaces pir unit 1134
+        
+    del class-of-service interfaces pir unit 1135
+        
+    del class-of-service interfaces pir unit 1136
+        
+    del class-of-service interfaces pir unit 1137
+        
+    del class-of-service interfaces pir unit 1138
+        
+    del class-of-service interfaces pir unit 1139
+        
+    del class-of-service interfaces pir unit 1140
+        
+    del class-of-service interfaces pir unit 1141
+        
+    del class-of-service interfaces pir unit 1142
+        
+    del class-of-service interfaces pir unit 1143
+        
+    del class-of-service interfaces pir unit 1144
+        
+    del class-of-service interfaces pir unit 1145
+        
+    del class-of-service interfaces pir unit 1146
+        
+    del class-of-service interfaces pir unit 1147
+        
+    del class-of-service interfaces pir unit 1148
+        
+    del class-of-service interfaces pir unit 1149
+        
+    del class-of-service interfaces pir unit 1150
+        
+    del class-of-service interfaces pir unit 1151
+        
+    del class-of-service interfaces pir unit 1152
+        
+    del class-of-service interfaces pir unit 1153
+        
+    del class-of-service interfaces pir unit 1154
+        
+    del class-of-service interfaces pir unit 1155
+        
+    del class-of-service interfaces pir unit 1156
+        
+    del class-of-service interfaces pir unit 1157
+        
+    del class-of-service interfaces pir unit 1158
+        
+    del class-of-service interfaces pir unit 1159
+        
+    del class-of-service interfaces pir unit 1160
+        
+    del class-of-service interfaces pir unit 1161
+        
+    del class-of-service interfaces pir unit 1162
+        
+    del class-of-service interfaces pir unit 1163
+        
+    del class-of-service interfaces pir unit 1164
+        
+    del class-of-service interfaces pir unit 1165
+        
+    del class-of-service interfaces pir unit 1166
+        
+    del class-of-service interfaces pir unit 1167
+        
+    del class-of-service interfaces pir unit 1168
+        
+    del class-of-service interfaces pir unit 1169
+        
+    del class-of-service interfaces pir unit 1170
+        
+    del class-of-service interfaces pir unit 1171
+        
+    del class-of-service interfaces pir unit 1172
+        
+    del class-of-service interfaces pir unit 1173
+        
+    del class-of-service interfaces pir unit 1174
+        
+    del class-of-service interfaces pir unit 1175
+        
+    del class-of-service interfaces pir unit 1176
+        
+    del class-of-service interfaces pir unit 1177
+        
+    del class-of-service interfaces pir unit 1178
+        
+    del class-of-service interfaces pir unit 1179
+        
+    del class-of-service interfaces pir unit 1180
+        
+    del class-of-service interfaces pir unit 1181
+        
+    del class-of-service interfaces pir unit 1182
+        
+    del class-of-service interfaces pir unit 1183
+        
+    del class-of-service interfaces pir unit 1184
+        
+    del class-of-service interfaces pir unit 1185
+        
+    del class-of-service interfaces pir unit 1186
+        
+    del class-of-service interfaces pir unit 1187
+        
+    del class-of-service interfaces pir unit 1188
+        
+    del class-of-service interfaces pir unit 1189
+        
+    del class-of-service interfaces pir unit 1190
+        
+    del class-of-service interfaces pir unit 1191
+        
+    del class-of-service interfaces pir unit 1192
+        
+    del class-of-service interfaces pir unit 1193
+        
+    del class-of-service interfaces pir unit 1194
+        
+    del class-of-service interfaces pir unit 1195
+        
+    del class-of-service interfaces pir unit 1196
+        
+    del class-of-service interfaces pir unit 1197
+        
+    del class-of-service interfaces pir unit 1198
+        
+    del class-of-service interfaces pir unit 1199
+        
+    del class-of-service interfaces pir unit 1200
+        
+    del class-of-service interfaces pir unit 1201
+        
+    del class-of-service interfaces pir unit 1202
+        
+    del class-of-service interfaces pir unit 1203
+        
+    del class-of-service interfaces pir unit 1204
+        
+    del class-of-service interfaces pir unit 1205
+        
+    del class-of-service interfaces pir unit 1206
+        
+    del class-of-service interfaces pir unit 1207
+        
+    del class-of-service interfaces pir unit 1208
+        
+    del class-of-service interfaces pir unit 1209
+        
+    del class-of-service interfaces pir unit 1210
+        
+    del class-of-service interfaces pir unit 1211
+        
+    del class-of-service interfaces pir unit 1212
+        
+    del class-of-service interfaces pir unit 1213
+        
+    del class-of-service interfaces pir unit 1214
+        
+    del class-of-service interfaces pir unit 1215
+        
+    del class-of-service interfaces pir unit 1216
+        
+    del class-of-service interfaces pir unit 1217
+        
+    del class-of-service interfaces pir unit 1218
+        
+    del class-of-service interfaces pir unit 1219
+        
+    del class-of-service interfaces pir unit 1220
+        
+    del class-of-service interfaces pir unit 1221
+        
+    del class-of-service interfaces pir unit 1222
+        
+    del class-of-service interfaces pir unit 1223
+        
+    del class-of-service interfaces pir unit 1224
+        
+    del class-of-service interfaces pir unit 1225
+        
+    del class-of-service interfaces pir unit 1226
+        
+    del class-of-service interfaces pir unit 1227
+        
+    del class-of-service interfaces pir unit 1228
+        
+    del class-of-service interfaces pir unit 1229
+        
+    del class-of-service interfaces pir unit 1230
+        
+    del class-of-service interfaces pir unit 1231
+        
+    del class-of-service interfaces pir unit 1232
+        
+    del class-of-service interfaces pir unit 1233
+        
+    del class-of-service interfaces pir unit 1234
+        
+    del class-of-service interfaces pir unit 1235
+        
+    del class-of-service interfaces pir unit 1236
+        
+    del class-of-service interfaces pir unit 1237
+        
+    del class-of-service interfaces pir unit 1238
+        
+    del class-of-service interfaces pir unit 1239
+        
+    del class-of-service interfaces pir unit 1240
+        
+    del class-of-service interfaces pir unit 1241
+        
+    del class-of-service interfaces pir unit 1242
+        
+    del class-of-service interfaces pir unit 1243
+        
+    del class-of-service interfaces pir unit 1244
+        
+    del class-of-service interfaces pir unit 1245
+        
+    del class-of-service interfaces pir unit 1246
+        
+    del class-of-service interfaces pir unit 1247
+        
+    del class-of-service interfaces pir unit 1248
+        
+    del class-of-service interfaces pir unit 1249
+        
+    del class-of-service interfaces pir unit 1250
+        
+    del class-of-service interfaces pir unit 1251
+        
+    del class-of-service interfaces pir unit 1252
+        
+    del class-of-service interfaces pir unit 1253
+        
+    del class-of-service interfaces pir unit 1254
+        
+    del class-of-service interfaces pir unit 1255
+        
+    del class-of-service interfaces pir unit 1256
+        
+    del class-of-service interfaces pir unit 1257
+        
+    del class-of-service interfaces pir unit 1258
+        
+    del class-of-service interfaces pir unit 1259
+        
+    del class-of-service interfaces pir unit 1260
+        
+    del class-of-service interfaces pir unit 1261
+        
+    del class-of-service interfaces pir unit 1262
+        
+    del class-of-service interfaces pir unit 1263
+        
+    del class-of-service interfaces pir unit 1264
+        
+    del class-of-service interfaces pir unit 1265
+        
+    del class-of-service interfaces pir unit 1266
+        
+    del class-of-service interfaces pir unit 1267
+        
+    del class-of-service interfaces pir unit 1268
+        
+    del class-of-service interfaces pir unit 1269
+        
+    del class-of-service interfaces pir unit 1270
+        
+    del class-of-service interfaces pir unit 1271
+        
+    del class-of-service interfaces pir unit 1272
+        
+    del class-of-service interfaces pir unit 1273
+        
+    del class-of-service interfaces pir unit 1274
+        
+    del class-of-service interfaces pir unit 1275
+        
+    del class-of-service interfaces pir unit 1276
+        
+    del class-of-service interfaces pir unit 1277
+        
+    del class-of-service interfaces pir unit 1278
+        
+    del class-of-service interfaces pir unit 1279
+        
+    del class-of-service interfaces pir unit 1280
+        
+    del class-of-service interfaces pir unit 1281
+        
+    del class-of-service interfaces pir unit 1282
+        
+    del class-of-service interfaces pir unit 1283
+        
+    del class-of-service interfaces pir unit 1284
+        
+    del class-of-service interfaces pir unit 1285
+        
+    del class-of-service interfaces pir unit 1286
+        
+    del class-of-service interfaces pir unit 1287
+        
+    del class-of-service interfaces pir unit 1288
+        
+    del class-of-service interfaces pir unit 1289
+        
+    del class-of-service interfaces pir unit 1290
+        
+    del class-of-service interfaces pir unit 1291
+        
+    del class-of-service interfaces pir unit 1292
+        
+    del class-of-service interfaces pir unit 1293
+        
+    del class-of-service interfaces pir unit 1294
+        
+    del class-of-service interfaces pir unit 1295
+        
+    del class-of-service interfaces pir unit 1296
+        
+    del class-of-service interfaces pir unit 1297
+        
+    del class-of-service interfaces pir unit 1298
+        
+    del class-of-service interfaces pir unit 1299
+        
+    del class-of-service interfaces pir unit 1300
+        
+    del class-of-service interfaces pir unit 1301
+        
+    del class-of-service interfaces pir unit 1302
+        
+    del class-of-service interfaces pir unit 1303
+        
+    del class-of-service interfaces pir unit 1304
+        
+    del class-of-service interfaces pir unit 1305
+        
+    del class-of-service interfaces pir unit 1306
+        
+    del class-of-service interfaces pir unit 1307
+        
+    del class-of-service interfaces pir unit 1308
+        
+    del class-of-service interfaces pir unit 1309
+        
+    del class-of-service interfaces pir unit 1310
+        
+    del class-of-service interfaces pir unit 1311
+        
+    del class-of-service interfaces pir unit 1312
+        
+    del class-of-service interfaces pir unit 1313
+        
+    del class-of-service interfaces pir unit 1314
+        
+    del class-of-service interfaces pir unit 1315
+        
+    del class-of-service interfaces pir unit 1316
+        
+    del class-of-service interfaces pir unit 1317
+        
+    del class-of-service interfaces pir unit 1318
+        
+    del class-of-service interfaces pir unit 1319
+        
+    del class-of-service interfaces pir unit 1320
+        
+    del class-of-service interfaces pir unit 1321
+        
+    del class-of-service interfaces pir unit 1322
+        
+    del class-of-service interfaces pir unit 1323
+        
+    del class-of-service interfaces pir unit 1324
+        
+    del class-of-service interfaces pir unit 1325
+        
+    del class-of-service interfaces pir unit 1326
+        
+    del class-of-service interfaces pir unit 1327
+        
+    del class-of-service interfaces pir unit 1328
+        
+    del class-of-service interfaces pir unit 1329
+        
+    del class-of-service interfaces pir unit 1330
+        
+    del class-of-service interfaces pir unit 1331
+        
+    del class-of-service interfaces pir unit 1332
+        
+    del class-of-service interfaces pir unit 1333
+        
+    del class-of-service interfaces pir unit 1334
+        
+    del class-of-service interfaces pir unit 1335
+        
+    del class-of-service interfaces pir unit 1336
+        
+    del class-of-service interfaces pir unit 1337
+        
+    del class-of-service interfaces pir unit 1338
+        
+    del class-of-service interfaces pir unit 1339
+        
+    del class-of-service interfaces pir unit 1340
+        
+    del class-of-service interfaces pir unit 1341
+        
+    del class-of-service interfaces pir unit 1342
+        
+    del class-of-service interfaces pir unit 1343
+        
+    del class-of-service interfaces pir unit 1344
+        
+    del class-of-service interfaces pir unit 1345
+        
+    del class-of-service interfaces pir unit 1346
+        
+    del class-of-service interfaces pir unit 1347
+        
+    del class-of-service interfaces pir unit 1348
+        
+    del class-of-service interfaces pir unit 1349
+        
+    del class-of-service interfaces pir unit 1350
+        
+    del class-of-service interfaces pir unit 1351
+        
+    del class-of-service interfaces pir unit 1352
+        
+    del class-of-service interfaces pir unit 1353
+        
+    del class-of-service interfaces pir unit 1354
+        
+    del class-of-service interfaces pir unit 1355
+        
+    del class-of-service interfaces pir unit 1356
+        
+    del class-of-service interfaces pir unit 1357
+        
+    del class-of-service interfaces pir unit 1358
+        
+    del class-of-service interfaces pir unit 1359
+        
+    del class-of-service interfaces pir unit 1360
+        
+    del class-of-service interfaces pir unit 1361
+        
+    del class-of-service interfaces pir unit 1362
+        
+    del class-of-service interfaces pir unit 1363
+        
+    del class-of-service interfaces pir unit 1364
+        
+    del class-of-service interfaces pir unit 1365
+        
+    del class-of-service interfaces pir unit 1366
+        
+    del class-of-service interfaces pir unit 1367
+        
+    del class-of-service interfaces pir unit 1368
+        
+    del class-of-service interfaces pir unit 1369
+        
+    del class-of-service interfaces pir unit 1370
+        
+    del class-of-service interfaces pir unit 1371
+        
+    del class-of-service interfaces pir unit 1372
+        
+    del class-of-service interfaces pir unit 1373
+        
+    del class-of-service interfaces pir unit 1374
+        
+    del class-of-service interfaces pir unit 1375
+        
+    del class-of-service interfaces pir unit 1376
+        
+    del class-of-service interfaces pir unit 1377
+        
+    del class-of-service interfaces pir unit 1378
+        
+    del class-of-service interfaces pir unit 1379
+        
+    del class-of-service interfaces pir unit 1380
+        
+    del class-of-service interfaces pir unit 1381
+        
+    del class-of-service interfaces pir unit 1382
+        
+    del class-of-service interfaces pir unit 1383
+        
+    del class-of-service interfaces pir unit 1384
+        
+    del class-of-service interfaces pir unit 1385
+        
+    del class-of-service interfaces pir unit 1386
+        
+    del class-of-service interfaces pir unit 1387
+        
+    del class-of-service interfaces pir unit 1388
+        
+    del class-of-service interfaces pir unit 1389
+        
+    del class-of-service interfaces pir unit 1390
+        
+    del class-of-service interfaces pir unit 1391
+        
+    del class-of-service interfaces pir unit 1392
+        
+    del class-of-service interfaces pir unit 1393
+        
+    del class-of-service interfaces pir unit 1394
+        
+    del class-of-service interfaces pir unit 1395
+        
+    del class-of-service interfaces pir unit 1396
+        
+    del class-of-service interfaces pir unit 1397
+        
+    del class-of-service interfaces pir unit 1398
+        
+    del class-of-service interfaces pir unit 1399
+        
+    del class-of-service interfaces pir unit 1400
+        
+    del class-of-service interfaces pir unit 1401
+        
+    del class-of-service interfaces pir unit 1402
+        
+    del class-of-service interfaces pir unit 1403
+        
+    del class-of-service interfaces pir unit 1404
+        
+    del class-of-service interfaces pir unit 1405
+        
+    del class-of-service interfaces pir unit 1406
+        
+    del class-of-service interfaces pir unit 1407
+        
+    del class-of-service interfaces pir unit 1408
+        
+    del class-of-service interfaces pir unit 1409
+        
+    del class-of-service interfaces pir unit 1410
+        
+    del class-of-service interfaces pir unit 1411
+        
+    del class-of-service interfaces pir unit 1412
+        
+    del class-of-service interfaces pir unit 1413
+        
+    del class-of-service interfaces pir unit 1414
+        
+    del class-of-service interfaces pir unit 1415
+        
+    del class-of-service interfaces pir unit 1416
+        
+    del class-of-service interfaces pir unit 1417
+        
+    del class-of-service interfaces pir unit 1418
+        
+    del class-of-service interfaces pir unit 1419
+        
+    del class-of-service interfaces pir unit 1420
+        
+    del class-of-service interfaces pir unit 1421
+        
+    del class-of-service interfaces pir unit 1422
+        
+    del class-of-service interfaces pir unit 1423
+        
+    del class-of-service interfaces pir unit 1424
+        
+    del class-of-service interfaces pir unit 1425
+        
+    del class-of-service interfaces pir unit 1426
+        
+    del class-of-service interfaces pir unit 1427
+        
+    del class-of-service interfaces pir unit 1428
+        
+    del class-of-service interfaces pir unit 1429
+        
+    del class-of-service interfaces pir unit 1430
+        
+    del class-of-service interfaces pir unit 1431
+        
+    del class-of-service interfaces pir unit 1432
+        
+    del class-of-service interfaces pir unit 1433
+        
+    del class-of-service interfaces pir unit 1434
+        
+    del class-of-service interfaces pir unit 1435
+        
+    del class-of-service interfaces pir unit 1436
+        
+    del class-of-service interfaces pir unit 1437
+        
+    del class-of-service interfaces pir unit 1438
+        
+    del class-of-service interfaces pir unit 1439
+        
+    del class-of-service interfaces pir unit 1440
+        
+    del class-of-service interfaces pir unit 1441
+        
+    del class-of-service interfaces pir unit 1442
+        
+    del class-of-service interfaces pir unit 1443
+        
+    del class-of-service interfaces pir unit 1444
+        
+    del class-of-service interfaces pir unit 1445
+        
+    del class-of-service interfaces pir unit 1446
+        
+    del class-of-service interfaces pir unit 1447
+        
+    del class-of-service interfaces pir unit 1448
+        
+    del class-of-service interfaces pir unit 1449
+        
+    del class-of-service interfaces pir unit 1450
+        
+    del class-of-service interfaces pir unit 1451
+        
+    del class-of-service interfaces pir unit 1452
+        
+    del class-of-service interfaces pir unit 1453
+        
+    del class-of-service interfaces pir unit 1454
+        
+    del class-of-service interfaces pir unit 1455
+        
+    del class-of-service interfaces pir unit 1456
+        
+    del class-of-service interfaces pir unit 1457
+        
+    del class-of-service interfaces pir unit 1458
+        
+    del class-of-service interfaces pir unit 1459
+        
+    del class-of-service interfaces pir unit 1460
+        
+    del class-of-service interfaces pir unit 1461
+        
+    del class-of-service interfaces pir unit 1462
+        
+    del class-of-service interfaces pir unit 1463
+        
+    del class-of-service interfaces pir unit 1464
+        
+    del class-of-service interfaces pir unit 1465
+        
+    del class-of-service interfaces pir unit 1466
+        
+    del class-of-service interfaces pir unit 1467
+        
+    del class-of-service interfaces pir unit 1468
+        
+    del class-of-service interfaces pir unit 1469
+        
+    del class-of-service interfaces pir unit 1470
+        
+    del class-of-service interfaces pir unit 1471
+        
+    del class-of-service interfaces pir unit 1472
+        
+    del class-of-service interfaces pir unit 1473
+        
+    del class-of-service interfaces pir unit 1474
+        
+    del class-of-service interfaces pir unit 1475
+        
+    del class-of-service interfaces pir unit 1476
+        
+    del class-of-service interfaces pir unit 1477
+        
+    del class-of-service interfaces pir unit 1478
+        
+    del class-of-service interfaces pir unit 1479
+        
+    del class-of-service interfaces pir unit 1480
+        
+    del class-of-service interfaces pir unit 1481
+        
+    del class-of-service interfaces pir unit 1482
+        
+    del class-of-service interfaces pir unit 1483
+        
+    del class-of-service interfaces pir unit 1484
+        
+    del class-of-service interfaces pir unit 1485
+        
+    del class-of-service interfaces pir unit 1486
+        
+    del class-of-service interfaces pir unit 1487
+        
+    del class-of-service interfaces pir unit 1488
+        
+    del class-of-service interfaces pir unit 1489
+        
+    del class-of-service interfaces pir unit 1490
+        
+    del class-of-service interfaces pir unit 1491
+        
+    del class-of-service interfaces pir unit 1492
+        
+    del class-of-service interfaces pir unit 1493
+        
+    del class-of-service interfaces pir unit 1494
+        
+    del class-of-service interfaces pir unit 1495
+        
+    del class-of-service interfaces pir unit 1496
+        
+    del class-of-service interfaces pir unit 1497
+        
+    del class-of-service interfaces pir unit 1498
+        
+    del class-of-service interfaces pir unit 1499
+        
+    del class-of-service interfaces pir unit 1500
+        
+    del class-of-service interfaces pir unit 1501
+        
+    del class-of-service interfaces pir unit 1502
+        
+    del class-of-service interfaces pir unit 1503
+        
+    del class-of-service interfaces pir unit 1504
+        
+    del class-of-service interfaces pir unit 1505
+        
+    del class-of-service interfaces pir unit 1506
+        
+    del class-of-service interfaces pir unit 1507
+        
+    del class-of-service interfaces pir unit 1508
+        
+    del class-of-service interfaces pir unit 1509
+        
+    del class-of-service interfaces pir unit 1510
+        
+    del class-of-service interfaces pir unit 1511
+        
+    del class-of-service interfaces pir unit 1512
+        
+    del class-of-service interfaces pir unit 1513
+        
+    del class-of-service interfaces pir unit 1514
+        
+    del class-of-service interfaces pir unit 1515
+        
+    del class-of-service interfaces pir unit 1516
+        
+    del class-of-service interfaces pir unit 1517
+        
+    del class-of-service interfaces pir unit 1518
+        
+    del class-of-service interfaces pir unit 1519
+        
+    del class-of-service interfaces pir unit 1520
+        
+    del class-of-service interfaces pir unit 1521
+        
+    del class-of-service interfaces pir unit 1522
+        
+    del class-of-service interfaces pir unit 1523
+        
+    del class-of-service interfaces pir unit 1524
+        
+    del class-of-service interfaces pir unit 1525
+        
+    del class-of-service interfaces pir unit 1526
+        
+    del class-of-service interfaces pir unit 1527
+        
+    del class-of-service interfaces pir unit 1528
+        
+    del class-of-service interfaces pir unit 1529
+        
+    del class-of-service interfaces pir unit 1530
+        
+    del class-of-service interfaces pir unit 1531
+        
+    del class-of-service interfaces pir unit 1532
+        
+    del class-of-service interfaces pir unit 1533
+        
+    del class-of-service interfaces pir unit 1534
+        
+    del class-of-service interfaces pir unit 1535
+        
+    del class-of-service interfaces pir unit 1536
+        
+    del class-of-service interfaces pir unit 1537
+        
+    del class-of-service interfaces pir unit 1538
+        
+    del class-of-service interfaces pir unit 1539
+        
+    del class-of-service interfaces pir unit 1540
+        
+    del class-of-service interfaces pir unit 1541
+        
+    del class-of-service interfaces pir unit 1542
+        
+    del class-of-service interfaces pir unit 1543
+        
+    del class-of-service interfaces pir unit 1544
+        
+    del class-of-service interfaces pir unit 1545
+        
+    del class-of-service interfaces pir unit 1546
+        
+    del class-of-service interfaces pir unit 1547
+        
+    del class-of-service interfaces pir unit 1548
+        
+    del class-of-service interfaces pir unit 1549
+        
+    del class-of-service interfaces pir unit 1550
+        
+    del class-of-service interfaces pir unit 1551
+        
+    del class-of-service interfaces pir unit 1552
+        
+    del class-of-service interfaces pir unit 1553
+        
+    del class-of-service interfaces pir unit 1554
+        
+    del class-of-service interfaces pir unit 1555
+        
+    del class-of-service interfaces pir unit 1556
+        
+    del class-of-service interfaces pir unit 1557
+        
+    del class-of-service interfaces pir unit 1558
+        
+    del class-of-service interfaces pir unit 1559
+        
+    del class-of-service interfaces pir unit 1560
+        
+    del class-of-service interfaces pir unit 1561
+        
+    del class-of-service interfaces pir unit 1562
+        
+    del class-of-service interfaces pir unit 1563
+        
+    del class-of-service interfaces pir unit 1564
+        
+    del class-of-service interfaces pir unit 1565
+        
+    del class-of-service interfaces pir unit 1566
+        
+    del class-of-service interfaces pir unit 1567
+        
+    del class-of-service interfaces pir unit 1568
+        
+    del class-of-service interfaces pir unit 1569
+        
+    del class-of-service interfaces pir unit 1570
+        
+    del class-of-service interfaces pir unit 1571
+        
+    del class-of-service interfaces pir unit 1572
+        
+    del class-of-service interfaces pir unit 1573
+        
+    del class-of-service interfaces pir unit 1574
+        
+    del class-of-service interfaces pir unit 1575
+        
+    del class-of-service interfaces pir unit 1576
+        
+    del class-of-service interfaces pir unit 1577
+        
+    del class-of-service interfaces pir unit 1578
+        
+    del class-of-service interfaces pir unit 1579
+        
+    del class-of-service interfaces pir unit 1580
+        
+    del class-of-service interfaces pir unit 1581
+        
+    del class-of-service interfaces pir unit 1582
+        
+    del class-of-service interfaces pir unit 1583
+        
+    del class-of-service interfaces pir unit 1584
+        
+    del class-of-service interfaces pir unit 1585
+        
+    del class-of-service interfaces pir unit 1586
+        
+    del class-of-service interfaces pir unit 1587
+        
+    del class-of-service interfaces pir unit 1588
+        
+    del class-of-service interfaces pir unit 1589
+        
+    del class-of-service interfaces pir unit 1590
+        
+    del class-of-service interfaces pir unit 1591
+        
+    del class-of-service interfaces pir unit 1592
+        
+    del class-of-service interfaces pir unit 1593
+        
+    del class-of-service interfaces pir unit 1594
+        
+    del class-of-service interfaces pir unit 1595
+        
+    del class-of-service interfaces pir unit 1596
+        
+    del class-of-service interfaces pir unit 1597
+        
+    del class-of-service interfaces pir unit 1598
+        
+    del class-of-service interfaces pir unit 1599
+        
+    del class-of-service interfaces pir unit 1600
+        
+    del class-of-service interfaces pir unit 1601
+        
+    del class-of-service interfaces pir unit 1602
+        
+    del class-of-service interfaces pir unit 1603
+        
+    del class-of-service interfaces pir unit 1604
+        
+    del class-of-service interfaces pir unit 1605
+        
+    del class-of-service interfaces pir unit 1606
+        
+    del class-of-service interfaces pir unit 1607
+        
+    del class-of-service interfaces pir unit 1608
+        
+    del class-of-service interfaces pir unit 1609
+        
+    del class-of-service interfaces pir unit 1610
+        
+    del class-of-service interfaces pir unit 1611
+        
+    del class-of-service interfaces pir unit 1612
+        
+    del class-of-service interfaces pir unit 1613
+        
+    del class-of-service interfaces pir unit 1614
+        
+    del class-of-service interfaces pir unit 1615
+        
+    del class-of-service interfaces pir unit 1616
+        
+    del class-of-service interfaces pir unit 1617
+        
+    del class-of-service interfaces pir unit 1618
+        
+    del class-of-service interfaces pir unit 1619
+        
+    del class-of-service interfaces pir unit 1620
+        
+    del class-of-service interfaces pir unit 1621
+        
+    del class-of-service interfaces pir unit 1622
+        
+    del class-of-service interfaces pir unit 1623
+        
+    del class-of-service interfaces pir unit 1624
+        
+    del class-of-service interfaces pir unit 1625
+        
+    del class-of-service interfaces pir unit 1626
+        
+    del class-of-service interfaces pir unit 1627
+        
+    del class-of-service interfaces pir unit 1628
+        
+    del class-of-service interfaces pir unit 1629
+        
+    del class-of-service interfaces pir unit 1630
+        
+    del class-of-service interfaces pir unit 1631
+        
+    del class-of-service interfaces pir unit 1632
+        
+    del class-of-service interfaces pir unit 1633
+        
+    del class-of-service interfaces pir unit 1634
+        
+    del class-of-service interfaces pir unit 1635
+        
+    del class-of-service interfaces pir unit 1636
+        
+    del class-of-service interfaces pir unit 1637
+        
+    del class-of-service interfaces pir unit 1638
+        
+    del class-of-service interfaces pir unit 1639
+        
+    del class-of-service interfaces pir unit 1640
+        
+    del class-of-service interfaces pir unit 1641
+        
+    del class-of-service interfaces pir unit 1642
+        
+    del class-of-service interfaces pir unit 1643
+        
+    del class-of-service interfaces pir unit 1644
+        
+    del class-of-service interfaces pir unit 1645
+        
+    del class-of-service interfaces pir unit 1646
+        
+    del class-of-service interfaces pir unit 1647
+        
+    del class-of-service interfaces pir unit 1648
+        
+    del class-of-service interfaces pir unit 1649
+        
+    del class-of-service interfaces pir unit 1650
+        
+    del class-of-service interfaces pir unit 1651
+        
+    del class-of-service interfaces pir unit 1652
+        
+    del class-of-service interfaces pir unit 1653
+        
+    del class-of-service interfaces pir unit 1654
+        
+    del class-of-service interfaces pir unit 1655
+        
+    del class-of-service interfaces pir unit 1656
+        
+    del class-of-service interfaces pir unit 1657
+        
+    del class-of-service interfaces pir unit 1658
+        
+    del class-of-service interfaces pir unit 1659
+        
+    del class-of-service interfaces pir unit 1660
+        
+    del class-of-service interfaces pir unit 1661
+        
+    del class-of-service interfaces pir unit 1662
+        
+    del class-of-service interfaces pir unit 1663
+        
+    del class-of-service interfaces pir unit 1664
+        
+    del class-of-service interfaces pir unit 1665
+        
+    del class-of-service interfaces pir unit 1666
+        
+    del class-of-service interfaces pir unit 1667
+        
+    del class-of-service interfaces pir unit 1668
+        
+    del class-of-service interfaces pir unit 1669
+        
+    del class-of-service interfaces pir unit 1670
+        
+    del class-of-service interfaces pir unit 1671
+        
+    del class-of-service interfaces pir unit 1672
+        
+    del class-of-service interfaces pir unit 1673
+        
+    del class-of-service interfaces pir unit 1674
+        
+    del class-of-service interfaces pir unit 1675
+        
+    del class-of-service interfaces pir unit 1676
+        
+    del class-of-service interfaces pir unit 1677
+        
+    del class-of-service interfaces pir unit 1678
+        
+    del class-of-service interfaces pir unit 1679
+        
+    del class-of-service interfaces pir unit 1680
+        
+    del class-of-service interfaces pir unit 1681
+        
+    del class-of-service interfaces pir unit 1682
+        
+    del class-of-service interfaces pir unit 1683
+        
+    del class-of-service interfaces pir unit 1684
+        
+    del class-of-service interfaces pir unit 1685
+        
+    del class-of-service interfaces pir unit 1686
+        
+    del class-of-service interfaces pir unit 1687
+        
+    del class-of-service interfaces pir unit 1688
+        
+    del class-of-service interfaces pir unit 1689
+        
+    del class-of-service interfaces pir unit 1690
+        
+    del class-of-service interfaces pir unit 1691
+        
+    del class-of-service interfaces pir unit 1692
+        
+    del class-of-service interfaces pir unit 1693
+        
+    del class-of-service interfaces pir unit 1694
+        
+    del class-of-service interfaces pir unit 1695
+        
+    del class-of-service interfaces pir unit 1696
+        
+    del class-of-service interfaces pir unit 1697
+        
+    del class-of-service interfaces pir unit 1698
+        
+    del class-of-service interfaces pir unit 1699
+        
+    del class-of-service interfaces pir unit 1700
+        
+    del class-of-service interfaces pir unit 1701
+        
+    del class-of-service interfaces pir unit 1702
+        
+    del class-of-service interfaces pir unit 1703
+        
+    del class-of-service interfaces pir unit 1704
+        
+    del class-of-service interfaces pir unit 1705
+        
+    del class-of-service interfaces pir unit 1706
+        
+    del class-of-service interfaces pir unit 1707
+        
+    del class-of-service interfaces pir unit 1708
+        
+    del class-of-service interfaces pir unit 1709
+        
+    del class-of-service interfaces pir unit 1710
+        
+    del class-of-service interfaces pir unit 1711
+        
+    del class-of-service interfaces pir unit 1712
+        
+    del class-of-service interfaces pir unit 1713
+        
+    del class-of-service interfaces pir unit 1714
+        
+    del class-of-service interfaces pir unit 1715
+        
+    del class-of-service interfaces pir unit 1716
+        
+    del class-of-service interfaces pir unit 1717
+        
+    del class-of-service interfaces pir unit 1718
+        
+    del class-of-service interfaces pir unit 1719
+        
+    del class-of-service interfaces pir unit 1720
+        
+    del class-of-service interfaces pir unit 1721
+        
+    del class-of-service interfaces pir unit 1722
+        
+    del class-of-service interfaces pir unit 1723
+        
+    del class-of-service interfaces pir unit 1724
+        
+    del class-of-service interfaces pir unit 1725
+        
+    del class-of-service interfaces pir unit 1726
+        
+    del class-of-service interfaces pir unit 1727
+        
+    del class-of-service interfaces pir unit 1728
+        
+    del class-of-service interfaces pir unit 1729
+        
+    del class-of-service interfaces pir unit 1730
+        
+    del class-of-service interfaces pir unit 1731
+        
+    del class-of-service interfaces pir unit 1732
+        
+    del class-of-service interfaces pir unit 1733
+        
+    del class-of-service interfaces pir unit 1734
+        
+    del class-of-service interfaces pir unit 1735
+        
+    del class-of-service interfaces pir unit 1736
+        
+    del class-of-service interfaces pir unit 1737
+        
+    del class-of-service interfaces pir unit 1738
+        
+    del class-of-service interfaces pir unit 1739
+        
+    del class-of-service interfaces pir unit 1740
+        
+    del class-of-service interfaces pir unit 1741
+        
+    del class-of-service interfaces pir unit 1742
+        
+    del class-of-service interfaces pir unit 1743
+        
+    del class-of-service interfaces pir unit 1744
+        
+    del class-of-service interfaces pir unit 1745
+        
+    del class-of-service interfaces pir unit 1746
+        
+    del class-of-service interfaces pir unit 1747
+        
+    del class-of-service interfaces pir unit 1748
+        
+    del class-of-service interfaces pir unit 1749
+        
+    del class-of-service interfaces pir unit 1750
+        
+    del class-of-service interfaces pir unit 1751
+        
+    del class-of-service interfaces pir unit 1752
+        
+    del class-of-service interfaces pir unit 1753
+        
+    del class-of-service interfaces pir unit 1754
+        
+    del class-of-service interfaces pir unit 1755
+        
+    del class-of-service interfaces pir unit 1756
+        
+    del class-of-service interfaces pir unit 1757
+        
+    del class-of-service interfaces pir unit 1758
+        
+    del class-of-service interfaces pir unit 1759
+        
+    del class-of-service interfaces pir unit 1760
+        
+    del class-of-service interfaces pir unit 1761
+        
+    del class-of-service interfaces pir unit 1762
+        
+    del class-of-service interfaces pir unit 1763
+        
+    del class-of-service interfaces pir unit 1764
+        
+    del class-of-service interfaces pir unit 1765
+        
+    del class-of-service interfaces pir unit 1766
+        
+    del class-of-service interfaces pir unit 1767
+        
+    del class-of-service interfaces pir unit 1768
+        
+    del class-of-service interfaces pir unit 1769
+        
+    del class-of-service interfaces pir unit 1770
+        
+    del class-of-service interfaces pir unit 1771
+        
+    del class-of-service interfaces pir unit 1772
+        
+    del class-of-service interfaces pir unit 1773
+        
+    del class-of-service interfaces pir unit 1774
+        
+    del class-of-service interfaces pir unit 1775
+        
+    del class-of-service interfaces pir unit 1776
+        
+    del class-of-service interfaces pir unit 1777
+        
+    del class-of-service interfaces pir unit 1778
+        
+    del class-of-service interfaces pir unit 1779
+        
+    del class-of-service interfaces pir unit 1780
+        
+    del class-of-service interfaces pir unit 1781
+        
+    del class-of-service interfaces pir unit 1782
+        
+    del class-of-service interfaces pir unit 1783
+        
+    del class-of-service interfaces pir unit 1784
+        
+    del class-of-service interfaces pir unit 1785
+        
+    del class-of-service interfaces pir unit 1786
+        
+    del class-of-service interfaces pir unit 1787
+        
+    del class-of-service interfaces pir unit 1788
+        
+    del class-of-service interfaces pir unit 1789
+        
+    del class-of-service interfaces pir unit 1790
+        
+    del class-of-service interfaces pir unit 1791
+        
+    del class-of-service interfaces pir unit 1792
+        
+    del class-of-service interfaces pir unit 1793
+        
+    del class-of-service interfaces pir unit 1794
+        
+    del class-of-service interfaces pir unit 1795
+        
+    del class-of-service interfaces pir unit 1796
+        
+    del class-of-service interfaces pir unit 1797
+        
+    del class-of-service interfaces pir unit 1798
+        
+    del class-of-service interfaces pir unit 1799
+        
+    del class-of-service interfaces pir unit 1800
+        
+    del class-of-service interfaces pir unit 1801
+        
+    del class-of-service interfaces pir unit 1802
+        
+    del class-of-service interfaces pir unit 1803
+        
+    del class-of-service interfaces pir unit 1804
+        
+    del class-of-service interfaces pir unit 1805
+        
+    del class-of-service interfaces pir unit 1806
+        
+    del class-of-service interfaces pir unit 1807
+        
+    del class-of-service interfaces pir unit 1808
+        
+    del class-of-service interfaces pir unit 1809
+        
+    del class-of-service interfaces pir unit 1810
+        
+    del class-of-service interfaces pir unit 1811
+        
+    del class-of-service interfaces pir unit 1812
+        
+    del class-of-service interfaces pir unit 1813
+        
+    del class-of-service interfaces pir unit 1814
+        
+    del class-of-service interfaces pir unit 1815
+        
+    del class-of-service interfaces pir unit 1816
+        
+    del class-of-service interfaces pir unit 1817
+        
+    del class-of-service interfaces pir unit 1818
+        
+    del class-of-service interfaces pir unit 1819
+        
+    del class-of-service interfaces pir unit 1820
+        
+    del class-of-service interfaces pir unit 1821
+        
+    del class-of-service interfaces pir unit 1822
+        
+    del class-of-service interfaces pir unit 1823
+        
+    del class-of-service interfaces pir unit 1824
+        
+    del class-of-service interfaces pir unit 1825
+        
+    del class-of-service interfaces pir unit 1826
+        
+    del class-of-service interfaces pir unit 1827
+        
+    del class-of-service interfaces pir unit 1828
+        
+    del class-of-service interfaces pir unit 1829
+        
+    del class-of-service interfaces pir unit 1830
+        
+    del class-of-service interfaces pir unit 1831
+        
+    del class-of-service interfaces pir unit 1832
+        
+    del class-of-service interfaces pir unit 1833
+        
+    del class-of-service interfaces pir unit 1834
+        
+    del class-of-service interfaces pir unit 1835
+        
+    del class-of-service interfaces pir unit 1836
+        
+    del class-of-service interfaces pir unit 1837
+        
+    del class-of-service interfaces pir unit 1838
+        
+    del class-of-service interfaces pir unit 1839
+        
+    del class-of-service interfaces pir unit 1840
+        
+    del class-of-service interfaces pir unit 1841
+        
+    del class-of-service interfaces pir unit 1842
+        
+    del class-of-service interfaces pir unit 1843
+        
+    del class-of-service interfaces pir unit 1844
+        
+    del class-of-service interfaces pir unit 1845
+        
+    del class-of-service interfaces pir unit 1846
+        
+    del class-of-service interfaces pir unit 1847
+        
+    del class-of-service interfaces pir unit 1848
+        
+    del class-of-service interfaces pir unit 1849
+        
+    del class-of-service interfaces pir unit 1850
+        
+    del class-of-service interfaces pir unit 1851
+        
+    del class-of-service interfaces pir unit 1852
+        
+    del class-of-service interfaces pir unit 1853
+        
+    del class-of-service interfaces pir unit 1854
+        
+    del class-of-service interfaces pir unit 1855
+        
+    del class-of-service interfaces pir unit 1856
+        
+    del class-of-service interfaces pir unit 1857
+        
+    del class-of-service interfaces pir unit 1858
+        
+    del class-of-service interfaces pir unit 1859
+        
+    del class-of-service interfaces pir unit 1860
+        
+    del class-of-service interfaces pir unit 1861
+        
+    del class-of-service interfaces pir unit 1862
+        
+    del class-of-service interfaces pir unit 1863
+        
+    del class-of-service interfaces pir unit 1864
+        
+    del class-of-service interfaces pir unit 1865
+        
+    del class-of-service interfaces pir unit 1866
+        
+    del class-of-service interfaces pir unit 1867
+        
+    del class-of-service interfaces pir unit 1868
+        
+    del class-of-service interfaces pir unit 1869
+        
+    del class-of-service interfaces pir unit 1870
+        
+    del class-of-service interfaces pir unit 1871
+        
+    del class-of-service interfaces pir unit 1872
+        
+    del class-of-service interfaces pir unit 1873
+        
+    del class-of-service interfaces pir unit 1874
+        
+    del class-of-service interfaces pir unit 1875
+        
+    del class-of-service interfaces pir unit 1876
+        
+    del class-of-service interfaces pir unit 1877
+        
+    del class-of-service interfaces pir unit 1878
+        
+    del class-of-service interfaces pir unit 1879
+        
+    del class-of-service interfaces pir unit 1880
+        
+    del class-of-service interfaces pir unit 1881
+        
+    del class-of-service interfaces pir unit 1882
+        
+    del class-of-service interfaces pir unit 1883
+        
+    del class-of-service interfaces pir unit 1884
+        
+    del class-of-service interfaces pir unit 1885
+        
+    del class-of-service interfaces pir unit 1886
+        
+    del class-of-service interfaces pir unit 1887
+        
+    del class-of-service interfaces pir unit 1888
+        
+    del class-of-service interfaces pir unit 1889
+        
+    del class-of-service interfaces pir unit 1890
+        
+    del class-of-service interfaces pir unit 1891
+        
+    del class-of-service interfaces pir unit 1892
+        
+    del class-of-service interfaces pir unit 1893
+        
+    del class-of-service interfaces pir unit 1894
+        
+    del class-of-service interfaces pir unit 1895
+        
+    del class-of-service interfaces pir unit 1896
+        
+    del class-of-service interfaces pir unit 1897
+        
+    del class-of-service interfaces pir unit 1898
+        
+    del class-of-service interfaces pir unit 1899
+        
+    del class-of-service interfaces pir unit 1900
+        
+    del class-of-service interfaces pir unit 1901
+        
+    del class-of-service interfaces pir unit 1902
+        
+    del class-of-service interfaces pir unit 1903
+        
+    del class-of-service interfaces pir unit 1904
+        
+    del class-of-service interfaces pir unit 1905
+        
+    del class-of-service interfaces pir unit 1906
+        
+    del class-of-service interfaces pir unit 1907
+        
+    del class-of-service interfaces pir unit 1908
+        
+    del class-of-service interfaces pir unit 1909
+        
+    del class-of-service interfaces pir unit 1910
+        
+    del class-of-service interfaces pir unit 1911
+        
+    del class-of-service interfaces pir unit 1912
+        
+    del class-of-service interfaces pir unit 1913
+        
+    del class-of-service interfaces pir unit 1914
+        
+    del class-of-service interfaces pir unit 1915
+        
+    del class-of-service interfaces pir unit 1916
+        
+    del class-of-service interfaces pir unit 1917
+        
+    del class-of-service interfaces pir unit 1918
+        
+    del class-of-service interfaces pir unit 1919
+        
+    del class-of-service interfaces pir unit 1920
+        
+    del class-of-service interfaces pir unit 1921
+        
+    del class-of-service interfaces pir unit 1922
+        
+    del class-of-service interfaces pir unit 1923
+        
+    del class-of-service interfaces pir unit 1924
+        
+    del class-of-service interfaces pir unit 1925
+        
+    del class-of-service interfaces pir unit 1926
+        
+    del class-of-service interfaces pir unit 1927
+        
+    del class-of-service interfaces pir unit 1928
+        
+    del class-of-service interfaces pir unit 1929
+        
+    del class-of-service interfaces pir unit 1930
+        
+    del class-of-service interfaces pir unit 1931
+        
+    del class-of-service interfaces pir unit 1932
+        
+    del class-of-service interfaces pir unit 1933
+        
+    del class-of-service interfaces pir unit 1934
+        
+    del class-of-service interfaces pir unit 1935
+        
+    del class-of-service interfaces pir unit 1936
+        
+    del class-of-service interfaces pir unit 1937
+        
+    del class-of-service interfaces pir unit 1938
+        
+    del class-of-service interfaces pir unit 1939
+        
+    del class-of-service interfaces pir unit 1940
+        
+    del class-of-service interfaces pir unit 1941
+        
+    del class-of-service interfaces pir unit 1942
+        
+    del class-of-service interfaces pir unit 1943
+        
+    del class-of-service interfaces pir unit 1944
+        
+    del class-of-service interfaces pir unit 1945
+        
+    del class-of-service interfaces pir unit 1946
+        
+    del class-of-service interfaces pir unit 1947
+        
+    del class-of-service interfaces pir unit 1948
+        
+    del class-of-service interfaces pir unit 1949
+        
+    del class-of-service interfaces pir unit 1950
+        
+    del class-of-service interfaces pir unit 1951
+        
+    del class-of-service interfaces pir unit 1952
+        
+    del class-of-service interfaces pir unit 1953
+        
+    del class-of-service interfaces pir unit 1954
+        
+    del class-of-service interfaces pir unit 1955
+        
+    del class-of-service interfaces pir unit 1956
+        
+    del class-of-service interfaces pir unit 1957
+        
+    del class-of-service interfaces pir unit 1958
+        
+    del class-of-service interfaces pir unit 1959
+        
+    del class-of-service interfaces pir unit 1960
+        
+    del class-of-service interfaces pir unit 1961
+        
+    del class-of-service interfaces pir unit 1962
+        
+    del class-of-service interfaces pir unit 1963
+        
+    del class-of-service interfaces pir unit 1964
+        
+    del class-of-service interfaces pir unit 1965
+        
+    del class-of-service interfaces pir unit 1966
+        
+    del class-of-service interfaces pir unit 1967
+        
+    del class-of-service interfaces pir unit 1968
+        
+    del class-of-service interfaces pir unit 1969
+        
+    del class-of-service interfaces pir unit 1970
+        
+    del class-of-service interfaces pir unit 1971
+        
+    del class-of-service interfaces pir unit 1972
+        
+    del class-of-service interfaces pir unit 1973
+        
+    del class-of-service interfaces pir unit 1974
+        
+    del class-of-service interfaces pir unit 1975
+        
+    del class-of-service interfaces pir unit 1976
+        
+    del class-of-service interfaces pir unit 1977
+        
+    del class-of-service interfaces pir unit 1978
+        
+    del class-of-service interfaces pir unit 1979
+        
+    del class-of-service interfaces pir unit 1980
+        
+    del class-of-service interfaces pir unit 1981
+        
+    del class-of-service interfaces pir unit 1982
+        
+    del class-of-service interfaces pir unit 1983
+        
+    del class-of-service interfaces pir unit 1984
+        
+    del class-of-service interfaces pir unit 1985
+        
+    del class-of-service interfaces pir unit 1986
+        
+    del class-of-service interfaces pir unit 1987
+        
+    del class-of-service interfaces pir unit 1988
+        
+    del class-of-service interfaces pir unit 1989
+        
+    del class-of-service interfaces pir unit 1990
+        
+    del class-of-service interfaces pir unit 1991
+        
+    del class-of-service interfaces pir unit 1992
+        
+    del class-of-service interfaces pir unit 1993
+        
+    del class-of-service interfaces pir unit 1994
+        
+    del class-of-service interfaces pir unit 1995
+        
+    del class-of-service interfaces pir unit 1996
+        
+    del class-of-service interfaces pir unit 1997
+        
+    del class-of-service interfaces pir unit 1998
+        
+    del class-of-service interfaces pir unit 1999
+        
+    del class-of-service interfaces pir unit 2000
+        
+del routing-instances N0003011R
+        
+del routing-instances N0003012R
+        
+del routing-instances N0003013R
+        
+del routing-instances N0003014R
+        
+del routing-instances N0003015R
+        
+del routing-instances N0003016R
+        
+del routing-instances N0003017R
+        
+del routing-instances N0003018R
+        
+del routing-instances N0003019R
+        
+del routing-instances N0003020R
+        
+del routing-instances N0003021R
+        
+del routing-instances N0003022R
+        
+del routing-instances N0003023R
+        
+del routing-instances N0003024R
+        
+del routing-instances N0003025R
+        
+del routing-instances N0003026R
+        
+del routing-instances N0003027R
+        
+del routing-instances N0003028R
+        
+del routing-instances N0003029R
+        
+del routing-instances N0003030R
+        
+del routing-instances N0003031R
+        
+del routing-instances N0003032R
+        
+del routing-instances N0003033R
+        
+del routing-instances N0003034R
+        
+del routing-instances N0003035R
+        
+del routing-instances N0003036R
+        
+del routing-instances N0003037R
+        
+del routing-instances N0003038R
+        
+del routing-instances N0003039R
+        
+del routing-instances N0003040R
+        
+del routing-instances N0002101R
+        
+del routing-instances N0002102R
+        
+del routing-instances N0002103R
+        
+del routing-instances N0002104R
+        
+del routing-instances N0002105R
+        
+del routing-instances N0002106R
+        
+del routing-instances N0002107R
+        
+del routing-instances N0002108R
+        
+del routing-instances N0002109R
+        
+del routing-instances N0002110R
+        
+del interfaces et-7/4/0 unit 101 
+            
+del interfaces et-7/4/0 unit 102 
+            
+del interfaces et-7/4/0 unit 103 
+            
+del interfaces et-7/4/0 unit 104 
+            
+del interfaces et-7/4/0 unit 105 
+            
+del interfaces et-7/4/0 unit 106 
+            
+del interfaces et-7/4/0 unit 107 
+            
+del interfaces et-7/4/0 unit 108 
+            
+del interfaces et-7/4/0 unit 109 
+            
+del interfaces et-7/4/0 unit 110 
+            
