@@ -145,7 +145,7 @@ SCALE:
   #         pir: 50g
 
   L3VPN_VRRP:
-    VLAN: 0
+    VLAN: 1
     VRF_START: 1001
     VRF_END: 1001
     description: "VRRP scale testing"

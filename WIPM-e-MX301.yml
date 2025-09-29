@@ -191,7 +191,7 @@ SCALE:
         #   cir: 1g
         #   pir: 3g
   NG_MVPN :
-    VLAN: 0
+    VLAN: 1
     VRF_START: 1
     VRF_END: 10
     description: " NG-MVPN Scale testing"
@@ -221,7 +221,7 @@ SCALE:
 
 
   ROSEN_MVPN_STATIC :
-    VLAN: 0
+    VLAN: 1
     VRF_START: 11
     VRF_END: 20
     description: "MVPN Rosen Draft Static RP"
@@ -262,7 +262,7 @@ SCALE:
 
 
   ROSEN_MVPN_BSR :
-    VLAN: 0
+    VLAN: 1
     VRF_START: 21
     VRF_END: 30
     description: "MVPN Rosen Draft BSR"
@@ -300,7 +300,7 @@ SCALE:
           #     pir: 50g
   
   ROSEN_MVPN_AUTO :
-    VLAN: 0
+    VLAN: 1
     VRF_START: 31
     VRF_END: 40
     description: "MVPN Rosen Draft Auto-RP"
@@ -338,7 +338,7 @@ SCALE:
             #   pir: 50g
 
   VPLS:
-    VLAN: 0
+    VLAN: 1
     VRF_START: 101
     VRF_END: 110
     Lo0_addr: 144.133.144.10
@@ -365,7 +365,7 @@ SCALE:
           #     pir: 50g
 
   OAM_CFM:
-      VLAN: 0
+      VLAN: 1
       VRF_START: 1001
       VRF_END: 2000
       interfaces:
