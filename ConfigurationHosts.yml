@@ -1,0 +1,119 @@
+---
+
+HQoS:
+  # - WIPM-E-970
+  # - WIPM-E-962
+  # - WIPM-E-305
+  # - WIPM-E-102
+  # - WIPM-E-961
+  # - WIPM-E-101
+
+EVPNTesting:
+  # - PE1
+  # - PE2
+  # - PE3
+  # - PE4
+  # - WIPM-E-970
+  # - WIPM-E-962
+  # - WIPM-E-971
+  # - WIPM-E-304
+  # - WIPM-E-102
+  # - WIPM-E-101
+  # - WIPM-E-305
+
+L3VPN:
+  # - PE1
+  # - PE2
+  # - PE3
+  # - PE4
+  # - WIPM-E-970
+  # - WIPM-E-962
+  # # # - WIPM-E-971
+  # # - WIPM-E-304
+  # - WIPM-E-102
+  # # - WIPM-E-961
+  # #- WIPM-E-202
+  # - WIPM-E000
+  # - WIPM-E-101
+  # - WIPM-E-305
+  # - WIPM-E-102
+  - WIPM-e-MX301
+  # - WIPM-E-202
+  #- WIPM-E-101
+
+
+VPLS:
+  # - PE1
+  # - PE2
+  # - PE3
+  # - PE4
+  # - WIPM-E-970
+  # - WIPM-E-962
+  # # - WIPM-E-971
+  # - WIPM-E-304
+  - WIPM-E-102
+  - WIPM-e-MX301
+  # - WIPM-E-961
+  #- WIPM-E-101
+  #- WIPM-E-305
+  # - WIPM-E-202
+
+NG_MVPN:
+  # - PE1
+  # - PE2
+  # - PE3
+  # - PE4
+  # - WIPM-E-970
+  # - WIPM-E-962
+  # # - WIPM-E-971
+  # - WIPM-E-304
+   - WIPM-E-102
+   - WIPM-e-MX301
+  # - WIPM-E-961
+  #- WIPM-E-101
+  # - WIPM-E-305
+  # - WIPM-E-202
+
+ROSEN_MVPN:
+  # - PE1
+  # - PE2
+  # - PE3
+  # - PE4
+  # - WIPM-E-970
+  # - WIPM-E-962
+  - WIPM-E-102
+  - WIPM-e-MX301
+  # # - WIPM-E-304
+  # - WIPM-E-961
+  # - WIPM-E-305
+  # - WIPM-E-202
+  #- WIPM-E-101
+
+
+
+INTERFACES:
+  # - WIPM-E-304
+  - WIPM-E-102
+  - WIPM-e-MX301
+  # - WIPM-E-101
+
+RPM:
+  #- WIPM-E-304
+  # - WIPM-E-101
+  - WIPM-e-MX301
+
+MX304:
+  # - WIPM-E-304
+  # - WIPM-E-102
+
+Deactivate:
+  # - WIPM-E-304_Deactivate
+
+  
+
+
+
+
+
+
+

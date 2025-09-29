@@ -1,0 +1,61 @@
+---
+
+# WIPM-E-970:
+#   port: 3970
+#   ip: 127.0.0.1
+#   username: remote1
+#   password: ep28centre
+
+# WIPM-E-962:
+#   port: 3962
+#   ip: 127.0.0.1
+#   username: remote1
+#   password: ep28centre
+
+# WIPM-E-971:
+#   port: 3971
+#   ip: 127.0.0.1
+#   username: remote1
+#   password: ep28centre
+
+WIPM-E-304_Deactivate:
+  port: 3304
+  ip: 127.0.0.1
+  username: remote1
+  password: ep18centre
+
+
+# PE1:
+#   port: 22
+#   ip: 10.54.26.25
+#   username: root
+#   password: embe1mpls
+
+# PE2:
+#   port: 22
+#   ip: 10.54.25.54
+#   username: root
+#   password: embe1mpls
+
+# PE3:
+#   port: 22
+#   ip: 10.54.23.9
+#   username: root
+#   password: embe1mpls
+
+# PE4:
+#   port: 22
+#   ip: 10.54.26.13
+#   username: root
+#   password: embe1mpls
+
+
+
+
+
+
+
+
+
+
+

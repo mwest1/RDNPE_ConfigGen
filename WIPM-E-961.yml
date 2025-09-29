@@ -1,0 +1,935 @@
+---
+
+
+SCALE:
+  RPM_PROBE_COUNT: 10000
+  L3VPN_BGP_V4 :
+    VRF_BASE: 4000
+    VRF_START: 1
+    VRF_END: 2000
+    description: "BGP IPv4 single stack scale testing"
+    BGP:
+      BGP-CE-V4:
+        peer_as: 961
+        peer_list:
+          - 30.96.1.2
+    interfaces:
+      # et-0/1/15:
+      #   description: "To IXIA 14 Card 4 Port 8"
+      #   mtu: 9192 
+      #   bundle: ae100
+      ae11:
+        description: "LACP link to IXIA 14, Card 4 Port 8 "
+        mtu: 9192
+        ipv4_addr_start: "30.96.1.1"
+        ipv4_mask: 30
+        # ipv6_addr_start: "2002:30:1:1::1"
+        # ipv6_mask: 64
+    class_of_service:
+      interfaces:
+        ae11:
+          pir: 10G
+          cir: 100M
+          interface_set:
+          #   GRP_AE100_STKVLAN:
+          #     member_count: 1
+          #     cir: 50m
+          #     pir: 50g
+
+  L3VPN_BGP_DS:
+    VRF_BASE: 5000
+    VRF_START: 1001
+    VRF_END: 2000
+    description: "BGP Dual Stack scale testing"
+    BGP:
+      BGP-CE-V4:
+        peer_as: 961
+        peer_list:
+          - 30.96.1.2
+      BGP-CE-V6:
+        peer_as: 961
+        peer_list:
+          - 2002:30:96:1::2
+    interfaces:
+      # et-0/1/15:
+      #   description: "To DY IXIA Card 2 port 7 "
+      #   mtu: 9192 
+      #   bundle: xe-1/0/0
+      #ae11:
+      xe-1/0/0:
+        description: "To DY IXIA Card 2 port 7 "
+        mtu: 9192
+        ipv4_addr_start: "30.96.1.1"
+        ipv4_mask: 30
+        ipv6_addr_start: "2002:30:96:1::1"
+        ipv6_mask: 64
+        interface_set:
+        pir: 10G
+        cir: 100M
+    class_of_service:
+      interfaces:
+        #ae11:
+        xe-1/0/0:
+          pir: 10G
+          cir: 100M
+          interface_set:
+            # GRP_AE100_STKVLAN:
+            #   member_count: 1
+            #   cir: 50m
+            #   pir: 50g
+
+        # GRP_XE001_STKVLAN_2:
+        #   cir: 1500m
+        #   pir: 3g 
+        # PS0_AE21:
+        #   cir: 1g
+        #   pir: 3g
+        # PS1_AE22:
+        #   cir: 1g
+        #   pir: 3g
+
+  # L3VPN_BGP_V6:
+  #   VRF_BASE: 3
+  #   VRF_START: 0
+  #   VRF_END: 0
+  #   BGP:
+  #     # BGP-CE-V4:
+  #     #   peer_as: 1234
+  #     #   peer_list:
+  #     #     - 30.0.0.2
+  #     BGP-CE-V6:
+  #       peer_as: 1234
+  #       peer_list:
+  #         - 2002:30:1:1::2
+
+  #   interfaces:
+  #     et-0/1/15:
+  #       description: "To IXIA 14 Card 4 Port 8"
+  #       mtu: 9192 
+  #       bundle: ae100
+
+  #   # xe-0/0/9:3:
+  #   #    description: "To DY IXIA Card 2 Port 7"
+  #   #    mtu: 9192 
+  #   #    bundle: ae21
+    
+  #   # xe-0/1/9:1:
+  #   #    description: "To DY IXIA Card 2 Port 7"
+  #   #    mtu: 9192 
+  #   #    bundle: ae21
+
+  #   # et-0/1/15:
+  #   #    description: "To IXIA14 Card 3 Port 8"
+  #   #    mtu: 9192 
+  #   #    bundle: ae22
+  #     ae100:
+  #       description: "LACP link to IXIA 14, Card 4 Port 8 "
+  #       mtu: 9192
+  #       # ipv4_addr_start: "30.0.0.1"
+  #       # ipv4_mask: 30
+  #       ipv6_addr_start: "2002:30:1:1::1"
+  #       ipv6_mask: 64
+  #       interface_set: GRP_AE100_STKVLAN
+  #       pir: 50g
+  #       cir: 10m
+  #   class_of_service:
+  #     interface: ae100
+  #     interface_set:
+  #       GRP_AE100_STKVLAN:
+  #         member_count: 1
+  #         cir: 50m
+  #         pir: 50g
+
+  L3VPN_VRRP:
+    VRF_BASE: -2000
+    VRF_START: 3001
+    VRF_END: 4000
+    description: "VRRP scale testing"
+    interfaces:
+      # xe-0/0/9:1:
+      #   description: "To IXIA 14 Card 4 Port 8"
+      #   mtu: 9192 
+      #   bundle: xe-1/0/0
+
+      ae10:
+        description: "LACP link to DY IXIA, Card 1 port 1"
+        mtu: 9192
+        ipv4_addr_start: "30.9.6.1"
+        ipv4_mask: 24
+        ipv4_vip: 30.9.6.254
+        ipv4_vrrp_group: SET_LAG_VRRP_MASTER
+        ipv6_addr_start: "2002:30:9:6::1"
+        ipv6_mask: 64
+        ipv6_vip: "2002:30:9:6::254"
+        ipv6_vrrp_group: SET_LAG_VRRPV3_MASTER
+        interface_set:
+        pir: 10G
+        cir: 100M
+    class_of_service:
+      interfaces:
+        ae10:
+          pir: 10G
+          cir: 100M
+          interface_set:
+            # GRP_AE100_STKVLAN:
+            #   member_count: 1
+            #   cir: 50m
+            #   pir: 50g
+
+        # GRP_XE001_STKVLAN_2:
+        #   cir: 1500m
+        #   pir: 3g 
+        # PS0_AE21:
+        #   cir: 1g
+        #   pir: 3g
+        # PS1_AE22:
+        #   cir: 1g
+        #   pir: 3g
+  NG_MVPN :
+    VRF_BASE: 3000
+    VRF_START: 1
+    VRF_END: 10
+    description: " NG-MVPN Scale testing"
+    interfaces:
+      # et-0/1/15:
+      #   description: "To IXIA 14 Card 4 Port 8"
+      #   mtu: 9192 
+      #   bundle: ae100
+
+      xe-1/0/0:
+        description: "LACP link to DY IXIA, Card 2 port 4"
+        mtu: 9192
+        ipv4_addr_start: "30.96.1.1"
+        ipv4_mask: 30
+        ipv6_addr_start: "2002:30:96:1::1"
+        ipv6_mask: 64
+    class_of_service:
+      interfaces:
+        xe-1/0/0:
+          pir: 10G
+          cir: 100M
+          interface_set:
+            # GRP_AE100_STKVLAN:
+            #   member_count: 1
+            #   cir: 50m
+            #   pir: 50g
+
+
+  ROSEN_MVPN_STATIC :
+    VRF_BASE: 3000
+    VRF_START: 11
+    VRF_END: 20
+    description: "MVPN Rosen Draft Static RP"
+    RP_addr: 30.0.0.2
+    # BGP:
+    #   BGP-CE-V4:
+    #     peer_as: 1234
+    #     peer_list:
+    #       - 30.0.0.2
+    interfaces:
+    #   et-0/1/15:
+    #     description: "To IXIA 14 Card 4 Port 8"
+    #     mtu: 9192 
+    #     bundle: ae100
+      lo0:
+        ipv4_addr: 144.133.128.146
+      xe-1/0/0:
+        description: "LACP link to DY IXIA, Card 2 port 4"
+        mtu: 9192
+        ipv4_addr_start: "30.96.1.1"
+        ipv4_mask: 30
+        # ipv6_addr_start: "2002:30:1:1::1"
+        # ipv6_mask: 64
+        interface_set:
+        pir: 10G
+        cir: 100M
+    class_of_service:
+      interfaces:
+        xe-1/0/0:
+          pir: 10G
+          cir: 100M
+          interface_set:
+          #   GRP_AE100_STKVLAN:
+          #     member_count: 1
+          #     cir: 50m
+          #     pir: 50g
+
+
+  ROSEN_MVPN_BSR :
+    VRF_BASE: 3000
+    VRF_START: 21
+    VRF_END: 30
+    description: "MVPN Rosen Draft BSR"
+    # BGP:
+    #   BGP-CE-V4:
+    #     peer_as: 1234
+    #     peer_list:
+    #       - 30.0.0.2
+    interfaces:
+      # et-0/1/15:
+      #   description: "To IXIA 14 Card 4 Port 8"
+      #   mtu: 9192 
+      #   bundle: ae100
+      lo0:
+        ipv4_addr: 144.133.128.146
+      xe-1/0/0:
+        description: "link to IXIA DY IXIA C2/P2"
+        mtu: 9192
+        ipv4_addr_start: "30.96.1.1"
+        ipv4_mask: 30
+        # ipv6_addr_start: "2002:30:1:1::1"
+        # ipv6_mask: 64
+        interface_set:
+        pir: 10G
+        cir: 100M
+    class_of_service:
+      interfaces:
+        xe-1/0/0:
+          pir: 10G
+          cir: 100M
+          interface_set:
+          #   GRP_AE100_STKVLAN:
+          #     member_count: 1
+          #     cir: 50m
+          #     pir: 50g
+  
+  ROSEN_MVPN_AUTO :
+    VRF_BASE: 3000
+    VRF_START: 31
+    VRF_END: 40
+    description: "MVPN Rosen Draft Auto-RP"
+    # BGP:
+    #   BGP-CE-V4:
+    #     peer_as: 1234
+    #     peer_list:
+    #       - 30.0.0.2
+    interfaces:
+      # et-0/1/15:
+      #   description: "To IXIA 14 Card 4 Port 8"
+      #   mtu: 9192 
+      #   bundle: ae100
+      lo0:
+        ipv4_addr: 144.133.128.146
+      xe-1/0/0:
+        description: "LACP link to IXIA 14, Card 4 Port 8 "
+        mtu: 9192
+        ipv4_addr_start: "30.96.1.1"
+        ipv4_mask: 30
+        # ipv6_addr_start: "2002:30:1:1::1"
+        # ipv6_mask: 64
+        interface_set:
+        pir: 10G
+        cir: 100M
+    class_of_service:
+      interfaces:
+        xe-1/0/0:
+          pir: 10G
+          cir: 100M
+          interface_set:
+            # GRP_AE100_STKVLAN:
+            #   member_count: 1
+            #   cir: 50m
+            #   pir: 50g
+
+  VPLS:
+    VRF_BASE: 0
+    VRF_START: 2001
+    VRF_END: 2010
+    Lo0_addr: 144.133.128.146
+    description: "VPLS Scale testing"
+    interfaces:
+      xe-1/0/0:
+        description: "LACP to EVPN infra "
+        mtu: 9192
+    site:
+      N12345678R:
+        id: 2
+        preference:
+        interface: xe-1/0/0
+      
+    class_of_service:
+      interfaces:
+        xe-1/0/0:
+          pir: 10G
+          cir: 100M
+          interface_set:
+          #   GRP_AE100_STKVLAN:
+          #     member_count: 1
+          #     cir: 50m
+          #     pir: 50g
+
+  OAM_CFM:
+      # VRF_BASE: 4000
+      # VRF_START: 2001
+      # VRF_END: 3000
+
+      VRF_BASE: 5000
+      VRF_START: 1001
+      VRF_END: 2000
+      interfaces:
+        #ae11:
+        xe-1/0/0:
+          description: "Link to DY IXIA Card 1, Port6 "
+
+  HQoS:
+    interfaces:
+      ae11:
+        description: "To DY IXIA - Card 2 Port 1"
+        mtu: 9192
+        bundle: 
+        unit:
+          3100: 
+            description: "VLAN_1100"
+            vlan_id: 3100
+            ipv4_addr: 9.6.1.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 100M
+            pir:
+            qos: TRUE
+            interface_set: GRP_ae11_STKVLAN_1
+          3200: 
+            description: "VLAN_1200"
+            vlan_id: 3200
+            ipv4_addr: 9.6.2.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 200M
+            pir:
+            qos: TRUE
+            interface_set: GRP_ae11_STKVLAN_1
+          3300: 
+            description: "VLAN_1300"
+            vlan_id: 3300
+            ipv4_addr: 9.6.3.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 50M
+            pir: 50M
+            qos: TRUE
+            interface_set: 
+          3400: 
+            description: "VLAN_1400"
+            vlan_id: 3400
+            ipv4_addr: 9.6.4.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 400M
+            pir:
+            qos: TRUE
+            interface_set: GRP_ae11_STKVLAN_2
+          3500: 
+            description: "VLAN_1500"
+            vlan_id: 3500
+            ipv4_addr: 9.6.5.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 500M
+            pir:
+            qos: FALSE
+            interface_set: GRP_ae11_STKVLAN_2
+          3600: 
+            description: "VLAN_1600"
+            vlan_id: 3600
+            ipv4_addr: 9.6.6.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 600M
+            pir:
+            qos: TRUE
+            interface_set: GRP_ae11_STKVLAN_2
+      xe-1/0/0:
+        description: "To DY IXIA - Card 2 Port 1"
+        mtu: 9192
+        bundle: 
+        unit:
+          3100: 
+            description: "VLAN_1100"
+            vlan_id: 3100
+            ipv4_addr: 9.7.1.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 100M
+            pir:
+            qos: TRUE
+            interface_set: GRP_xe100_STKVLAN_1
+          3200: 
+            description: "VLAN_1200"
+            vlan_id: 3200
+            ipv4_addr: 9.7.2.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 200M
+            pir:
+            qos: TRUE
+            interface_set: GRP_xe100_STKVLAN_1
+          3300: 
+            description: "VLAN_1300"
+            vlan_id: 3300
+            ipv4_addr: 9.7.3.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 50M
+            pir: 50M
+            qos: TRUE
+            interface_set: 
+          3400: 
+            description: "VLAN_1400"
+            vlan_id: 3400
+            ipv4_addr: 9.7.4.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 400M
+            pir:
+            qos: TRUE
+            interface_set: GRP_xe100_STKVLAN_2
+          3500: 
+            description: "VLAN_1500"
+            vlan_id: 3500
+            ipv4_addr: 9.7.5.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 500M
+            pir:
+            qos: FALSE
+            interface_set: GRP_xe100_STKVLAN_2
+          3600: 
+            description: "VLAN_1600"
+            vlan_id: 3600
+            ipv4_addr: 9.7.6.1/31
+            inet_mtu: 
+            routing_instance: N0006001R
+            cir: 600M
+            pir:
+            qos: TRUE
+            interface_set: GRP_xe100_STKVLAN_2  
+
+
+    class_of_service:
+      interface_set:
+        GRP_ae11_STKVLAN_1:
+          cir: 300m
+          pir: 2g
+        GRP_ae11_STKVLAN_2:
+          cir: 1500m
+          pir: 3000m 
+        GRP_xe100_STKVLAN_1:
+          cir: 300m
+          pir: 2g
+        GRP_xe100_STKVLAN_2:
+          cir: 1500m
+          pir: 3000m 
+
+  # irb:
+  #   description:
+  #   mtu: 
+  #   bundle:
+  #   unit:
+  #     100: 
+  #       description: "irb for VLAN 100, V302047R"
+  #       ipv4_addr: "30.0.0.253/24"
+  #       vgav4_addr: "30.0.0.254"
+  #       inet_mtu: 
+  #       routing_instance: B4000001R
+  #     300: 
+  #       description: "irb for VLAN 100, V302047R"
+  #       ipv4_addr: "30.0.0.253/24"
+  #       vgav4_addr: "30.0.0.254"
+  #       inet_mtu: 
+  #       routing_instance: B4000002R
+  #       #shaping_rate: 10G
+
+  # ae21:
+  #   system_id: 44:f4:77:0b:3f:c8
+  #   esi_mac: 44:f4:77:0b:3f:c8
+  #   multi_homed: TRUE
+  #   single_active: FALSE
+  #   routing_instance: V302047R
+  #   description: "Link to Multihomed CE L2CE1 "
+  #   mtu: 9192
+  # # add a vlan_list at the port level to create a per unit trunk interface. i.e a unique VLAN will be created for every VLAN but will be configured as a trunk. 
+  #   vlan_list:
+  #     - 2000-2002
+  #     - 300
+
+
+  #   unit:
+  #     # 0: 
+  #     #   description: "EVPN UNI Trunk"
+  #     #   routing_instance: VPWS_EVI1
+  #     #   encapsulation: ethernet-ccc
+  #     #   shaping_rate: 10G
+  #     100:
+  #       description: "VLAN 100 Department" 
+  #       interface_mode: trunk
+  #       vlan_list:
+  #         - 100
+  #       vlan_translate:
+  #         200 : 100
+  #       routing_instance: V302047R 
+  #       #shaping_rate: 10G
+  #       cir: 400M
+  #       pir: 400M
+  #       qos_enabled: TRUE 
+  #       6Q_qos: TRUE
+  #       interface_set:
+  #     300:
+  #       description: "VLAN 100 Department" 
+  #       interface_mode: trunk
+  #       vlan_list:
+  #         - 100
+  #       vlan_translate:
+  #       routing_instance: V302047R 
+  #       #shaping_rate: 10G
+  #       cir: 600M
+  #       pir: 600M
+  #       qos_enabled: TRUE 
+  #       6Q_qos: TRUE
+  #       interface_set:
+  #     2002:
+  #       description: "VLAN 100 Department" 
+  #       interface_mode: trunk
+  #       vlan_list:
+  #         - 100
+  #       vlan_translate:
+  #       routing_instance: V302047R 
+  #       #shaping_rate: 10G
+  #       cir: 800M
+  #       pir: 800M
+  #       qos_enabled: TRUE 
+  #       6Q_qos: TRUE
+  #       interface_set:    
+  # ae22:
+  #   system_id: 44:f4:77:0b:3f:c9
+  #   esi_mac: 44:f4:77:0b:3f:c9
+  #   multi_homed: TRUE
+  #   single_active: FALSE
+  #   routing_instance: 
+  #   description: "Link to Multihomed CE L2CE1 "
+  #   mtu: 9192
+  #   unit:
+  #     0: 
+  #       description: "EVPN UNI Trunk"
+  #       routing_instance: VPWS_EVI1
+  #       encapsulation: ethernet-ccc
+  #       shaping_rate: 10G  
+
+  # ps0:
+  #   system_id: 
+  #   esi_mac: b2:eb:7f:97:97:c5
+  #   multi_homed: TRUE
+  #   single_active: TRUE
+  #   esi_preference: 1000
+  #   description: "Link to Multihomed CE L2CE1 "
+  #   mtu: 9192
+  #   anchor: lt-0/0/0
+    
+  #   unit:
+  #     0:
+  #       description: "PWHT transport interface, VPWS_EVI1 "
+  #       interface_mode:
+  #       encapsulation: ethernet-ccc
+  #       vlan_id:
+  #       routing_instance: VPWS_EVI1
+  #       cir: 1G
+  #       pir: 3G
+  #       qos_enabled: TRUE
+  #       6Q_qos: FALSE
+  #       interface_set:
+  #     2000:
+  #       description: "PWHT service vlan 2000, B40000001R"
+  #       interface_mode:
+  #       vlan_id: 2000
+  #       routing_instance: B4000001R
+  #       ipv4_addr: "30.0.0.2/30"
+  #       inet_mtu:
+  #       #shaping_rate: 10G
+  #       cir: 400M
+  #       pir: 400M
+  #       qos_enabled: TRUE
+  #       6Q_qos: TRUE
+  #       interface_set: PS0_AE21
+  #     2001:
+  #       description: "PWHT service vlan 2000, B40000001R"
+  #       interface_mode:
+  #       vlan_id: 2001
+  #       routing_instance: B4000002R
+  #       ipv4_addr: "30.0.0.2/30"
+  #       inet_mtu:
+  #       #shaping_rate: 10G
+  #       cir: 600M
+  #       pir: 600M
+  #       qos_enabled: TRUE 
+  #       6Q_qos: TRUE
+  #       interface_set: PS0_AE21
+
+  # ps1:
+  #   system_id: 
+  #   esi_mac: b2:eb:7f:97:97:c6
+  #   multi_homed: TRUE
+  #   single_active: TRUE
+  #   esi_preference: 1000
+  #   description: "Link to Multihomed CE L2CE1 "
+  #   mtu: 9192
+  #   anchor: lt-0/0/0
+    
+  #   unit:
+  #     0:
+  #       description: "PWHT transport interface, VPWS_EVI1 "
+  #       interface_mode:
+  #       encapsulation: ethernet-ccc
+  #       vlan_id:
+  #       routing_instance: VPWS_EVI1
+  #     2000:
+  #       description: "PWHT service vlan 2000, B40000003R"
+  #       interface_mode:
+  #       vlan_id: 2000
+  #       routing_instance: B4000003R
+  #       ipv4_addr: "30.0.0.2/30"
+  #       inet_mtu:
+  #       shaping_rate: 10G
+  #       cir: 400M
+  #       pir:
+  #       qos_enabled: TRUE
+  #       6Q_qos: TRUE
+  #       interface_set: PS1_AE22
+  #     2001:
+  #       description: "PWHT service vlan 2001, B40000004R"
+  #       interface_mode:
+  #       vlan_id: 2001
+  #       routing_instance: B4000004R
+  #       ipv4_addr: "30.0.0.2/30"
+  #       inet_mtu:
+  #       shaping_rate: 10G
+  #       cir: 600M
+  #       pir:
+  #       qos_enabled: TRUE 
+  #       6Q_qos: TRUE
+  #       interface_set: PS1_AE22
+      
+routing_instances:
+  V302047R:
+      description: "JP2047 Test EVPN instance"
+      instance_type: virtual-switch
+      rd: "144.133.128.146:2047"
+      rt: "target:65530:2047"
+      bridge_domains:
+        DoD_100:
+          description: "VLAN 100 Dept"
+          IRB: TRUE
+          VLAN: 100
+        DoD_300:
+          description: "VLAN 300 Dept"
+          IRB: TRUE
+          VLAN: 300
+      l2_stretch_vlan_list:
+        - 2000-3000
+
+  # VPWS_EVI1:
+  #   description: "EVPN VPWS"
+  #   instance_type: evpn-vpws 
+  #   rd: "144.133.128.146:21234"
+  #   rt: "target:65530:21234"
+  #   interface: 
+  #     ae21.0:
+  #       local_service: 201000
+  #       remote_service: 101000
+  #     ps0.0:
+  #       local_service: 101000
+  #       remote_service: 201000
+  #     ae22.0:
+  #       local_service: 401000
+  #       remote_service: 301000
+  #     ps1.0:
+  #       local_service: 301000
+  #       remote_service: 401000
+  B4000001R:
+    description: "Test L3VPN for PS instance"
+    instance_type: vrf
+    rd: "144.133.128.146:25678"
+    rt: "target:65530:25678"
+    vrf_import:
+    vrf_export:
+    protocols:
+      bgp:
+        group:
+          eBGP:
+            peer_as : 1234
+            import_policy : 
+            export_policy :
+            bfd: TRUE
+            neighbor:
+              30.0.0.1:
+                description : "rndmej436ltb0g24 Test VR instance"
+  B4000002R:
+    description: " 2nd Test L3VPN for PS instance"
+    instance_type: vrf
+    rd: "144.133.128.146:25679"
+    rt: "target:65530:25679"
+    vrf_import:
+    vrf_export:
+    protocols:
+      static:
+        30.1.0.0/30: 
+          - 30.0.0.1
+    # protocols:
+    #   bgp:
+    #     group:
+    #       eBGP:
+    #         peer_as : 1234
+    #         import_policy : 
+    #         export_policy :
+    #         bfd: TRUE
+    #         neighbor:
+    #           30.0.0.1:
+    #             description : "IXIA Traffic generator"
+
+  # B4000003R:
+  #   description: "Test L3VPN for PS1 instance"
+  #   instance_type: vrf
+  #   rd: "144.133.128.146:25680"
+  #   rt: "target:65530:25680"
+  #   vrf_import:
+  #   vrf_export:
+  #   protocols:
+  #     bgp:
+  #       group:
+  #         eBGP:
+  #           peer_as : 1234
+  #           import_policy : 
+  #           export_policy :
+  #           bfd: TRUE
+  #           neighbor:
+  #             30.0.0.1:
+  #               description : "IXIA Traffic generator"
+  
+  # B4000004R:
+  #   description: " 2nd Test L3VPN for PS1 instance"
+  #   instance_type: vrf
+  #   rd: "144.133.128.146:25681"
+  #   rt: "target:65530:25681"
+  #   vrf_import:
+  #   vrf_export:
+  #   protocols:
+  #     bgp:
+  #       group:
+  #         eBGP:
+  #           peer_as : 1234
+  #           import_policy : 
+  #           export_policy :
+  #           bfd: TRUE
+  #           neighbor:
+  #             30.0.0.1:
+  #               description : "IXIA Traffic generator"
+
+
+
+
+
+  # irb:
+  #   description:
+  #   mtu: 
+  #   bundle:
+  #   unit:
+  #     100: 
+  #       description: "irb for VLAN 100, V11200-NSWA-CORE-CAD"
+  #       ipv4_addr: "10.0.0.253/24"
+  #       vgav4_addr: "10.0.0.254"
+  #       inet_mtu: 
+  #       routing_instance: B4000001R
+        #shaping_rate: 10G
+  
+
+
+    # unit:
+    #   100: 
+    #     description: "VLAN_100"
+    #     vlan_id: 100
+    #     ipv4_addr: 10.1.1.1/31
+    #     inet_mtu: 
+    #     routing_instance: B4000001R
+    #     cir: 100M
+    #     pir:
+    #     qos_enabled: TRUE
+    #     6Q_qos: TRUE
+    #     interface_set: GRP_XE001_STKVLAN_1
+    #   200: 
+    #     description: "VLAN_200"
+    #     vlan_id: 200
+    #     ipv4_addr: 10.1.2.1/31
+    #     inet_mtu: 
+    #     routing_instance: B4000001R
+    #     cir: 200M
+    #     pir:
+    #     qos_enabled: TRUE
+    #     6Q_qos: TRUE
+    #     interface_set: GRP_XE001_STKVLAN_1
+    #   300: 
+    #     description: "VLAN_300"
+    #     vlan_id: 300
+    #     ipv4_addr: 10.1.3.1/31
+    #     inet_mtu: 
+    #     routing_instance: B4000001R
+    #     cir: 300M
+    #     pir:
+    #    qos_enabled: TRUE 300M
+    #     6Q_qos: TRUE
+    #     interface_set: 
+    #   400: 
+    #     description: "VLAN_200"
+    #     vlan_id: 400
+    #     ipv4_addr: 10.1.4.1/31
+    #     inet_mtu: 
+    #     routing_instance: B4000001R
+    #     cir: 400M
+    #     pir:
+    #     qos_enabled: TRUE
+    #     6Q_qos: TRUE
+    #     interface_set: GRP_XE001_STKVLAN_2
+    #   500: 
+    #     description: "VLAN_200"
+    #     vlan_id: 500
+    #     ipv4_addr: 10.1.5.1/31
+    #     inet_mtu: 
+    #     routing_instance: B4000001R
+    #     cir: 500M
+    #     pir:
+    #     qos: FALSE
+    #     interface_set: GRP_XE001_STKVLAN_2
+    #   600: 
+    #     description: "VLAN_200"
+    #     vlan_id: 600
+    #     ipv4_addr: 10.1.6.1/31
+    #     inet_mtu: 
+    #     routing_instance: B4000001R
+    #     cir: 600M
+    #     pir:
+    #     qos_enabled: TRUE
+    #     6Q_qos: TRUE
+    #     interface_set: GRP_XE001_STKVLAN_2
+
+
+class_of_service:
+  #interface: ae100
+  interface_set:
+    # GRP_AE100_STKVLAN:
+    #   member_count: 1
+    #   cir: 50m
+    #   pir: 50g
+    # GRP_XE001_STKVLAN_2:
+    #   cir: 1500m
+    #   pir: 3g 
+    PS0_AE21:
+      cir: 1g
+      pir: 3g
+    PS1_AE22:
+      cir: 1g
+      pir: 3g 
+
+
+
+  
+   
+
+
+
