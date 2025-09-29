@@ -119,7 +119,7 @@ def CreateCosUnits(conf_file,port,UnitPIR,Variables):
 
     while VRF_INDEX <= VRF_END:
         
-        unit = VRF_INDEX
+        unit = VLAN
     
 # calculate shaper burst rate based on seconds of traffic. 
         burstseconds = 0.01 
@@ -209,7 +209,7 @@ set class-of-service interfaces interface-set {0} output-traffic-control-profile
         while member_count <= interface_set_members:
             
 
-            unit = VRF_INDEX
+            unit = VLAN
 
 # create the interface set 
             common_config = """
@@ -233,7 +233,7 @@ def CreateIngressPolicers(conf_file,port,PolicerPIR,Variables):
 
     while VRF_INDEX <= VRF_END:
         
-        unit = VRF_INDEX
+        unit = VLAN
 # calculate shaper burst rate based on seconds of traffic. 
         burstseconds = 0.01
         burstsize = CalculateBurst(burstseconds,PolicerPIR)

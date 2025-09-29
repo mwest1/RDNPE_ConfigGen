@@ -31,17 +31,17 @@ def CreateCFMInterfaces(conf_file,Variables):
 
         # create unit interfaces
 
-            VRF_BASE = Variables['VRF_BASE']
+            VLAN = Variables['VLAN']
             VRF_INDEX = Variables['VRF_START']
             VRF_END = Variables['VRF_END']
 
             while VRF_INDEX <= VRF_END:
-                VRF_ID = VRF_BASE + VRF_INDEX
+                VRF_ID = VRF_INDEX
             # calculate prepend 
                 num_zeros = 7 - len(str(VRF_ID))
                 PrePend = '0'*num_zeros    
                 
-                unit = VRF_INDEX
+                unit = VLAN
                 routing_instance = "N"+str(PrePend)+str(VRF_ID) 
                
             # calculate IP address - initially set to fixed value

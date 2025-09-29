@@ -23,7 +23,7 @@ def ReadYamlVars(yaml_file):
 
 def CreateVRF(conf_file,Variables):
 
-    VRF_BASE = Variables['VRF_BASE']
+    VLAN = Variables['VLAN']
     VRF_INDEX = Variables['VRF_START']
     VRF_END = Variables['VRF_END']
     Interfaces = Variables['interfaces']
@@ -31,7 +31,7 @@ def CreateVRF(conf_file,Variables):
 
 
     while VRF_INDEX <= VRF_END:
-        VRF_ID = VRF_BASE + VRF_INDEX
+        VRF_ID = VRF_INDEX
         
     # calculate prepend 
         num_zeros = 7 - len(str(VRF_ID))
@@ -69,18 +69,18 @@ set routing-instances N{1}{0}R provider-tunnel selective group 224.0.0.0/4 sourc
     for port,parameters in Interfaces.items():
         
         if "bundle" not in parameters:
-            VRF_BASE = Variables['VRF_BASE']
+            VLAN = Variables['VLAN']
             VRF_INDEX = Variables['VRF_START']
             VRF_END = Variables['VRF_END']
 
             while VRF_INDEX <= VRF_END:
-                VRF_ID = VRF_BASE + VRF_INDEX
+                VRF_ID = VRF_INDEX
             # calculate prepend 
                 num_zeros = 7 - len(str(VRF_ID))
                 PrePend = '0'*num_zeros    
                 
-                unit = VRF_INDEX
-                vlan_id = VRF_INDEX
+                unit = VLAN
+                vlan_id = VLAN
                 routing_instance = "N"+str(PrePend)+str(VRF_ID)+"R"
                 description = "Service interface for {}".format(routing_instance)
             

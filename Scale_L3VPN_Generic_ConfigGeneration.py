@@ -23,12 +23,12 @@ def ReadYamlVars(yaml_file):
 def CreateVRF(conf_file,Variables):
 
 
-    VRF_BASE = Variables['SCALE']['L3VPN']['VRF_BASE']
+    VLAN = Variables['SCALE']['L3VPN']['VLAN']
     VRF_INDEX = Variables['SCALE']['L3VPN']['VRF_START']
     VRF_END = Variables['SCALE']['L3VPN']['VRF_END']
 
     while VRF_INDEX <= VRF_END:
-        VRF_ID = VRF_BASE + VRF_INDEX
+        VRF_ID = VRF_INDEX
         
     # calculate prepend 
         num_zeros = 7 - len(str(VRF_ID))
