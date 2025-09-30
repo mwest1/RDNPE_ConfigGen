@@ -301,7 +301,7 @@ SCALE:
       #   bundle: ae100
       lo0:
         ipv4_addr: 144.133.144.7
-      #et-0/1/0:
+      et-0/1/0:
       et-7/1/0:
         description: "LACP link to IXIA 14, Card 4 Port 8 "
         mtu: 9192
