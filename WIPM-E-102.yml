@@ -19,7 +19,7 @@ SCALE:
     #     peer_list:
     #       - 2002:30:102:0::2
     # interfaces:
-    #   et-7/4/0:
+    #   et-7/1/0:
     #     description: "LACP link to IXIA 14, Card 4 Port 8 "
     #     mtu: 9192
     #     ipv4_addr_start: "30.102.0.1"
@@ -60,7 +60,7 @@ SCALE:
       #   description: "To DY IXIA Card 2 port 7 "
       #   mtu: 9192
       #   bundle: et-0/1/0
-      et-7/4/0:
+      et-7/1/0:
         description: "To DY IXIA Card 2 port 7 "
         mtu: 9192
       # xe-0/0/2:3:
@@ -76,7 +76,7 @@ SCALE:
     class_of_service:
       interfaces:
         #xe-0/0/2:3:
-        et-7/4/0:
+        et-7/1/0:
           pir: 10g
           cir: 100M
           interface_set:
@@ -153,13 +153,13 @@ SCALE:
     # VRF_END: 2000
     # description: "VRRP scale testing"
     # interfaces:
-    #   # et-7/4/0:
+    #   # et-7/1/0:
     #   #   description: "To IXIA 14 Card 4 Port 8"
     #   #   mtu: 9192
     #   #   bundle: ae9
 
     #   #ae9:
-    #   et-7/4/0:
+    #   et-7/1/0:
     #     description: "LACP link to DY IXIA, Card 1 port 2"
     #     mtu: 9192
     #     ipv4_addr_start: "30.0.0.2"
@@ -221,7 +221,7 @@ SCALE:
       #   bundle: ae100
 
       #et-0/1/0:
-      et-7/4/0:
+      et-7/1/0:
         description: "link to DY IXIA, Card 2 port 3"
         mtu: 9192
         #ipv4_addr_start: "30.1.0.1"
@@ -233,7 +233,7 @@ SCALE:
     class_of_service:
       interfaces:
         #et-0/1/0:
-        et-7/4/0:
+        et-7/1/0:
           pir: 10g
           cir: 100M
           interface_set:
@@ -261,7 +261,7 @@ SCALE:
       lo0:
         ipv4_addr: 144.133.144.7
       #et-0/1/0:
-      et-7/4/0:
+      et-7/1/0:
         description: "link to DY IXIA, Card 2 port 3"
         mtu: 9192
         #ipv4_addr_start: "30.1.0.1"
@@ -275,7 +275,7 @@ SCALE:
     class_of_service:
       interfaces:
         #et-0/1/0:
-        et-7/4/0:
+        et-7/1/0:
           pir: 10g
           cir: 100M
           interface_set:
@@ -302,7 +302,7 @@ SCALE:
       lo0:
         ipv4_addr: 144.133.144.7
       #et-0/1/0:
-      et-7/4/0:
+      et-7/1/0:
         description: "LACP link to IXIA 14, Card 4 Port 8 "
         mtu: 9192
         #ipv4_addr_start: "30.1.0.1"
@@ -316,7 +316,7 @@ SCALE:
     class_of_service:
       interfaces:
         #et-0/1/0:
-        et-7/4/0:
+        et-7/1/0:
           pir: 10g
           cir: 100M
           interface_set:
@@ -343,7 +343,7 @@ SCALE:
       lo0:
         ipv4_addr: 144.133.144.7
       #et-0/1/0:
-      et-7/4/0:
+      et-7/1/0:
         description: "LACP link to IXIA 14, Card 4 Port 8 "
         mtu: 9192
         #ipv4_addr_start: "30.1.0.1"
@@ -357,7 +357,7 @@ SCALE:
     class_of_service:
       interfaces:
         #et-0/1/0:
-        et-7/4/0:
+        et-7/1/0:
           pir: 10g
           cir: 100M
           interface_set:
@@ -374,7 +374,7 @@ SCALE:
     description: "VPLS Scale testing"
     interfaces:
       #et-7/1/0:
-      et-7/4/0:
+      et-7/1/0:
       #ae9:
         description: "LACP to EVPN infra "
         mtu: 9192
@@ -382,7 +382,7 @@ SCALE:
       N12345678R:
         id: 1
         preference: primary
-        interface: et-7/4/0
+        interface: et-7/1/0
 
     # class_of_service:
     #   interfaces:
